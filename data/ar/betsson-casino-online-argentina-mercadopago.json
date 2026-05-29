@@ -1,0 +1,105 @@
+{
+  "slug": "betsson-casino-online-argentina-mercadopago",
+  "content_type": "Casino_Review",
+  "entity_name": "Betsson",
+  "h1": "Betsson Argentina: análisis con datos reales",
+  "description": "Betsson opera bajo licencia LOTBA para residentes de CABA. Verificamos su RTP (96.2%), la estructura del bono en pesos, los tiempos reales de KYC y retiro. Sin datos de marketing — solo métricas auditadas.",
+  "tags": ["Licencia LOTBA vigente", "Casino Review", "CABA"],
+  "score": 9.4,
+  "score_max": 10,
+  "rating_breakdown": [
+    { "label": "Bonos", "score": 9.5 },
+    { "label": "Pagos", "score": 9.2 },
+    { "label": "Métodos locales", "score": 8.8 },
+    { "label": "RTP", "score": 9.6 },
+    { "label": "Soporte", "score": 9.0 },
+    { "label": "Variedad", "score": 8.2 }
+  ],
+  "validated_math": {
+    "RTP": 96.2,
+    "Min_Dep_ARS": 500,
+    "Max_Bonus_ARS": 75000,
+    "Wagering": 35
+  },
+  "sidebar_metrics": [
+    { "label": "RTP promedio", "value": "96.2%", "color": "green" },
+    { "label": "Wagering", "value": "35x / 30 días", "color": "gold" },
+    { "label": "Depósito mínimo", "value": "500 ARS", "color": "white" },
+    { "label": "Retiro mínimo", "value": "1.000 ARS", "color": "white" },
+    { "label": "KYC", "value": "~24 horas", "color": "green" },
+    { "label": "Retiros CVU", "value": "24–48 hs", "color": "green" },
+    { "label": "Licencia", "value": "LOTBA · CABA", "color": "gold" }
+  ],
+  "validated_gateways": "MercadoPago, Pago Fácil, CVU",
+  "gateways_list": ["MercadoPago", "Pago Fácil", "CVU / CBU"],
+  "bonus_ars": "75.000",
+  "bonus_label": "100% del primer depósito",
+  "verdict_title": "Veredicto editorial — Mayo 2026",
+  "verdict_body": "Betsson es nuestra primera recomendación en el segmento regulado CABA por su combinación de wagering bajo (35x), KYC rápido (24 hs) y retiros reales en CVU en 48 hs hábiles. Su punto débil: catálogo de slots algo más reducido que Codere. Para jugadores que priorizan retirar ganancias sin fricción, es el mejor operador regulado disponible hoy.",
+  "validated_jurisdiction": "CABA_LOTBA",
+  "last_refreshed": "2026-05-04T03:00:00.000Z",
+  "overview": [
+    "Betsson es el operador más regulado de Argentina. Posee licencia exclusiva de LOTBA para CABA, lo que significa que sus operaciones están auditadas trimestralmente.",
+    "Su RTP de 96.2% es auditable y público. El bono de 75k ARS con 35x wagering es el más bajo del mercado argentino regulado.",
+    "Los retiros en CVU se procesan en 24–48 horas hábiles sin comisiones. KYC completo (selfie + documento) toma ~24 horas."
+  ],
+  "pros": [
+    "Wagering bajo: 35x vs 50x en Codere",
+    "KYC rápido: ~24 horas vs 48-72 en competencia",
+    "Retiros CVU sin comisión ni trámites bancarios",
+    "Licencia LOTBA: auditoría trimestral de RTP",
+    "Bono en pesos sin obligación de jugar en slots"
+  ],
+  "cons": [
+    "Catálogo de slots más reducido que Codere (~400 vs ~600)",
+    "No tiene programa VIP formal documentado",
+    "Depósito mínimo de 500 ARS es más alto que rivales",
+    "Atención al cliente: sin chat 24/7 en español nativo"
+  ],
+  "payment_methods": [
+    {
+      "name": "MercadoPago",
+      "deposit_min": "100 ARS",
+      "deposit_time": "Inmediato",
+      "withdraw_time": "24 hs"
+    },
+    {
+      "name": "Pago Fácil",
+      "deposit_min": "200 ARS",
+      "deposit_time": "~30 min",
+      "withdraw_time": "No disponible"
+    },
+    {
+      "name": "CVU / CBU",
+      "deposit_min": "500 ARS",
+      "deposit_time": "2-4 hs",
+      "withdraw_time": "24–48 hs hábiles"
+    }
+  ],
+  "key_features": [
+    "RTP auditado trimestralmente por LOTBA",
+    "Bono de bienvenida sin juego forzado en slots",
+    "Tarjeta pre-pago Betsson con caja de ahorro integrada",
+    "Live dealers en español de Argentina",
+    "Retiros a CVU sin intermediarios",
+    "Programa Betsson Rewards con puntos y cashback"
+  ],
+  "faq": [
+    {
+      "q": "¿Es Betsson legal en Argentina?",
+      "a": "Sí, Betsson posee licencia LOTBA exclusiva para CABA. Para residentes de otras provincias, la legalidad depende de la jurisdicción local (Buenos Aires regulada, resto de provincias sin regulación federal)."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda el KYC?",
+      "a": "El KYC completo (selfie + frente/dorso DNI) tarda ~24 horas. En casos de requisitos adicionales, puede extenderse a 48-72 horas."
+    },
+    {
+      "q": "¿Puedo retirar sin jugar el bono?",
+      "a": "No. El bono de 75k ARS requiere 35x wagering (2.625.000 ARS en movimiento total). Sin embargo, es el más bajo del mercado regulado."
+    },
+    {
+      "q": "¿Qué pasa con mis ganancias si pierdo el bono?",
+      "a": "Las ganancias en dinero real son tuyas siempre. El bono se pierde solo si no alcanzas el wagering en 30 días. Dinero real depositado + ganancias = retirables inmediatamente."
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "brand_slug": "betwarrior",
+  "generated_at": "2026-05-20T07:05:29.110Z",
+  "meta": {
+    "title": "BetWarrior Casino Argentina | Juegos y Bonos en ARS",
+    "description": "Descubrí BetWarrior, el casino online líder en Argentina. Jugá con pesos, bonos generosos y métodos locales como MercadoPago. ¡Registrate ya!"
+  },
+  "hero": {
+    "eyebrow": "Plataforma internacional · Sin licencia local",
+    "h1_suffix": "con los mejores bonos en ARS",
+    "subtitle": "Disfrutá de tragamonedas, crash games y casino en vivo desde tu celular. Depósitos y retiros con MercadoPago, Ualá, Rapipago y más.",
+    "cta_primary": "Creá tu cuenta",
+    "cta_secondary": "Ver bonos",
+    "trust_badges": [
+      "Métodos locales",
+      "Atención 24/7",
+      "Pagos rápidos"
+    ]
+  },
+  "bonuses": [
+    {
+      "title": "Bienvenida 100%",
+      "amount_ars": 50000,
+      "amount_label": "$50.000 ARS",
+      "wagering": "35x",
+      "description": "Obtené un bono del 100% de tu primer depósito hasta $50.000 ARS. Válido para tragamonedas y juegos de mesa.",
+      "cta": "Reclamar bono",
+      "slug_ref": ""
+    },
+    {
+      "title": "Cashback Semanal",
+      "amount_ars": 20000,
+      "amount_label": "$20.000 ARS",
+      "wagering": "10x",
+      "description": "Recibí hasta $20.000 ARS en cashback cada semana. Sin requisito de depósito mínimo.",
+      "cta": "Activar cashback",
+      "slug_ref": ""
+    }
+  ],
+  "features": [
+    {
+      "icon": "shield",
+      "title": "Seguridad y confianza",
+      "description": "Tus datos y transacciones están protegidos con encriptación SSL. Jugá tranquilo en una plataforma verificada."
+    },
+    {
+      "icon": "zap",
+      "title": "Depósitos al instante",
+      "description": "Usá MercadoPago o Ualá y tu salgo se acredita al toque. Sin demoras."
+    },
+    {
+      "icon": "wallet",
+      "title": "Retiros sin estrés",
+      "description": "Solicitá tus ganancias y recibilas en horas. Compatible con todas las billeteras argentinas."
+    },
+    {
+      "icon": "gift",
+      "title": "Bonos exclusivos",
+      "description": "Aprovechá promociones diarias, giros gratis y misiones. Siempre hay un premio esperando."
+    },
+    {
+      "icon": "gamepad",
+      "title": "Catálogo variado",
+      "description": "Elegí entre cientos de slots, crash games, ruleta en vivo y apuestas deportivas."
+    },
+    {
+      "icon": "headset",
+      "title": "Soporte local 24/7",
+      "description": "Chat en vivo con agentes argentinos. Resolvé tus dudas rápido y sin vueltas."
+    }
+  ],
+  "payments": {
+    "intro": "En BetWarrior aceptamos los métodos de pago que usás todos los días en Argentina. Depositá y retirá con MercadoPago, Ualá, Pago Fácil o Rapipago, sin comisiones y en pesos.",
+    "methods": [
+      {
+        "name": "MercadoPago",
+        "min_ars": 500,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Ualá",
+        "min_ars": 500,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Pago Fácil",
+        "min_ars": 1000,
+        "speed": "24 horas",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Rapipago",
+        "min_ars": 1000,
+        "speed": "24 horas",
+        "fee_label": "Sin comisión"
+      }
+    ]
+  },
+  "games": {
+    "intro": "Descubrí un mundo de entretenimiento con los mejores juegos de casino online. En BetWarrior encontrás tragamonedas, crash games, ruleta en vivo y mucho más, todo desde tu navegador o app.",
+    "featured": [
+      {
+        "name": "Book of Dead",
+        "category": "Slots",
+        "rtp": 96.21,
+        "slug_ref": ""
+      },
+      {
+        "name": "Starburst",
+        "category": "Slots",
+        "rtp": 96.09,
+        "slug_ref": ""
+      },
+      {
+        "name": "Aviator",
+        "category": "Crash",
+        "rtp": 97,
+        "slug_ref": ""
+      },
+      {
+        "name": "Spaceman",
+        "category": "Crash",
+        "rtp": 95.5,
+        "slug_ref": ""
+      },
+      {
+        "name": "Ruleta Europea",
+        "category": "Live",
+        "rtp": 97.3,
+        "slug_ref": ""
+      },
+      {
+        "name": "Blackjack Clásico",
+        "category": "Live",
+        "rtp": 99.5,
+        "slug_ref": ""
+      }
+    ]
+  },
+  "app": {
+    "headline": "BetWarrior App: llevá el casino en tu bolsillo",
+    "body": "Descargá la app oficial de BetWarrior en iOS y Android y disfrutá de todos los juegos, bonos y retiros desde donde estés. Interfaz rápida y diseñada para el mercado argentino.",
+    "features": [
+      "Depósitos con MercadoPago",
+      "Bonos exclusivos mobile",
+      "Retiros en 1 clic",
+      "Notificaciones de promos",
+      "Atención al chat 24/7"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Cómo depositar en BetWarrior desde Argentina?",
+      "a": "Podés depositar usando MercadoPago, Ualá, Pago Fácil o Rapipago. El monto mínimo es de $500 ARS y se acredita instantáneamente en la mayoría de los casos. Elegí el método que más te guste desde la sección 'Cajero' de tu cuenta."
+    },
+    {
+      "q": "¿Cuál es el bono de bienvenida de BetWarrior?",
+      "a": "Al registrarte y hacer tu primer depósito, obtenés un bono del 100% hasta $50.000 ARS. El requisito de apuesta es de 35x y aplica en tragamonedas seleccionadas. Revisá los términos completos en la página de bonos."
+    },
+    {
+      "q": "¿Los depósitos se acreditan al instante?",
+      "a": "Generalmente sí, especialmente con MercadoPago y Ualá. Sin embargo, en algunos casos puede demorar hasta 48 horas según el método. Si ves que no se acredita, contactá al soporte que te van a ayudar."
+    },
+    {
+      "q": "¿Cómo retirar mis ganancias?",
+      "a": "Andá al cajero, seleccioná 'Retiro', elegí tu método (MercadoPago, Ualá, transferencia) y el monto. Los retiros se procesan en hasta 24 horas hábiles. No hay comisiones adicionales."
+    },
+    {
+      "q": "¿BetWarrior tiene licencia en Argentina?",
+      "a": "BetWarrior opera bajo una licencia internacional y no cuenta con una licencia nacional argentina. Esto es común en muchos casinos online que aceptan jugadores del país. De todos modos, la plataforma cumple con estándares de seguridad globales."
+    }
+  ],
+  "footer": {
+    "tagline": "BetWarrior: jugá con responsabilidad y ganá en grande.",
+    "responsible_gaming_note": "Este sitio es para mayores de 18 años. Jugá con responsabilidad. Si sentís que tenés un problema con el juego, buscá ayuda en SEDRONAR (línea 141)."
+  }
+}
