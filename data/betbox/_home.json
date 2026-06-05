@@ -1,0 +1,173 @@
+{
+  "brand_slug": "betbox",
+  "generated_at": "2026-06-05T18:37:15.899Z",
+  "meta": {
+    "title": "Betbox Casino Argentina | Bonos de hasta $350.000 ARS",
+    "description": "Descubrí Betbox, el casino online favorito de Argentina. Recibí hasta $350.000 ARS en bonos, depósitos por MercadoPago y retiros rápidos. ¡Registrate y jugá!"
+  },
+  "hero": {
+    "eyebrow": "Tu casino online de confianza en Argentina",
+    "h1_suffix": "Hasta 350.000 ARS de bonificación",
+    "subtitle": "Descubrí la mejor experiencia de casino online con depósitos en MercadoPago, retiros rápidos y juegos emocionantes.",
+    "cta_primary": "Registrate ahora",
+    "cta_secondary": "Ver bonos",
+    "trust_badges": [
+      "Depósitos por MercadoPago",
+      "Retiros instantáneos",
+      "Atención en español"
+    ]
+  },
+  "bonuses": [
+    {
+      "title": "Código Promocional Betbox",
+      "amount_ars": 350000,
+      "amount_label": "$350.000 ARS",
+      "wagering": "35x",
+      "description": "Recibí hasta $350.000 ARS al usar el código promocional Betbox. Depositá y jugá con bonos exclusivos para argentinos.",
+      "cta": "Reclamá tu bono",
+      "slug_ref": "codigo-promocional-betbox"
+    },
+    {
+      "title": "Bono de Primer Depósito",
+      "amount_ars": 100000,
+      "amount_label": "$100.000 ARS",
+      "wagering": "30x",
+      "description": "Obtené un bono del 100% hasta $100.000 ARS en tu primer depósito. Aprovechá esta oferta exclusiva para nuevos jugadores.",
+      "cta": "Depositá ahora",
+      "slug_ref": ""
+    }
+  ],
+  "features": [
+    {
+      "icon": "shield",
+      "title": "Seguridad de primer nivel",
+      "description": "Protegemos tus datos con encriptación de última generación. Jugá con tranquilidad sabiendo que tu información está segura."
+    },
+    {
+      "icon": "zap",
+      "title": "Retiros express",
+      "description": "Procesamos tus retiros en cuestión de minutos. Olvidate de las esperas y disfrutá tus ganancias al instante."
+    },
+    {
+      "icon": "wallet",
+      "title": "Métodos de pago locales",
+      "description": "Aceptamos MercadoPago, Ualá y más. Depositá y retirá en pesos argentinos sin comisiones ocultas."
+    },
+    {
+      "icon": "gift",
+      "title": "Bonos generosos",
+      "description": "Ofrecemos promociones diarias y un bono de bienvenida de hasta $350.000 ARS. Siempre hay una oferta esperándote."
+    },
+    {
+      "icon": "gamepad",
+      "title": "Amplio catálogo de juegos",
+      "description": "Disfrutá de tragamonedas, ruleta, blackjack, crash games y más. Todos los títulos de los mejores proveedores."
+    },
+    {
+      "icon": "headset",
+      "title": "Atención al cliente 24/7",
+      "description": "Nuestro equipo de soporte en español está disponible las 24 horas. Resolvé tus dudas por chat en vivo o correo."
+    }
+  ],
+  "payments": {
+    "intro": "En Betbox aceptamos los métodos de pago más populares de Argentina. Depositá y retirá de forma rápida y segura con MercadoPago, Ualá y más.",
+    "methods": [
+      {
+        "name": "MercadoPago",
+        "min_ars": 2000,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Ualá",
+        "min_ars": 1000,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Pago Fácil",
+        "min_ars": 500,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      }
+    ]
+  },
+  "games": {
+    "intro": "Descubrí cientos de títulos de casino, desde tragamonedas hasta juegos en vivo. En Betbox tenés la mejor selección para argentinos.",
+    "featured": [
+      {
+        "name": "Book of Dead",
+        "category": "Slots",
+        "rtp": 96.21,
+        "slug_ref": ""
+      },
+      {
+        "name": "Starburst",
+        "category": "Slots",
+        "rtp": 96.09,
+        "slug_ref": ""
+      },
+      {
+        "name": "Mega Moolah",
+        "category": "Slots",
+        "rtp": 88.12,
+        "slug_ref": ""
+      },
+      {
+        "name": "Lightning Roulette",
+        "category": "Live",
+        "rtp": 97.3,
+        "slug_ref": ""
+      },
+      {
+        "name": "Live Blackjack",
+        "category": "Live",
+        "rtp": 99.28,
+        "slug_ref": ""
+      },
+      {
+        "name": "Crash Game",
+        "category": "Crash",
+        "rtp": 97,
+        "slug_ref": ""
+      }
+    ]
+  },
+  "app": {
+    "headline": "Descargá la app de Betbox para Argentina",
+    "body": "Llevá la emoción del casino a donde vayas con nuestra app móvil. Disponible para iOS y Android, con todos tus juegos favoritos.",
+    "features": [
+      "Depósitos rápidos",
+      "Bonos exclusivos",
+      "Juegos en vivo",
+      "Retiros instantáneos",
+      "Atención 24/7"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Es seguro Betbox?",
+      "a": "Betbox opera con licencia internacional y utiliza encriptación SSL para proteger tus datos. Además, ofrecemos métodos de pago locales como MercadoPago para mayor confianza."
+    },
+    {
+      "q": "¿Cómo uso el código promocional Betbox?",
+      "a": "Al registrarte, ingresá el código promocional Betbox en el campo correspondiente para activar tu bono de bienvenida de hasta $350.000 ARS. Luego, depositá y comenzá a jugar."
+    },
+    {
+      "q": "¿Cómo retirar dinero de Betbox?",
+      "a": "Para retirar, andá a la sección de caja y seleccioná MercadoPago. Los retiros se procesan de forma instantánea y sin comisiones. Recordá que necesitás tener la cuenta verificada."
+    },
+    {
+      "q": "¿Qué juegos puedo encontrar?",
+      "a": "Ofrecemos tragamonedas, ruleta en vivo, blackjack, crash games y más. Todos los títulos son de proveedores reconocidos y con altos porcentajes de pago."
+    },
+    {
+      "q": "¿Hay atención al cliente en español?",
+      "a": "Sí, nuestro equipo de soporte está disponible 24/7 en español. Podés contactarnos por chat en vivo o correo electrónico para resolver cualquier duda."
+    }
+  ],
+  "footer": {
+    "tagline": "Betbox, tu casino online de confianza en Argentina",
+    "responsible_gaming_note": "Jugá responsablemente. Prohibida la entrada a menores de 18 años. En caso de problemas con el juego, contactá a SEDRONAR."
+  }
+}
