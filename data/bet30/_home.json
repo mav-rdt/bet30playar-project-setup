@@ -1,104 +1,116 @@
 {
   "brand_slug": "bet30",
-  "generated_at": "2026-06-05T18:36:41.970Z",
+  "generated_at": "2026-06-05T18:45:17.719Z",
   "meta": {
-    "title": "Bet30 Argentina | Casino online con bonos en ARS",
-    "description": "Descubrí Bet30, el casino online en Argentina con bono de bienvenida hasta $150.000 ARS. Depósitos en pesos, pagos rápidos y juegos emocionantes."
+    "title": "Bet30 Argentina | Casino Online con Bonos en ARS",
+    "description": "Jugá en Bet30 Argentina con bonos de hasta $150.000 ARS. Depósitos y retiros rápidos en pesos argentinos. Sin licencia nacional, pero con la mejor experiencia."
   },
   "hero": {
-    "eyebrow": "Sin licencia nacional – Jugá con responsabilidad",
-    "h1_suffix": "tu casino online en Argentina",
-    "subtitle": "Disfrutá de bonos generosos, depósitos en ARS y una amplia selección de tragamonedas y juegos en vivo.",
-    "cta_primary": "Jugá ahora",
+    "eyebrow": "Sin licencia nacional - Operá con confianza",
+    "h1_suffix": "Tu casino online en Argentina",
+    "subtitle": "Registrate, depositá en ARS y disfrutá de tragamonedas, ruleta en vivo y más con bonos exclusivos.",
+    "cta_primary": "Creá tu cuenta",
     "cta_secondary": "Ver bonos",
     "trust_badges": [
-      "SSL Secure",
       "Juego Responsable",
-      "Atención 24/7"
+      "Atención 24/7",
+      "Retiros Rápidos"
     ]
   },
   "bonuses": [
     {
-      "title": "Bono de Bienvenida",
+      "title": "Bono de Bienvenida Bet30 Argentina",
       "amount_ars": 150000,
       "amount_label": "$150.000 ARS",
       "wagering": "35x",
-      "description": "Recibí hasta $150.000 ARS en tu primer depósito. Jugá tus slots favoritos y cumplí el requisito de apuesta de 35x para retirar tus ganancias.",
-      "cta": "Reclamá el bono",
+      "description": "Obtené hasta $150.000 ARS en tu primer depósito. Jugá con más fondos y aumentá tus chances de ganar.",
+      "cta": "Reclamá tu bono",
       "slug_ref": "bono-bienvenida-bet30-argentina"
     },
     {
       "title": "Código Promocional Bet30",
-      "amount_ars": 5000,
-      "amount_label": "$5.000 ARS",
+      "amount_ars": 50000,
+      "amount_label": "$50.000 ARS",
       "wagering": "30x",
-      "description": "Usá nuestro código promocional BET30VIP y obtené $5.000 ARS gratis para jugar. Válido solo para nuevos usuarios.",
+      "description": "Usá nuestro código promocional y recibí $50.000 ARS extra. Aplican términos y condiciones.",
       "cta": "Usá el código",
       "slug_ref": "codigo-promocional-bet30"
     }
   ],
   "features": [
     {
-      "icon": "shield",
-      "title": "Plataforma segura",
-      "description": "Protegemos tus datos con encriptación SSL y políticas de juego responsable. Jugá tranquilo."
-    },
-    {
       "icon": "zap",
-      "title": "Depósitos instantáneos",
-      "description": "Usá MercadoPago, Ualá o Rapipago y recibí tu saldo al instante. Sin demoras."
+      "title": "Depósitos y retiros al instante",
+      "description": "Usá MercadoPago, Ualá, Pago Fácil o Rapipago. Ingresá fondos al toque y retirá tus ganancias en el día."
     },
     {
-      "icon": "wallet",
-      "title": "Retiros rápidos en ARS",
-      "description": "Retirá tus ganancias en pesos argentinos en 24 a 48 horas. Proceso sencillo y ágil."
+      "icon": "shield",
+      "title": "Seguridad y privacidad garantizadas",
+      "description": "Tus datos están protegidos con encriptación SSL. Jugá tranquilo sabiendo que tu información está segura."
     },
     {
       "icon": "gift",
-      "title": "Bonos exclusivos",
-      "description": "Aprovechá promociones diarias, bonos de recarga y giros gratis. Siempre hay una oferta para vos."
+      "title": "Bonos exclusivos en pesos",
+      "description": "Aprovechá promociones diarias y un bono de bienvenida de hasta $150.000 ARS. Siempre hay algo extra para vos."
     },
     {
       "icon": "gamepad",
-      "title": "Catálogo variado",
-      "description": "Desde tragamonedas clásicas hasta crash games y casino en vivo. Encontrá tu juego ideal."
+      "title": "Variedad de juegos de casino",
+      "description": "Desde tragamonedas hasta ruleta en vivo y crash games. Encontrá tus favoritos y descubrí nuevos títulos."
     },
     {
       "icon": "headset",
-      "title": "Soporte local",
-      "description": "Atención al cliente en español argentino vía chat en vivo y WhatsApp. Resolvemos tus dudas al toque."
+      "title": "Soporte en vivo 24/7",
+      "description": "Nuestro equipo de atención al cliente está disponible todo el día para resolver tus dudas por chat o WhatsApp."
+    },
+    {
+      "icon": "trophy",
+      "title": "Jugá desde tu celular",
+      "description": "La app de Bet30 está optimizada para Android. Llevá el casino a todas partes con descarga directa."
     }
   ],
   "payments": {
-    "intro": "En Bet30 aceptamos los métodos de pago más populares de Argentina. Depositá y retirá en pesos sin complicaciones.",
+    "intro": "En Bet30 aceptamos los métodos de pago más populares de Argentina. Depositá en ARS sin comisiones y retirá tus ganancias rápido.",
     "methods": [
       {
         "name": "MercadoPago",
-        "min_ars": 100,
+        "min_ars": 500,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Ualá",
-        "min_ars": 200,
+        "min_ars": 1000,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
-        "name": "Rapipago",
+        "name": "Pago Fácil",
         "min_ars": 500,
-        "speed": "2-3 días hábiles",
+        "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       }
     ]
   },
   "games": {
-    "intro": "En Bet30 encontrás una gran variedad de juegos de los mejores proveedores. Desde tragamonedas hasta deportes virtuales.",
+    "intro": "Explorá más de 500 juegos en Bet30: tragamonedas, ruleta en vivo, crash games y apuestas deportivas. Todo en un solo lugar.",
     "featured": [
       {
-        "name": "Book of Dead",
+        "name": "Tragamonedas Clásico",
         "category": "Slots",
-        "rtp": 96.21,
+        "rtp": 96.5,
+        "slug_ref": ""
+      },
+      {
+        "name": "Ruleta en Vivo",
+        "category": "Live",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Crash X",
+        "category": "Crash",
+        "rtp": null,
         "slug_ref": ""
       },
       {
@@ -108,66 +120,54 @@
         "slug_ref": ""
       },
       {
-        "name": "Lightning Roulette",
-        "category": "Live",
-        "rtp": 97.1,
-        "slug_ref": ""
-      },
-      {
-        "name": "JetX",
-        "category": "Crash",
-        "rtp": 95.5,
-        "slug_ref": ""
-      },
-      {
-        "name": "Mega Fortune",
-        "category": "Slots",
-        "rtp": 96.6,
-        "slug_ref": ""
-      },
-      {
-        "name": "Soccer Mania",
+        "name": "Fútbol Apuestas",
         "category": "Deportes",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Blackjack en Vivo",
+        "category": "Live",
         "rtp": null,
         "slug_ref": ""
       }
     ]
   },
   "app": {
-    "headline": "Bet30: descargá la app para jugar en cualquier lado",
-    "body": "La app de Bet30 te permite acceder a todos los juegos y bonos desde tu celular. Disponible para iOS y Android.",
+    "headline": "Descargá la app de Bet30 en tu celular",
+    "body": "Disponible para Android, la app de Bet30 te permite jugar desde cualquier lugar. Descargala directo desde nuestro sitio y accedé a todos los juegos.",
     "features": [
-      "Depósitos rápidos",
-      "Compatible con MercadoPago",
-      "Bonos móviles",
-      "Notificaciones de promos",
-      "Soporte en vivo"
+      "Descarga directa sin Google Play",
+      "Bonos exclusivos para usuarios de la app",
+      "Navegación rápida y optimizada",
+      "Notificaciones de promociones en vivo",
+      "Soporte técnico integrado"
     ]
   },
   "faq": [
     {
-      "q": "¿Bet30 tiene licencia oficial en Argentina?",
-      "a": "Bet30 opera sin licencia nacional argentina, pero es una plataforma internacional regulada. Recomendamos jugar con responsabilidad y verificar siempre los términos."
+      "q": "¿Bet30 tiene licencia nacional?",
+      "a": "Bet30 no posee licencia nacional en Argentina, pero opera bajo estándares internacionales y ofrece un entorno seguro para jugar. Siempre recomendamos verificar la normativa local."
     },
     {
-      "q": "¿Puedo depositar en pesos argentinos (ARS)?",
-      "a": "Sí, aceptamos depósitos en ARS a través de MercadoPago, Ualá y otras billeteras locales. Tu saldo se acredita al instante."
+      "q": "¿Puedo depositar en ARS?",
+      "a": "Sí, podés depositar en pesos argentinos usando MercadoPago, Ualá, Pago Fácil o Rapipago. No hay comisiones y el crédito es instantáneo."
     },
     {
       "q": "¿Cuánto tardan los retiros?",
-      "a": "Los retiros se procesan en 24-48 horas hábiles. Los montos se transfieren a tu método de pago elegido sin comisiones adicionales."
+      "a": "Los retiros se procesan en menos de 24 horas hábiles. Una vez aprobados, el dinero llega a tu cuenta en el mismo día depende del método."
     },
     {
-      "q": "¿Cómo activar el bono de bienvenida?",
-      "a": "Registrate en Bet30, hacé tu primer depósito mínimo y seleccioná el bono de bienvenida. Usá el código promocional BET30VIP para un bono extra."
+      "q": "¿Cuál es el bono de bienvenida?",
+      "a": "Tu primer depósito se multiplica hasta $150.000 ARS con el bono de bienvenida. Además, usá el código promocional para obtener $50.000 ARS extra."
     },
     {
-      "q": "¿Qué juegos puedo encontrar?",
-      "a": "Tenemos tragamonedas como Book of Dead, crash games como Aviator, ruleta en vivo, blackjack y apuestas deportivas. Amplia variedad para todos los gustos."
+      "q": "¿Qué documentación necesito para registrarme?",
+      "a": "Solo necesitás tu DNI y un correo electrónico. En algunos casos pedimos verificación de identidad para los retiros, pero el registro es rápido."
     }
   ],
   "footer": {
-    "tagline": "Tu casino online de confianza en Argentina – Jugá con moderación y disfrutá la experiencia.",
-    "responsible_gaming_note": "Juego responsable. Prohibida la participación de menores de 18 años. SEDRONAR – Si sentís que tenés un problema con el juego, buscá ayuda profesional."
+    "tagline": "Bet30: jugá con responsabilidad y ganá en grande.",
+    "responsible_gaming_note": "+18. El juego puede ser adictivo. Jugá con moderación. SEDRONAR: 0800-222-7373."
   }
 }
