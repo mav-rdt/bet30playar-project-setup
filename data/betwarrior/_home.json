@@ -1,76 +1,76 @@
 {
   "brand_slug": "betwarrior",
-  "generated_at": "2026-05-20T07:05:29.110Z",
+  "generated_at": "2026-06-05T18:46:43.203Z",
   "meta": {
-    "title": "BetWarrior Casino Argentina | Juegos y Bonos en ARS",
-    "description": "Descubrí BetWarrior, el casino online líder en Argentina. Jugá con pesos, bonos generosos y métodos locales como MercadoPago. ¡Registrate ya!"
+    "title": "BetWarrior Casino Argentina | Bonos y Juegos en ARS",
+    "description": "Descubrí BetWarrior, el casino online líder en Argentina. Jugá con depósitos en ARS, bonus exclusivos y retiros rápidos. ¡Registrate ya!"
   },
   "hero": {
-    "eyebrow": "Plataforma internacional · Sin licencia local",
-    "h1_suffix": "con los mejores bonos en ARS",
-    "subtitle": "Disfrutá de tragamonedas, crash games y casino en vivo desde tu celular. Depósitos y retiros con MercadoPago, Ualá, Rapipago y más.",
-    "cta_primary": "Creá tu cuenta",
-    "cta_secondary": "Ver bonos",
+    "eyebrow": "Operando sin licencia nacional - Jugá con responsabilidad",
+    "h1_suffix": "Tu casino online en Argentina",
+    "subtitle": "Disfrutá los mejores juegos, bonos en pesos argentinos y pagos con MercadoPago, Ualá y más.",
+    "cta_primary": "Registrate Ahora",
+    "cta_secondary": "Ver Bonos",
     "trust_badges": [
-      "Métodos locales",
+      "Depósitos en ARS",
       "Atención 24/7",
-      "Pagos rápidos"
+      "Retiros Rápidos"
     ]
   },
   "bonuses": [
     {
-      "title": "Bienvenida 100%",
+      "title": "Bienvenida BetWarrior",
       "amount_ars": 50000,
       "amount_label": "$50.000 ARS",
       "wagering": "35x",
-      "description": "Obtené un bono del 100% de tu primer depósito hasta $50.000 ARS. Válido para tragamonedas y juegos de mesa.",
-      "cta": "Reclamar bono",
+      "description": "Depositá $5.000 ARS y obtené hasta $50.000 ARS extra. El bono se libera con 35x de apuesta en slots.",
+      "cta": "Reclamar Bono",
       "slug_ref": ""
     },
     {
-      "title": "Cashback Semanal",
-      "amount_ars": 20000,
-      "amount_label": "$20.000 ARS",
-      "wagering": "10x",
-      "description": "Recibí hasta $20.000 ARS en cashback cada semana. Sin requisito de depósito mínimo.",
-      "cta": "Activar cashback",
+      "title": "Recarga Semanal",
+      "amount_ars": 10000,
+      "amount_label": "$10.000 ARS",
+      "wagering": "30x",
+      "description": "Cada semana recibí un 50% de bono en tu depósito hasta $10.000 ARS. Válido para slots y crash games.",
+      "cta": "Activar Recarga",
       "slug_ref": ""
     }
   ],
   "features": [
     {
       "icon": "shield",
-      "title": "Seguridad y confianza",
-      "description": "Tus datos y transacciones están protegidos con encriptación SSL. Jugá tranquilo en una plataforma verificada."
+      "title": "Seguridad Garantizada",
+      "description": "Protegemos tus datos con encriptación SSL y operamos bajo los más altos estándares de seguridad."
     },
     {
       "icon": "zap",
-      "title": "Depósitos al instante",
-      "description": "Usá MercadoPago o Ualá y tu salgo se acredita al toque. Sin demoras."
+      "title": "Depósitos al Instante",
+      "description": "Usá MercadoPago, Ualá o Rapipago y tu saldo se acredita al toque. Sin demoras."
     },
     {
       "icon": "wallet",
-      "title": "Retiros sin estrés",
-      "description": "Solicitá tus ganancias y recibilas en horas. Compatible con todas las billeteras argentinas."
+      "title": "Pagos Locales",
+      "description": "Aceptamos los métodos de pago más usados en Argentina: MercadoPago, Pago Fácil, Rapipago y Ualá."
     },
     {
       "icon": "gift",
-      "title": "Bonos exclusivos",
-      "description": "Aprovechá promociones diarias, giros gratis y misiones. Siempre hay un premio esperando."
+      "title": "Bonos Exclusivos",
+      "description": "Aprovechá promociones pensadas para vos, con bonos en ARS y condiciones claras."
     },
     {
       "icon": "gamepad",
-      "title": "Catálogo variado",
-      "description": "Elegí entre cientos de slots, crash games, ruleta en vivo y apuestas deportivas."
+      "title": "Variedad de Juegos",
+      "description": "Elegí entre slots, crash games, ruleta en vivo y apuestas deportivas. Todo en un solo lugar."
     },
     {
       "icon": "headset",
-      "title": "Soporte local 24/7",
-      "description": "Chat en vivo con agentes argentinos. Resolvé tus dudas rápido y sin vueltas."
+      "title": "Soporte Local",
+      "description": "Nuestro equipo de atención al cliente habla español argentino y está disponible 24/7."
     }
   ],
   "payments": {
-    "intro": "En BetWarrior aceptamos los métodos de pago que usás todos los días en Argentina. Depositá y retirá con MercadoPago, Ualá, Pago Fácil o Rapipago, sin comisiones y en pesos.",
+    "intro": "En BetWarrior aceptamos los métodos de pago más populares de Argentina. Depositá y retirá en pesos sin comisiones ocultas.",
     "methods": [
       {
         "name": "MercadoPago",
@@ -80,37 +80,31 @@
       },
       {
         "name": "Ualá",
-        "min_ars": 500,
+        "min_ars": 1000,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Pago Fácil",
-        "min_ars": 1000,
+        "min_ars": 2000,
         "speed": "24 horas",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Rapipago",
-        "min_ars": 1000,
+        "min_ars": 2000,
         "speed": "24 horas",
         "fee_label": "Sin comisión"
       }
     ]
   },
   "games": {
-    "intro": "Descubrí un mundo de entretenimiento con los mejores juegos de casino online. En BetWarrior encontrás tragamonedas, crash games, ruleta en vivo y mucho más, todo desde tu navegador o app.",
+    "intro": "Descubrí nuestra enorme colección de juegos, desde tragamonedas hasta crash games y casino en vivo. Probá suerte con Tippy, Aviator y más.",
     "featured": [
       {
-        "name": "Book of Dead",
+        "name": "Tippy",
         "category": "Slots",
-        "rtp": 96.21,
-        "slug_ref": ""
-      },
-      {
-        "name": "Starburst",
-        "category": "Slots",
-        "rtp": 96.09,
+        "rtp": 96.5,
         "slug_ref": ""
       },
       {
@@ -120,60 +114,66 @@
         "slug_ref": ""
       },
       {
-        "name": "Spaceman",
-        "category": "Crash",
-        "rtp": 95.5,
+        "name": "Ruleta en Vivo",
+        "category": "Live",
+        "rtp": null,
         "slug_ref": ""
       },
       {
-        "name": "Ruleta Europea",
-        "category": "Live",
-        "rtp": 97.3,
+        "name": "Apuestas Deportivas",
+        "category": "Deportes",
+        "rtp": null,
         "slug_ref": ""
       },
       {
-        "name": "Blackjack Clásico",
-        "category": "Live",
-        "rtp": 99.5,
+        "name": "Book of Dead",
+        "category": "Slots",
+        "rtp": 96.2,
+        "slug_ref": ""
+      },
+      {
+        "name": "Starburst",
+        "category": "Slots",
+        "rtp": 96.1,
         "slug_ref": ""
       }
     ]
   },
   "app": {
-    "headline": "BetWarrior App: llevá el casino en tu bolsillo",
-    "body": "Descargá la app oficial de BetWarrior en iOS y Android y disfrutá de todos los juegos, bonos y retiros desde donde estés. Interfaz rápida y diseñada para el mercado argentino.",
+    "headline": "Descargá la app de BetWarrior",
+    "body": "Llevá la experiencia BetWarrior a todos lados. Disponible para iOS y Android, con todas las funcionalidades del escritorio.",
     "features": [
-      "Depósitos con MercadoPago",
-      "Bonos exclusivos mobile",
-      "Retiros en 1 clic",
-      "Notificaciones de promos",
-      "Atención al chat 24/7"
+      "Depósitos y retiros",
+      "Bonos exclusivos móviles",
+      "Notificaciones push",
+      "Juegos optimizados",
+      "Soporte en vivo"
     ]
   },
   "faq": [
     {
-      "q": "¿Cómo depositar en BetWarrior desde Argentina?",
-      "a": "Podés depositar usando MercadoPago, Ualá, Pago Fácil o Rapipago. El monto mínimo es de $500 ARS y se acredita instantáneamente en la mayoría de los casos. Elegí el método que más te guste desde la sección 'Cajero' de tu cuenta."
-    },
-    {
-      "q": "¿Cuál es el bono de bienvenida de BetWarrior?",
-      "a": "Al registrarte y hacer tu primer depósito, obtenés un bono del 100% hasta $50.000 ARS. El requisito de apuesta es de 35x y aplica en tragamonedas seleccionadas. Revisá los términos completos en la página de bonos."
-    },
-    {
-      "q": "¿Los depósitos se acreditan al instante?",
-      "a": "Generalmente sí, especialmente con MercadoPago y Ualá. Sin embargo, en algunos casos puede demorar hasta 48 horas según el método. Si ves que no se acredita, contactá al soporte que te van a ayudar."
-    },
-    {
-      "q": "¿Cómo retirar mis ganancias?",
-      "a": "Andá al cajero, seleccioná 'Retiro', elegí tu método (MercadoPago, Ualá, transferencia) y el monto. Los retiros se procesan en hasta 24 horas hábiles. No hay comisiones adicionales."
-    },
-    {
       "q": "¿BetWarrior tiene licencia en Argentina?",
-      "a": "BetWarrior opera bajo una licencia internacional y no cuenta con una licencia nacional argentina. Esto es común en muchos casinos online que aceptan jugadores del país. De todos modos, la plataforma cumple con estándares de seguridad globales."
+      "a": "BetWarrior opera sin licencia nacional, pero es una plataforma confiable con presencia en varios países. Te recomendamos jugar con responsabilidad y verificar la normativa local."
+    },
+    {
+      "q": "¿Puedo depositar en pesos argentinos?",
+      "a": "Sí, aceptamos depósitos en ARS a través de MercadoPago, Ualá, Pago Fácil y Rapipago. No hay comisiones por depósito."
+    },
+    {
+      "q": "¿Cuánto tardan los retiros?",
+      "a": "Los retiros a MercadoPago y Ualá son instantáneos. A Pago Fácil o Rapipago pueden demorar hasta 24 horas hábiles."
+    },
+    {
+      "q": "¿Cómo funcionan los bonos?",
+      "a": "Ofrecemos un bono de bienvenida de hasta $50.000 ARS con requisitos de apuesta 35x. También hay recargas semanales y promociones especiales."
+    },
+    {
+      "q": "¿Tienen app móvil?",
+      "a": "Sí, nuestra app está disponible para iOS y Android. Podés descargarla desde la web y acceder a todos los juegos y funciones."
     }
   ],
   "footer": {
-    "tagline": "BetWarrior: jugá con responsabilidad y ganá en grande.",
-    "responsible_gaming_note": "Este sitio es para mayores de 18 años. Juga con responsabilidad. Si sentís que tenés un problema con el juego, buscá ayuda en SEDRONAR (línea 141)."
+    "tagline": "BetWarrior: tu casino online de confianza en Argentina",
+    "responsible_gaming_note": "Jugá con responsabilidad. Prohibido el ingreso a menores de 18 años. SEDRONAR 0-800-222-2222 (línea de ayuda)."
   }
 }
