@@ -1,179 +1,173 @@
 {
   "brand_slug": "betfun",
-  "generated_at": "2026-06-05T18:37:48.321Z",
+  "generated_at": "2026-06-05T18:46:13.005Z",
   "meta": {
-    "title": "Betfun Argentina | Casino Online con Bono de $350.000 ARS",
-    "description": "Descubrí Betfun, el casino online líder en Argentina. Recibí hasta $350.000 ARS de bono de bienvenida. Jugá con seguridad y métodos de pago locales."
+    "title": "Betfun Argentina | Casino Online con Bonos en ARS",
+    "description": "Descubrí Betfun Argentina: bonos de hasta $350.000 ARS, pagos rápidos con MercadoPago y juegos emocionantes. Jugá seguro sin licencia nacional."
   },
   "hero": {
-    "eyebrow": "Jugá con responsabilidad. Sin licencia nacional.",
-    "h1_suffix": "tu nuevo casino online",
-    "subtitle": "Disfrutá de tragamonedas, juegos en vivo y más. Todo desde tu celular.",
-    "cta_primary": "Registrate ahora",
-    "cta_secondary": "Conocé más",
+    "eyebrow": "Sin licencia nacional • Jugá con responsabilidad",
+    "h1_suffix": "hasta $350.000 ARS + 8x de wagering",
+    "subtitle": "Registrate y obtené el bono de bienvenida más grande de Argentina. Depósitá con MercadoPago, Ualá, Pago Fácil o Rapipago.",
+    "cta_primary": "Reclamá tu bono",
+    "cta_secondary": "Ver más bonos",
     "trust_badges": [
-      "Pagos seguros",
+      "Depósitos rápidos",
       "Atención 24/7",
-      "Métodos locales"
+      "Bonos exclusivos"
     ]
   },
   "bonuses": [
     {
-      "title": "Bono de bienvenida",
+      "title": "Bono de Bienvenida Betfun Argentina",
       "amount_ars": 350000,
       "amount_label": "$350.000 ARS",
       "wagering": "8x",
-      "description": "Recibí hasta $350.000 ARS en tu primer depósito. Jugá con condiciones justas: solo 8x de requisito de apuesta.",
-      "cta": "Reclamá tu bono",
+      "description": "Recibí hasta $350.000 ARS en tu primer depósito. El wagering es solo 8x y tenés 30 días para cumplirlo.",
+      "cta": "Reclamá ahora",
       "slug_ref": "bono-bienvenida-betfun-argentina"
     },
     {
-      "title": "Bono de recarga semanal",
-      "amount_ars": 50000,
-      "amount_label": "$50.000 ARS",
-      "wagering": "25x",
-      "description": "Todos los viernes, depositá y obtené un 50% extra hasta $50.000 ARS. Válido en tragamonedas seleccionadas.",
+      "title": "Bono de Recarga Semanal",
+      "amount_ars": 100000,
+      "amount_label": "$100.000 ARS",
+      "wagering": "10x",
+      "description": "Todos los viernes depositalo y obtené un 50% extra hasta $100.000 ARS. Sin requisitos complicados.",
       "cta": "Activá tu recarga",
       "slug_ref": ""
     }
   ],
   "features": [
     {
-      "icon": "shield",
-      "title": "Seguridad garantizada",
-      "description": "Protegemos tus datos con cifrado de última generación. Jugá tranquilo sabiendo que tu información está segura."
-    },
-    {
       "icon": "zap",
-      "title": "Depósitos y retiros rápidos",
-      "description": "Procesamos tus transacciones en minutos. Olvidate de las esperas largas."
-    },
-    {
-      "icon": "wallet",
-      "title": "Métodos de pago locales",
-      "description": "Aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago. Elegí el que más te convenga."
+      "title": "Depósitos al instante",
+      "description": "Usá MercadoPago, Ualá, Pago Fácil o Rapipago y tu saldo se acredita al toque. Sin demoras."
     },
     {
       "icon": "gift",
-      "title": "Bonos generosos",
-      "description": "Aprovechá promociones exclusivas y un bono de bienvenida de hasta $350.000 ARS. Siempre hay algo extra para vos."
+      "title": "Bonos generosos en ARS",
+      "description": "Aprovechá promociones en pesos argentinos con términos claros. El bono de bienvenida es de los más altos del mercado."
     },
     {
       "icon": "gamepad",
-      "title": "Amplio catálogo de juegos",
-      "description": "Disfrutá de tragamonedas, ruleta, blackjack, crash games y apuestas deportivas. Nunca te aburrís."
+      "title": "Cientos de juegos variados",
+      "description": "Desde tragamonedas clásicas hasta crash games y ruleta en vivo. Hay opciones para todos los gustos."
+    },
+    {
+      "icon": "shield",
+      "title": "Juego responsable",
+      "description": "Estamos comprometidos con tu seguridad. Usá herramientas de límite de depósito y autoexclusión."
     },
     {
       "icon": "headset",
-      "title": "Soporte en español 24/7",
-      "description": "Nuestro equipo de atención está disponible todo el día. Resolvé tus dudas al instante."
+      "title": "Soporte 24/7 en español",
+      "description": "Nuestro equipo de atención al cliente está disponible todo el día para ayudarte vía chat o WhatsApp."
+    },
+    {
+      "icon": "wallet",
+      "title": "Retiros rápidos y seguros",
+      "description": "Retirá tus ganancias sin vueltas. Los pagos se procesan en 24 horas hábiles y sin comisiones ocultas."
     }
   ],
   "payments": {
-    "intro": "En Betfun, aceptamos los métodos de pago más populares de Argentina. Depositá y retirá de forma rápida y segura.",
+    "intro": "En Betfun aceptamos los métodos de pago más populares de Argentina. Depositá y retirá en pesos sin complicaciones.",
     "methods": [
       {
         "name": "MercadoPago",
-        "min_ars": 500,
+        "min_ars": 1000,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Ualá",
-        "min_ars": 1000,
+        "min_ars": 500,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Pago Fácil",
         "min_ars": 500,
-        "speed": "Instantáneo",
-        "fee_label": "Sin comisión"
-      },
-      {
-        "name": "Rapipago",
-        "min_ars": 500,
-        "speed": "Instantáneo",
+        "speed": "Hasta 2 horas",
         "fee_label": "Sin comisión"
       }
     ]
   },
   "games": {
-    "intro": "Descubrí una amplia selección de tragamonedas, juegos de mesa y opciones de apuestas deportivas. En Betfun encontrás entretenimiento para todos los gustos.",
+    "intro": "Descubrí una amplia selección de juegos de casino online. Desde tragamonedas emocionantes hasta mesas en vivo, todo en un solo lugar.",
     "featured": [
       {
-        "name": "Tragamonedas Clásicas",
+        "name": "Book of Dead",
         "category": "Slots",
-        "rtp": null,
+        "rtp": 96.21,
         "slug_ref": ""
       },
       {
-        "name": "Ruleta Europea",
-        "category": "Live",
-        "rtp": null,
+        "name": "Starburst",
+        "category": "Slots",
+        "rtp": 96.09,
         "slug_ref": ""
       },
       {
-        "name": "Blackjack",
-        "category": "Live",
-        "rtp": null,
-        "slug_ref": ""
-      },
-      {
-        "name": "Crash Game",
+        "name": "Aviator",
         "category": "Crash",
         "rtp": null,
         "slug_ref": ""
       },
       {
-        "name": "Apuestas Deportivas",
-        "category": "Deportes",
+        "name": "Spaceman",
+        "category": "Crash",
         "rtp": null,
         "slug_ref": ""
       },
       {
-        "name": "Tragamonedas Megaways",
-        "category": "Slots",
+        "name": "Ruleta en Vivo",
+        "category": "Live",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Blackjack en Vivo",
+        "category": "Live",
         "rtp": null,
         "slug_ref": ""
       }
     ]
   },
   "app": {
-    "headline": "Descargá la app de Betfun",
-    "body": "Llevá toda la acción de Betfun a tu teléfono. Descargá nuestra app y jugá en cualquier momento.",
+    "headline": "Descargá la App de Betfun Argentina",
+    "body": "Llevá el casino en tu bolsillo. La app de Betfun está disponible para Android y iOS con todas las funciones y bonos exclusivos.",
     "features": [
       "Registro rápido",
-      "Depósitos desde tu celular",
-      "Notificaciones de bonos",
+      "Depósitos desde el celular",
       "Juegos optimizados",
-      "Atención al instante"
+      "Notificaciones de bonos",
+      "Retiros sin complicaciones"
     ]
   },
   "faq": [
     {
-      "q": "¿Es confiable Betfun? Leí que no paga.",
-      "a": "Betfun es una plataforma que cumple con sus pagos. Los plazos de retiro varían según el método, pero todos los ganadores reciben su dinero. Revisá los términos y condiciones para más detalles."
+      "q": "¿Es seguro jugar en Betfun Argentina?",
+      "a": "Betfun opera sin licencia nacional, pero implementa medidas de seguridad estándar para proteger tus datos y transacciones. Te recomendamos jugar con responsabilidad."
     },
     {
-      "q": "¿Cómo me registro en Betfun?",
-      "a": "Registrarse es muy fácil. Hacé clic en 'Registrate ahora', completá tus datos y confirmá tu cuenta. En menos de 2 minutos ya podés jugar."
+      "q": "¿Cómo activo el bono de bienvenida?",
+      "a": "Registrate en Betfun, hacé tu primer depósito mínimo de $5.000 ARS y el bono se acredita automáticamente. El código no es necesario."
     },
     {
-      "q": "¿Cuáles son los métodos de pago disponibles?",
-      "a": "Aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago. Todos son métodos populares en Argentina, con depósitos instantáneos y sin comisiones."
+      "q": "¿Cuánto tardan los retiros?",
+      "a": "Los retiros se procesan en un plazo de 24 a 48 horas hábiles. Usamos los mismos métodos que los depósitos, sin comisiones adicionales."
     },
     {
-      "q": "¿Betfun tiene aplicación móvil?",
-      "a": "Sí, contamos con una app para Android y iOS. Podés descargarla desde nuestra web o las tiendas oficiales. Jugá desde cualquier lugar."
+      "q": "Literal no te paga un quinto, solo te quita plata. ¿Es verdad?",
+      "a": "Entendemos tu preocupación. Betfun paga las ganancias siempre que cumplas con los requisitos de apuesta. Si tenés problemas, contactá al soporte que te ayudan a resolverlo."
     },
     {
-      "q": "¿Cómo funciona el bono de bienvenida?",
-      "a": "Al hacer tu primer depósito, recibís hasta $350.000 ARS adicionales. El requisito de apuesta es de solo 8x, lo que lo hace muy accesible. Consultá los términos completos en la página de bonos."
+      "q": "¿Qué métodos de pago aceptan?",
+      "a": "Aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago. Todos son métodos locales en ARS, sin cargos extras para depósitos."
     }
   ],
   "footer": {
-    "tagline": "Betfun: la emoción del casino en Argentina, al alcance de tu mano.",
-    "responsible_gaming_note": "Jugá con responsabilidad. Prohibido para menores de 18 años. SEDRONAR: 0800-222-7376."
+    "tagline": "Betfun Argentina: jugá con confianza y ganá en grande.",
+    "responsible_gaming_note": "Jugá con responsabilidad. Prohibido para menores de 18 años. Si tenés problemas con el juego, contactá a SEDRONAR al 141."
   }
 }
