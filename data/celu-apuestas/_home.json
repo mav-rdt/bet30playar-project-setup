@@ -1,0 +1,179 @@
+{
+  "brand_slug": "celu-apuestas",
+  "generated_at": "2026-06-09T14:49:23.635Z",
+  "meta": {
+    "title": "Celu Apuestas Argentina | Casino Online en ARS",
+    "description": "Descubrí Celu Apuestas, el casino online con bonos en ARS, depósitos con MercadoPago y más. Jugá y ganá en pesos argentinos."
+  },
+  "hero": {
+    "eyebrow": "Transparencia total: Sin licencia nacional",
+    "h1_suffix": "Ganá en grande con pesos argentinos",
+    "subtitle": "Descubrí bonos exclusivos, juegos emocionantes y depósitos rápidos con MercadoPago, Ualá y más. ¡Registrate y empezá a ganar hoy!",
+    "cta_primary": "Creá tu cuenta",
+    "cta_secondary": "Ver bonos",
+    "trust_badges": [
+      "Depósitos en ARS",
+      "Atención 24/7",
+      "Juego responsable"
+    ]
+  },
+  "bonuses": [
+    {
+      "title": "Bono de Bienvenida",
+      "amount_ars": 72500,
+      "amount_label": "$72.500 ARS",
+      "wagering": "35x",
+      "description": "Recibí hasta $72.500 ARS en tu primer depósito. Jugá con 35x de requisito de apuesta y 30 días para cumplirlo. ¡Aprovechá esta oferta única!",
+      "cta": "Reclamá tu bono",
+      "slug_ref": "bono-bienvenida-celu-apuestas-argentina"
+    },
+    {
+      "title": "Código Promocional",
+      "amount_ars": 72500,
+      "amount_label": "$72.500 ARS",
+      "wagering": "",
+      "description": "Usá el código promocional y obtené hasta $72.500 ARS adicionales. Depósitá y empezá a jugar sin complicaciones.",
+      "cta": "Usá el código",
+      "slug_ref": "codigo-promocional-celu-apuestas"
+    }
+  ],
+  "features": [
+    {
+      "icon": "shield",
+      "title": "Plataforma Segura",
+      "description": "Protegemos tus datos con encriptación SSL. Jugá con tranquilidad."
+    },
+    {
+      "icon": "zap",
+      "title": "Depósitos Rápidos",
+      "description": "Depositá al instante con MercadoPago, Ualá y más. Tu saldo se acredita en segundos."
+    },
+    {
+      "icon": "wallet",
+      "title": "Retiros en ARS",
+      "description": "Cobrá tus ganancias en pesos argentinos sin demoras. Retirá a tu billetera favorita."
+    },
+    {
+      "icon": "gift",
+      "title": "Bonos Exclusivos",
+      "description": "Aprovechá bonos de bienvenida y promociones semanales. Siempre hay una oferta para vos."
+    },
+    {
+      "icon": "gamepad",
+      "title": "Variedad de Juegos",
+      "description": "Disfrutá de slots, crash, deportes y más. Cientos de títulos para elegir."
+    },
+    {
+      "icon": "headset",
+      "title": "Soporte Local",
+      "description": "Atención al cliente en argentino, vía chat y WhatsApp. Resolvé tus dudas al toque."
+    }
+  ],
+  "payments": {
+    "intro": "En Celu Apuestas aceptamos los métodos de pago más usados en Argentina. Depositá y retirá en pesos sin complicaciones.",
+    "methods": [
+      {
+        "name": "MercadoPago",
+        "min_ars": 500,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Ualá",
+        "min_ars": 1000,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Pago Fácil",
+        "min_ars": 200,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Rapipago",
+        "min_ars": 200,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      }
+    ]
+  },
+  "games": {
+    "intro": "Descubrí nuestra selección de juegos favoritos en Celu Apuestas. Desde tragamonedas hasta deportes, hay algo para cada jugador.",
+    "featured": [
+      {
+        "name": "Book of Dead",
+        "category": "Slots",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Starburst",
+        "category": "Slots",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Mega Moolah",
+        "category": "Slots",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Aviator",
+        "category": "Crash",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "JetX",
+        "category": "Crash",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Live Roulette",
+        "category": "Live",
+        "rtp": null,
+        "slug_ref": ""
+      }
+    ]
+  },
+  "app": {
+    "headline": "Celu Apuestas: Jugá desde cualquier lugar",
+    "body": "Descargá nuestra app y llevá el casino en tu bolsillo. Disponible para iOS y Android.",
+    "features": [
+      "Depósitos rápidos",
+      "Bonos móviles",
+      "Juegos optimizados",
+      "Notificaciones de promos",
+      "Soporte en vivo"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Celu Apuestas tiene licencia?",
+      "a": "Celu Apuestas opera sin licencia nacional, pero implementa medidas de seguridad avanzadas para proteger tus datos y transacciones. Jugá con responsabilidad."
+    },
+    {
+      "q": "¿Puedo depositar en pesos argentinos?",
+      "a": "Sí, aceptamos ARS a través de MercadoPago, Ualá, Pago Fácil y Rapipago. Todos los depósitos son instantáneos y sin comisión."
+    },
+    {
+      "q": "¿Cuánto tardan los retiros?",
+      "a": "Los retiros se procesan en 24 a 48 horas hábiles. Una vez aprobados, el dinero se acredita en tu método de pago elegido."
+    },
+    {
+      "q": "¿Qué bonos ofrecen?",
+      "a": "Ofrecemos un bono de bienvenida de hasta $72.500 ARS con requisito de 35x. También tenés promociones semanales y código promocional para más beneficios."
+    },
+    {
+      "q": "¿Es seguro jugar en Celu Apuestas?",
+      "a": "Usamos encriptación SSL y políticas de juego responsable. Recordá que el juego es solo para mayores de 18 años. Si sentís que tenés un problema, contactanos."
+    }
+  ],
+  "footer": {
+    "tagline": "Celu Apuestas: ganá en grande, jugá con responsabilidad.",
+    "responsible_gaming_note": "Jugá con moderación. +18. Si necesitás ayuda, contactá a SEDRONAR al 141."
+  }
+}
