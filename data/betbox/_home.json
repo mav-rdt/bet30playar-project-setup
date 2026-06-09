@@ -1,38 +1,38 @@
 {
   "brand_slug": "betbox",
-  "generated_at": "2026-06-09T12:36:24.245Z",
+  "generated_at": "2026-06-09T14:48:19.846Z",
   "meta": {
-    "title": "Betbox Casino Argentina | Bonos y Juegos Online 2025",
-    "description": "Descubrí Betbox, el casino online de Argentina. Disfrutá de bonos de hasta $350.000 ARS, juegos variados y métodos de pago locales. ¡Registrate y jugá ya!"
+    "title": "Betbox Argentina - Casino Online con Bonos en ARS",
+    "description": "Disfrutá del mejor casino online en Argentina: Betbox. Bonos hasta $350.000 ARS, depósitos con MercadoPago y atención local. ¡Registrate ya!"
   },
   "hero": {
-    "eyebrow": "Operador sin licencia nacional, pero con verificación independiente",
-    "h1_suffix": "tu nuevo casino online en Argentina",
-    "subtitle": "Disfrutá de bonos exclusivos, juegos emocionantes y retiros rápidos con MercadoPago. Todo desde la comodidad de tu casa.",
+    "eyebrow": "Plataforma de casino online en Argentina con pagos en ARS",
+    "h1_suffix": "Bonos en ARS con MercadoPago",
+    "subtitle": "Registrate y obtené un bono de bienvenida de hasta $350.000 ARS. Depósitos y retiros con MercadoPago.",
     "cta_primary": "Creá tu cuenta",
-    "cta_secondary": "Ver bonos",
+    "cta_secondary": "Ver promociones",
     "trust_badges": [
-      "Transparencia total",
-      "Atención al cliente 24/7",
-      "Métodos locales ARS"
+      "MercadoPago",
+      "Sin comisiones",
+      "Atención local"
     ]
   },
   "bonuses": [
     {
-      "title": "Código Promocional Betbox",
+      "title": "Bono de bienvenida hasta $350.000 ARS",
       "amount_ars": 350000,
       "amount_label": "$350.000 ARS",
-      "wagering": "Consultar términos",
-      "description": "Usá nuestro código promocional Betbox y recibí hasta $350.000 ARS en bonos. Verificá los requisitos en el sitio oficial.",
-      "cta": "Reclamá tu bono",
+      "wagering": "35x",
+      "description": "Usá el código promocional Betbox y obtené hasta $350.000 ARS en bonos. Verificá los términos en el sitio.",
+      "cta": "Reclamá bono",
       "slug_ref": "codigo-promocional-betbox"
     },
     {
-      "title": "Bono de Recarga Semanal",
+      "title": "Bono de recarga semanal",
       "amount_ars": 50000,
       "amount_label": "$50.000 ARS",
-      "wagering": "25x",
-      "description": "Recargá tus fondos todos los martes y obtené un 50% extra hasta $50.000 ARS. Ideal para seguir jugando sin parar.",
+      "wagering": "30x",
+      "description": "Recargá tu cuenta cada semana y recibí un bono del 50% hasta $50.000 ARS. Aplican términos.",
       "cta": "Depositá ahora",
       "slug_ref": ""
     }
@@ -40,37 +40,37 @@
   "features": [
     {
       "icon": "shield",
-      "title": "Jugá con confianza",
-      "description": "Betbox prioriza tu seguridad con protocolos de encriptación avanzados. Tus datos y transacciones están protegidos en todo momento."
+      "title": "Seguridad en tus transacciones",
+      "description": "Usamos tecnología de encriptación para proteger tus datos. Tus fondos están seguros con nosotros."
     },
     {
       "icon": "zap",
-      "title": "Retiros ultrarrápidos",
-      "description": "Retirá tus ganancias en cuestión de horas con MercadoPago y otros métodos locales. Sin vueltas ni demoras."
+      "title": "Pagos instantáneos",
+      "description": "Depositá y retirá al instante con MercadoPago. Sin demoras ni complicaciones."
     },
     {
       "icon": "wallet",
-      "title": "Métodos de pago locales",
-      "description": "Depositá y retirá con MercadoPago, Ualá, Pago Fácil y Rapipago. Todo en pesos argentinos."
+      "title": "Métodos locales",
+      "description": "Aceptamos MercadoPago, Ualá y más. Jugá con tu moneda local, el peso argentino."
     },
     {
       "icon": "gift",
-      "title": "Bonos exclusivos para vos",
-      "description": "Aprovechá nuestro código promocional Betbox y otros bonos especiales diseñados para jugadores argentinos."
+      "title": "Bonos generosos",
+      "description": "Obtené hasta $350.000 ARS en bonos de bienvenida. También hay promociones semanales."
     },
     {
       "icon": "gamepad",
       "title": "Variedad de juegos",
-      "description": "Desde tragamonedas hasta crash games y casino en vivo. Encontrá tus títulos favoritos y descubrí nuevos."
+      "description": "Disfrutá de slots, crash games, deportes y más. Nueva selección cada mes."
     },
     {
       "icon": "headset",
-      "title": "Soporte 24/7 en español",
-      "description": "Un equipo de atención al cliente está disponible todo el día para resolver tus dudas. Chat en vivo y email."
+      "title": "Soporte 24/7",
+      "description": "Atención al cliente en español las 24 horas. Resolvé tus dudas al instante."
     }
   ],
   "payments": {
-    "intro": "En Betbox aceptamos los métodos de pago más utilizados en Argentina. Depositá y retirá en ARS sin complicaciones, con opciones rápidas y seguras.",
+    "intro": "En Betbox aceptamos los métodos de pago más populares de Argentina. Depositá y retirá sin comisiones con MercadoPago, Ualá y más.",
     "methods": [
       {
         "name": "MercadoPago",
@@ -80,59 +80,53 @@
       },
       {
         "name": "Ualá",
-        "min_ars": 500,
+        "min_ars": 200,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Pago Fácil",
-        "min_ars": 200,
-        "speed": "1-2 días hábiles",
-        "fee_label": "Sin comisión"
-      },
-      {
-        "name": "Rapipago",
-        "min_ars": 200,
-        "speed": "1-2 días hábiles",
+        "min_ars": 500,
+        "speed": "24-48 hs",
         "fee_label": "Sin comisión"
       }
     ]
   },
   "games": {
-    "intro": "Explorá nuestro catálogo de juegos con tragamonedas, crash games, ruleta en vivo y más. Todos con gráficos de última generación y adaptados al mercado argentino.",
+    "intro": "En Betbox encontrá una amplia variedad de juegos de casino online. Desde slots hasta crash games, todo en un solo lugar.",
     "featured": [
       {
-        "name": "Aviator",
-        "category": "Crash",
-        "rtp": 97,
-        "slug_ref": ""
-      },
-      {
-        "name": "Mega Roulette",
-        "category": "Live",
-        "rtp": null,
+        "name": "Starburst",
+        "category": "Slots",
+        "rtp": 96.1,
         "slug_ref": ""
       },
       {
         "name": "Book of Dead",
         "category": "Slots",
-        "rtp": 96.21,
+        "rtp": 96.2,
         "slug_ref": ""
       },
       {
-        "name": "Sweet Bonanza",
+        "name": "Mega Moolah",
         "category": "Slots",
-        "rtp": 96.51,
+        "rtp": 88.12,
         "slug_ref": ""
       },
       {
-        "name": "Plinko",
+        "name": "Aviator",
         "category": "Crash",
         "rtp": null,
         "slug_ref": ""
       },
       {
-        "name": "Ruleta Europea",
+        "name": "JetX",
+        "category": "Crash",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Lightning Roulette",
         "category": "Live",
         "rtp": 97.3,
         "slug_ref": ""
@@ -140,40 +134,40 @@
     ]
   },
   "app": {
-    "headline": "Descargá la app de Betbox y jugá desde cualquier lugar",
-    "body": "Disponible para Android e iOS, nuestra app te permite acceder a todos los juegos, bonos y promociones con un solo toque. Interfaz rápida y amigable.",
+    "headline": "La app de Betbox para jugar en móvil",
+    "body": "La app de Betbox está disponible para Android e iOS. Descargala y accedé a todos los juegos desde tu celular.",
     "features": [
-      "Depósitos instantáneos",
-      "Notificaciones de bonos",
-      "Juegos exclusivos mobile",
-      "Retiros con un clic",
-      "Soporte en vivo integrado"
+      "Interfaz intuitiva",
+      "Pagos rápidos",
+      "Bonos exclusivos",
+      "Notificaciones push",
+      "Atención 24/7"
     ]
   },
   "faq": [
     {
-      "q": "¿Betbox es una estafa?",
-      "a": "Betbox es un casino online legítimo, aunque no cuenta con licencia nacional en Argentina. Recomendamos verificar la información directamente en su sitio y jugar con responsabilidad. Muchos usuarios reportan pagos y atención al cliente satisfactoria."
+      "q": "¿Es confiable Betbox?",
+      "a": "Betbox opera sin licencia nacional, pero ofrece pagos con MercadoPago y atención local. Siempre verificá los términos antes de jugar."
     },
     {
-      "q": "¿Cómo uso el código promocional Betbox?",
-      "a": "Para usar el código promocional Betbox, registrate en el sitio y dirigite a la sección de bonos. Ingresá el código 'BETBOX2025' (o el vigente) y activá tu bono de hasta $350.000 ARS. Recordá leer los términos antes de reclamarlo."
+      "q": "¿Cómo uso el código promocional?",
+      "a": "Ingresá el código promocional Betbox durante el registro o depósito. Verificá las condiciones en el sitio."
     },
     {
-      "q": "¿Cómo retirar dinero de Betbox?",
-      "a": "Retirá tus ganancias usando MercadoPago u otros métodos locales. Iniciá sesión, andá a 'Retiros', seleccioná el método y el monto mínimo de $100 ARS. Los pagos se procesan en 24-48 horas hábiles."
+      "q": "¿Cómo retirar dinero?",
+      "a": "Retirá tu dinero usando MercadoPago. El proceso es rápido y sin comisiones."
     },
     {
-      "q": "¿Qué juegos ofrece Betbox?",
-      "a": "Betbox tiene tragamonedas, crash games como Aviator, ruleta en vivo, blackjack y más. Los títulos populares incluyen Book of Dead, Sweet Bonanza y Mega Roulette. Todo con calidad HD y versión demo disponible."
+      "q": "¿Qué métodos de pago aceptan?",
+      "a": "Aceptamos MercadoPago, Ualá y Pago Fácil. Depositá en pesos argentinos."
     },
     {
-      "q": "¿Es seguro jugar en Betbox?",
-      "a": "Betbox utiliza encriptación SSL para proteger tus datos. Aunque no tiene licencia nacional, implementa medidas de seguridad estándar. Jugá con responsabilidad y establecé límites de depósito."
+      "q": "¿Hay bono de bienvenida?",
+      "a": "Sí, ofrecemos un bono de hasta $350.000 ARS. Consultá los términos de wagering."
     }
   ],
   "footer": {
-    "tagline": "Betbox: jugá con responsabilidad, ganá con emoción",
-    "responsible_gaming_note": "El juego es para mayores de 18 años. Si tenés problemas con el juego, contactá a SEDRONAR al 141. Jugá con moderación."
+    "tagline": "Tu casino online de confianza en Argentina, con pagos locales.",
+    "responsible_gaming_note": "+18. Jugá con responsabilidad. SEDRONAR: 0800-222-5463."
   }
 }
