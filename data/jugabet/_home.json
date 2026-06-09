@@ -1,0 +1,185 @@
+{
+  "brand_slug": "jugabet",
+  "generated_at": "2026-06-09T14:49:46.127Z",
+  "meta": {
+    "title": "Jugabet Casino Argentina | Jugá y Ganá en Pesos",
+    "description": "Descubrí Jugabet, el casino online que te paga en ARS. Disfrutá tragamonedas, crash y más con bonos en pesos. Registrate ya."
+  },
+  "hero": {
+    "eyebrow": "Jugabet opera sin licencia nacional, pero con responsabilidad (+18).",
+    "h1_suffix": "Jugá en Pesos, Ganá en Pesos",
+    "subtitle": "Bienvenido a Jugabet Argentina. Disfrutá de tragamonedas, juegos crash y apuestas deportivas en tu moneda local. Retirá rápido con MercadoPago.",
+    "cta_primary": "Registrate Ahora",
+    "cta_secondary": "Ver Bonos",
+    "trust_badges": [
+      "Operador Responsable",
+      "+18",
+      "SEDRONAR"
+    ]
+  },
+  "bonuses": [
+    {
+      "title": "Bono de Bienvenida",
+      "amount_ars": 50000,
+      "amount_label": "$50.000 ARS",
+      "wagering": "35x",
+      "description": "Obtené hasta $50.000 ARS en tu primer depósito. Jugá con más fondos y aumentá tus chances de ganar. Depósito mínimo $500 ARS.",
+      "cta": "Reclamar Bono",
+      "slug_ref": ""
+    },
+    {
+      "title": "Bono Recarga Semanal",
+      "amount_ars": 10000,
+      "amount_label": "$10.000 ARS",
+      "wagering": "30x",
+      "description": "Todos los viernes recibí un bono de recarga del 50% hasta $10.000 ARS. Perfecto para seguir disfrutando tus juegos favoritos.",
+      "cta": "Activar Recarga",
+      "slug_ref": ""
+    }
+  ],
+  "features": [
+    {
+      "icon": "shield",
+      "title": "Jugá con Confianza",
+      "description": "Jugabet promueve el juego responsable. Tu seguridad es nuestra prioridad, con encriptación SSL y políticas claras."
+    },
+    {
+      "icon": "zap",
+      "title": "Retiros Rápidos",
+      "description": "Retirá tus ganancias en cuestión de horas con MercadoPago y otros métodos locales. Sin demoras."
+    },
+    {
+      "icon": "wallet",
+      "title": "Depositá en Pesos",
+      "description": "Usá MercadoPago, Ualá, Rapipago o Pago Fácil para cargar saldo. Todo en ARS, sin conversiones."
+    },
+    {
+      "icon": "gift",
+      "title": "Bonos Exclusivos",
+      "description": "Aprovechá bonos de bienvenida, recargas semanales y promociones especiales pensadas para jugadores argentinos."
+    },
+    {
+      "icon": "gamepad",
+      "title": "Variedad de Juegos",
+      "description": "Más de 500 tragamonedas, crash games, ruleta en vivo y deportes. Encontrá tu juego favorito."
+    },
+    {
+      "icon": "headset",
+      "title": "Soporte en Español",
+      "description": "Atención al cliente 24/7 por chat en vivo y WhatsApp. Resolvé tus dudas al instante."
+    }
+  ],
+  "payments": {
+    "intro": "En Jugabet podés depositar y retirar en pesos argentinos usando los métodos más populares del país. Sin comisiones y con procesamiento instantáneo.",
+    "methods": [
+      {
+        "name": "MercadoPago",
+        "min_ars": 500,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Ualá",
+        "min_ars": 500,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Pago Fácil",
+        "min_ars": 1000,
+        "speed": "24 horas",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Rapipago",
+        "min_ars": 1000,
+        "speed": "24 horas",
+        "fee_label": "Sin comisión"
+      }
+    ]
+  },
+  "games": {
+    "intro": "Explorá un catálogo variado con los mejores slots, crash games, ruleta en vivo y apuestas deportivas. Todo en pesos y con RTP competitivo.",
+    "featured": [
+      {
+        "name": "Sweet Bonanza",
+        "category": "Slots",
+        "rtp": 96.48,
+        "slug_ref": ""
+      },
+      {
+        "name": "Gates of Olympus",
+        "category": "Slots",
+        "rtp": 96.5,
+        "slug_ref": ""
+      },
+      {
+        "name": "Jetix",
+        "category": "Crash",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Aviator",
+        "category": "Crash",
+        "rtp": 97,
+        "slug_ref": ""
+      },
+      {
+        "name": "Ruleta en Vivo",
+        "category": "Live",
+        "rtp": 97.3,
+        "slug_ref": ""
+      },
+      {
+        "name": "Blackjack Multijugador",
+        "category": "Live",
+        "rtp": 99.5,
+        "slug_ref": ""
+      },
+      {
+        "name": "Fútbol Argentino",
+        "category": "Deportes",
+        "rtp": null,
+        "slug_ref": ""
+      }
+    ]
+  },
+  "app": {
+    "headline": "Descargá la App de Jugabet",
+    "body": "Llevá el casino en tu bolsillo. La app de Jugabet está optimizada para Android e iOS, con carga rápida y todas las funcionalidades.",
+    "features": [
+      "Acceso rápido a todos los juegos",
+      "Depósitos y retiros desde el móvil",
+      "Notificaciones de bonos exclusivos",
+      "Soporte en vivo integrado",
+      "Interfaz en español argentino"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Jugabet tiene licencia en Argentina?",
+      "a": "Jugabet opera como casa de apuestas internacional, sin licencia nacional argentina. Sin embargo, cumple con estándares de seguridad y juego responsable para ofrecer una experiencia confiable."
+    },
+    {
+      "q": "¿Puedo depositar y retirar en ARS?",
+      "a": "Sí. Aceptamos pesos argentinos a través de MercadoPago, Ualá, Pago Fácil y Rapipago. Los depósitos son instantáneos y los retiros se procesan en 24 horas hábiles."
+    },
+    {
+      "q": "¿Cuánto tarda un retiro?",
+      "a": "Los retiros a MercadoPago y Ualá suelen acreditarse en minutos. Para Pago Fácil y Rapipago puede demorar hasta 24 horas hábiles. No cobramos comisiones."
+    },
+    {
+      "q": "¿Qué bonos ofrece Jugabet?",
+      "a": "Ofrecemos un bono de bienvenida de hasta $50.000 ARS con 35x de apuesta, y recargas semanales del 50% hasta $10.000 ARS. Podés consultar términos y condiciones en cada promoción."
+    },
+    {
+      "q": "¿Es seguro jugar en Jugabet?",
+      "a": "Sí. Usamos encriptación SSL para proteger tus datos y promovemos el juego responsable con límites de depósito y autoexclusión. Jugá con responsabilidad (+18)."
+    }
+  ],
+  "footer": {
+    "tagline": "Jugabet Argentina: divertite y ganá en pesos con responsabilidad.",
+    "responsible_gaming_note": "Este sitio es para mayores de 18 años. Jugá con responsabilidad. Si sentís que tenés un problema con el juego, contactá a SEDRONAR al 141."
+  }
+}
