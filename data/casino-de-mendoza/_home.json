@@ -1,0 +1,179 @@
+{
+  "brand_slug": "casino-de-mendoza",
+  "generated_at": "2026-06-09T14:53:11.708Z",
+  "meta": {
+    "title": "Casino de Mendoza Argentina | Jugá Online con los Mejores Juegos",
+    "description": "Disfrutá del casino online líder en Argentina. Registrate y obtené bonos exclusivos en ARS. Tragamonedas, ruleta y más en Casino de Mendoza."
+  },
+  "hero": {
+    "eyebrow": "Operador sin licencia nacional con más de 10 años de experiencia",
+    "h1_suffix": "la mejor experiencia de casino online",
+    "subtitle": "Jugá desde tu celular con pesos argentinos. Depósitos por MercadoPago, Ualá y más. Atención local 24/7.",
+    "cta_primary": "Creá tu cuenta",
+    "cta_secondary": "Ver bonos",
+    "trust_badges": [
+      "+18",
+      "Juego Responsable",
+      "Atención al jugador"
+    ]
+  },
+  "bonuses": [
+    {
+      "title": "Bono de Bienvenida 100%",
+      "amount_ars": 50000,
+      "amount_label": "$50.000 ARS",
+      "wagering": "35x",
+      "description": "Depositá desde $5.000 ARS y recibí un 100% extra hasta $50.000 ARS. Válido para tragamonedas y juegos de mesa.",
+      "cta": "Reclamar bono",
+      "slug_ref": ""
+    },
+    {
+      "title": "Bono Recarga Semanal",
+      "amount_ars": 20000,
+      "amount_label": "$20.000 ARS",
+      "wagering": "30x",
+      "description": "Todos los viernes obtené un 50% de recarga hasta $20.000 ARS. Ideal para seguir jugando el fin de semana.",
+      "cta": "Activá tu recarga",
+      "slug_ref": ""
+    }
+  ],
+  "features": [
+    {
+      "icon": "shield",
+      "title": "Plataforma segura y confiable",
+      "description": "Tus datos personales y transacciones están protegidos con encriptación SSL. Operamos bajo estrictos controles de seguridad."
+    },
+    {
+      "icon": "zap",
+      "title": "Depósitos y retiros ultrarrápidos",
+      "description": "Usá MercadoPago, Ualá, Pago Fácil o Rapipago. Los retiros se procesan en menos de 24 horas hábiles."
+    },
+    {
+      "icon": "wallet",
+      "title": "Bonos en pesos argentinos",
+      "description": "Todos nuestros bonos se otorgan en ARS sin conversión. Aprovechá promociones exclusivas para Argentina."
+    },
+    {
+      "icon": "gamepad",
+      "title": "Más de 500 juegos disponibles",
+      "description": "Disfrutá tragamonedas, ruleta, blackjack, póker, crash games y apuestas deportivas. Actualizamos el catálogo mensualmente."
+    },
+    {
+      "icon": "headset",
+      "title": "Atención al cliente 24/7 en español",
+      "description": "Nuestro equipo de soporte está disponible por chat en vivo y WhatsApp para resolver tus dudas al instante."
+    },
+    {
+      "icon": "trophy",
+      "title": "Programa de fidelidad VIP",
+      "description": "Acumulá puntos con cada apuesta y accedé a bonos exclusivos, giros gratis y eventos especiales para miembros."
+    }
+  ],
+  "payments": {
+    "intro": "En Casino de Mendoza aceptamos los métodos de pago más usados en Argentina. Depositá y retirá sin comisiones en pesos argentinos.",
+    "methods": [
+      {
+        "name": "MercadoPago",
+        "min_ars": 500,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Ualá",
+        "min_ars": 500,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Pago Fácil",
+        "min_ars": 1000,
+        "speed": "1-2 horas",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Rapipago",
+        "min_ars": 1000,
+        "speed": "1-2 horas",
+        "fee_label": "Sin comisión"
+      }
+    ]
+  },
+  "games": {
+    "intro": "Explorá nuestro variado catálogo de juegos: tragamonedas, ruleta, blackjack, crash games y apuestas deportivas. Encontrá tus favoritos y descubrí novedades cada mes.",
+    "featured": [
+      {
+        "name": "Mega Fortune Dreams",
+        "category": "Slots",
+        "rtp": 96.5,
+        "slug_ref": ""
+      },
+      {
+        "name": "Gonzo's Quest",
+        "category": "Slots",
+        "rtp": 95.97,
+        "slug_ref": ""
+      },
+      {
+        "name": "Ruleta Europea",
+        "category": "Live",
+        "rtp": 97.3,
+        "slug_ref": ""
+      },
+      {
+        "name": "Blackjack Clásico",
+        "category": "Live",
+        "rtp": 99.5,
+        "slug_ref": ""
+      },
+      {
+        "name": "Aviator",
+        "category": "Crash",
+        "rtp": 97,
+        "slug_ref": ""
+      },
+      {
+        "name": "Fútbol Argentino Apuestas",
+        "category": "Deportes",
+        "rtp": null,
+        "slug_ref": ""
+      }
+    ]
+  },
+  "app": {
+    "headline": "Descargá la app de Casino de Mendoza y jugá desde cualquier lugar",
+    "body": "Disponible para iOS y Android. Accedé a todos los juegos, bonos y promociones desde tu celular con la mejor experiencia móvil.",
+    "features": [
+      "Inicio de sesión rápido con huella digital",
+      "Notificaciones de bonos exclusivos",
+      "Depósitos desde la app",
+      "Transmisión en vivo de ruleta y blackjack",
+      "Soporte 24/7 integrado"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Cómo me registro en Casino de Mendoza?",
+      "a": "Hacé clic en 'Creá tu cuenta', completá tus datos personales y verificá tu identidad. El proceso es rápido y podés empezar a jugar en minutos."
+    },
+    {
+      "q": "¿Cuáles son los métodos de pago disponibles en Argentina?",
+      "a": "Aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago. Todos los depósitos son en pesos argentinos y sin comisiones."
+    },
+    {
+      "q": "¿Qué hago si el área de tragamonedas está llena?",
+      "a": "Si la planta alta de tragamonedas está muy concurrida, te sugerimos probar suerte en otras secciones como ruleta o blackjack, o usar la app móvil para jugar desde cualquier lugar."
+    },
+    {
+      "q": "¿Cómo funcionan los bonos de bienvenida?",
+      "a": "Al hacer tu primer depósito mínimo de $5.000 ARS, recibís un 100% extra hasta $50.000 ARS. El bono tiene un requisito de apuesta de 35x antes de poder retirar las ganancias."
+    },
+    {
+      "q": "¿Es seguro jugar en Casino de Mendoza?",
+      "a": "Sí, utilizamos encriptación SSL para proteger tus datos. Recomendamos jugar de forma responsable y recordamos que está prohibido para menores de 18 años."
+    }
+  ],
+  "footer": {
+    "tagline": "Viví la emoción del casino desde casa. Jugá responsablemente.",
+    "responsible_gaming_note": "Este sitio es para mayores de 18 años. Si tenés problemas con el juego, contactá a SEDRONAR o buscá ayuda profesional."
+  }
+}
