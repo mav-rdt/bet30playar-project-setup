@@ -1,0 +1,179 @@
+{
+  "brand_slug": "konabet",
+  "generated_at": "2026-06-09T14:50:26.073Z",
+  "meta": {
+    "title": "Konabet Argentina | Casino Online con Bonos en ARS",
+    "description": "Descubrí Konabet, el casino online líder en Argentina. Bonos de hasta $100.000 ARS, métodos de pago locales y juegos variados. ¡Registrate y jugá!"
+  },
+  "hero": {
+    "eyebrow": "Sin licencia nacional — confianza y diversión en cada juego",
+    "h1_suffix": "Ganá en grande con bonos exclusivos",
+    "subtitle": "Descubrí la emoción del casino online con métodos de pago locales como MercadoPago y Rapipago. Jugá desde tu celular sin complicaciones.",
+    "cta_primary": "Registrate y jugá",
+    "cta_secondary": "Ver bonos",
+    "trust_badges": [
+      "MercadoPago",
+      "Pago Fácil",
+      "Rapipago"
+    ]
+  },
+  "bonuses": [
+    {
+      "title": "Bono de Bienvenida",
+      "amount_ars": 100000,
+      "amount_label": "$100.000 ARS",
+      "wagering": "35x",
+      "description": "Depositá con MercadoPago y recibí el 100% de tu primer depósito hasta $100.000 ARS. Jugá tragamonedas y juegos de casino con este bono.",
+      "cta": "Reclamá tu bono",
+      "slug_ref": ""
+    },
+    {
+      "title": "Bono Recarga",
+      "amount_ars": 50000,
+      "amount_label": "$50.000 ARS",
+      "wagering": "30x",
+      "description": "Recargá tu cuenta los fines de semana y obtené un 50% extra hasta $50.000 ARS. Válido para todos los juegos.",
+      "cta": "Aprovechá la recarga",
+      "slug_ref": ""
+    }
+  ],
+  "features": [
+    {
+      "icon": "shield",
+      "title": "Seguridad y privacidad total",
+      "description": "Protegemos tus datos con cifrado SSL. Jugá con tranquilidad sabiendo que tu información está segura."
+    },
+    {
+      "icon": "zap",
+      "title": "Depósitos al instante",
+      "description": "Usá MercadoPago o Rapipago y depositá en segundos. Tus fondos estarán disponibles para jugar al toque."
+    },
+    {
+      "icon": "wallet",
+      "title": "Métodos locales argentinos",
+      "description": "Aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago. Sin comisiones ocultas, pensado para vos."
+    },
+    {
+      "icon": "gift",
+      "title": "Bonos exclusivos para vos",
+      "description": "Recibí bonos de bienvenida y recargas semanales. Aprovechá promociones actualizadas todo el año."
+    },
+    {
+      "icon": "gamepad",
+      "title": "Variedad de juegos",
+      "description": "Disfrutá tragamonedas, crash, ruleta en vivo y apuestas deportivas. Encontralo todo en un solo lugar."
+    },
+    {
+      "icon": "headset",
+      "title": "Atención al cliente 24/7",
+      "description": "Nuestro equipo de soporte está disponible las 24 horas. Resolvé tus dudas por chat o correo."
+    }
+  ],
+  "payments": {
+    "intro": "En Konabet, aceptamos los métodos de pago más utilizados en Argentina. Depositá y retirá con MercadoPago, Ualá, Pago Fácil y Rapipago, sin demoras ni comisiones.",
+    "methods": [
+      {
+        "name": "MercadoPago",
+        "min_ars": 500,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Ualá",
+        "min_ars": 1000,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Pago Fácil",
+        "min_ars": 1000,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Rapipago",
+        "min_ars": 1000,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      }
+    ]
+  },
+  "games": {
+    "intro": "Explorá nuestro catálogo con más de 1,000 juegos de casino. Desde tragamonedas clásicas hasta crash y ruleta en vivo, hay opciones para todos los gustos.",
+    "featured": [
+      {
+        "name": "Tragamonedas Clásicas",
+        "category": "Slots",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Mega Joker",
+        "category": "Slots",
+        "rtp": 96,
+        "slug_ref": ""
+      },
+      {
+        "name": "Crash X",
+        "category": "Crash",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Ruleta Europea",
+        "category": "Live",
+        "rtp": 97.3,
+        "slug_ref": ""
+      },
+      {
+        "name": "Blackjack en Vivo",
+        "category": "Live",
+        "rtp": 99.5,
+        "slug_ref": ""
+      },
+      {
+        "name": "Apuestas Deportivas",
+        "category": "Deportes",
+        "rtp": null,
+        "slug_ref": ""
+      }
+    ]
+  },
+  "app": {
+    "headline": "Konabet: jugá sin descargar ninguna app",
+    "body": "En Konabet, no necesitás una app para jugar. Accedé desde el navegador de tu celular y disfrutá de todos los juegos al instante.",
+    "features": [
+      "Acceso sin descarga",
+      "Compatible con iOS y Android",
+      "Carga rápida en 3G/4G",
+      "Bonos disponibles en mobile",
+      "Atención al cliente desde el celular"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Cómo me registro en Konabet?",
+      "a": "Registrate completando el formulario con tus datos personales. Verificá tu cuenta y empezá a jugar al instante."
+    },
+    {
+      "q": "¿Qué métodos de pago están disponibles?",
+      "a": "Aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago. Depósitos instantáneos sin comisiones."
+    },
+    {
+      "q": "¿Cuánto tiempo tardan los retiros?",
+      "a": "Los retiros se procesan en 24 horas hábiles. El tiempo depende del método, pero generalmente es rápido."
+    },
+    {
+      "q": "¿Konabet tiene aplicación móvil?",
+      "a": "No contamos con app descargable, pero podés jugar desde el navegador de tu celular. La versión móvil está optimizada para una experiencia completa."
+    },
+    {
+      "q": "¿Cómo funcionan los bonos?",
+      "a": "Los bonos se activan al depositar. Leé los términos de wagering antes de solicitar el retiro."
+    }
+  ],
+  "footer": {
+    "tagline": "Konabet: tu casino online favorito en Argentina, con métodos locales.",
+    "responsible_gaming_note": "Jugá con responsabilidad. Prohibido para menores de 18 años. SEDRONAR: 0800-222-3342."
+  }
+}
