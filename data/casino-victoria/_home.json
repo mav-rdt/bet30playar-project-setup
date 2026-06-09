@@ -1,0 +1,173 @@
+{
+  "brand_slug": "casino-victoria",
+  "generated_at": "2026-06-09T14:52:48.976Z",
+  "meta": {
+    "title": "Casino Victoria Argentina | Casino Online con LOTBA",
+    "description": "Disfrutá del mejor casino online en Argentina con Casino Victoria. Depósitos en ARS con MercadoPago, juegos y bonos exclusivos. ¡Registrate ya!"
+  },
+  "hero": {
+    "eyebrow": "Licencia oficial LOTBA | Casino seguro en Argentina",
+    "h1_suffix": "Jugá con responsabilidad y ganá en grande",
+    "subtitle": "En Casino Victoria encontrá tragamonedas, crash games y casino en vivo. Depósitos y retiros rápidos en ARS con los métodos locales que conocés.",
+    "cta_primary": "Creá tu cuenta",
+    "cta_secondary": "Ver bonos",
+    "trust_badges": [
+      "LOTBA",
+      "SSL",
+      "+18"
+    ]
+  },
+  "bonuses": [
+    {
+      "title": "Bienvenida: 100% hasta $50.000 ARS + 100 giros",
+      "amount_ars": 50000,
+      "amount_label": "$50.000 ARS",
+      "wagering": "35x",
+      "description": "Depositá desde $500 ARS y recibí el 100% de tu primer depósito hasta $50.000 ARS más 100 giros gratis en slots seleccionados. Condiciones aplican.",
+      "cta": "Reclamar bonus",
+      "slug_ref": ""
+    },
+    {
+      "title": "Recarga semanal: 50% hasta $20.000 ARS",
+      "amount_ars": 20000,
+      "amount_label": "$20.000 ARS",
+      "wagering": "30x",
+      "description": "Todos los jueves recibí un 50% extra en tu depósito hasta $20.000 ARS. Válido para slots y crash games.",
+      "cta": "Activar recarga",
+      "slug_ref": ""
+    }
+  ],
+  "features": [
+    {
+      "icon": "shield",
+      "title": "Licencia oficial LOTBA",
+      "description": "Operamos bajo la regulación de la Lotería de la Ciudad de Buenos Aires. Tu tranquilidad es nuestra prioridad."
+    },
+    {
+      "icon": "zap",
+      "title": "Depósitos y retiros express",
+      "description": "Gestioná tus fondos de manera rápida y sencilla. Los retiros se procesan en 24-48 horas hábiles."
+    },
+    {
+      "icon": "wallet",
+      "title": "Métodos locales en ARS",
+      "description": "Usá MercadoPago, Ualá, Pago Fácil o Rapipago. Todas las transacciones en pesos argentinos sin comisiones."
+    },
+    {
+      "icon": "gift",
+      "title": "Bonos exclusivos cada semana",
+      "description": "Disfrutá de promociones renovadas semanalmente. Desde bonos de recarga hasta giros gratis."
+    },
+    {
+      "icon": "gamepad",
+      "title": "Más de 500 juegos",
+      "description": "Elegí entre tragamonedas, crash games, ruleta en vivo y mucho más. Proveedores de primer nivel."
+    },
+    {
+      "icon": "headset",
+      "title": "Atención al cliente 24/7",
+      "description": "Nuestro equipo de soporte está disponible las 24 horas para ayudarte. Contactanos por chat o email."
+    }
+  ],
+  "payments": {
+    "intro": "En Casino Victoria aceptamos los métodos de pago más populares de Argentina. Depositá y retirá en ARS sin comisiones ocultas.",
+    "methods": [
+      {
+        "name": "MercadoPago",
+        "min_ars": 500,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Ualá",
+        "min_ars": 500,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Pago Fácil",
+        "min_ars": 500,
+        "speed": "24 horas",
+        "fee_label": "Sin comisión"
+      }
+    ]
+  },
+  "games": {
+    "intro": "Descubrí una amplia variedad de juegos de casino online, desde tragamonedas hasta crash games y casino en vivo. Todo en un entorno seguro y con licencia LOTBA.",
+    "featured": [
+      {
+        "name": "Mega Moolah",
+        "category": "Slots",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Starburst",
+        "category": "Slots",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "JetX",
+        "category": "Crash",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Aviator",
+        "category": "Crash",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Live Roulette",
+        "category": "Live",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Live Blackjack",
+        "category": "Live",
+        "rtp": null,
+        "slug_ref": ""
+      }
+    ]
+  },
+  "app": {
+    "headline": "Casino Victoria: Jugá desde tu celular",
+    "body": "Descargá nuestra app para iOS y Android y llevá el casino a todas partes. Disfrutá de juegos, bonos y depósitos rápidos desde la palma de tu mano.",
+    "features": [
+      "Interfaz intuitiva",
+      "Notificaciones de bonos",
+      "Depósitos con un toque",
+      "Retiros rápidos",
+      "Juegos exclusivos"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Es seguro Casino Victoria?",
+      "a": "Sí, contamos con licencia oficial LOTBA y tecnología SSL para proteger tus datos. Podés jugar con total tranquilidad."
+    },
+    {
+      "q": "¿Cuáles son los métodos de pago disponibles?",
+      "a": "Aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago. Todos en ARS, sin comisiones y con depósitos desde $500."
+    },
+    {
+      "q": "¿Cuánto tarda un retiro?",
+      "a": "Los retiros se procesan en un plazo de 24 a 48 horas hábiles. Los plazos pueden variar según el método elegido."
+    },
+    {
+      "q": "¿Cómo funciona el bono de bienvenida?",
+      "a": "Al hacer tu primer depósito desde $500 ARS, recibís un 100% extra hasta $50.000 ARS más 100 giros gratis. El bono tiene un requisito de apuesta de 35x."
+    },
+    {
+      "q": "¿Hay app móvil disponible?",
+      "a": "Sí, tenemos app para iOS y Android. Descargala desde nuestras tiendas oficiales y accedé a todos los juegos y bonos."
+    }
+  ],
+  "footer": {
+    "tagline": "Casino Victoria - Diversión segura con licencia LOTBA",
+    "responsible_gaming_note": "Jugá con responsabilidad. Prohibida la entrada a menores de 18 años. SEDRONAR: 0800-222-2222."
+  }
+}
