@@ -1,0 +1,179 @@
+{
+  "brand_slug": "masterbets365",
+  "generated_at": "2026-06-09T14:50:48.772Z",
+  "meta": {
+    "title": "MasterBets365 Argentina | Casino Online en ARS",
+    "description": "Jugá en MasterBets365, el casino online líder en Argentina. Pagos con MercadoPago, Ualá y más. Bonos exclusivos en pesos argentinos."
+  },
+  "hero": {
+    "eyebrow": "Sin licencia nacional, operá con confianza",
+    "h1_suffix": "el casino online que te paga en ARS",
+    "subtitle": "Registrate y recibí un bono de bienvenida de hasta $50.000 ARS. Jugá con MercadoPago, Rapipago y más métodos locales.",
+    "cta_primary": "Registrate ya",
+    "cta_secondary": "Ver bonos",
+    "trust_badges": [
+      "+18",
+      "SEDRONAR",
+      "Jugá responsable"
+    ]
+  },
+  "bonuses": [
+    {
+      "title": "Bono de Bienvenida",
+      "amount_ars": 50000,
+      "amount_label": "$50.000 ARS",
+      "wagering": "35x",
+      "description": "Obtené un 100% de tu primer depósito hasta $50.000 ARS. Válido para slots y juegos de mesa. Requisito de apuesta 35x.",
+      "cta": "Reclamar bono",
+      "slug_ref": ""
+    },
+    {
+      "title": "Bono Recarga Semanal",
+      "amount_ars": 20000,
+      "amount_label": "$20.000 ARS",
+      "wagering": "30x",
+      "description": "Cada semana recibí un 50% de recarga hasta $20.000 ARS. Depositá con MercadoPago y activá el bono automáticamente.",
+      "cta": "Recargar ahora",
+      "slug_ref": ""
+    }
+  ],
+  "features": [
+    {
+      "icon": "shield",
+      "title": "Jugá seguro y tranquilo",
+      "description": "Tu plata está protegida con encriptación SSL. Todos los datos personales se manejan de forma confidencial."
+    },
+    {
+      "icon": "wallet",
+      "title": "Depositá con tus billeteras",
+      "description": "Usá MercadoPago, Ualá, Pago Fácil o Rapipago. Depósitos mínimos desde $500 ARS."
+    },
+    {
+      "icon": "zap",
+      "title": "Retiros rápidos y sin vueltas",
+      "description": "Tus ganancias se acreditan en 24 horas hábiles. Sin comisiones ocultas."
+    },
+    {
+      "icon": "gift",
+      "title": "Bonos exclusivos en ARS",
+      "description": "Aprovechá promociones pensadas para argentinos. Bono de bienvenida, recargas y cashback."
+    },
+    {
+      "icon": "gamepad",
+      "title": "Catálogo de juegos variado",
+      "description": "Slots, ruleta, blackjack, crash games y más. Todo desde tu navegador, sin descargas."
+    },
+    {
+      "icon": "headset",
+      "title": "Soporte 24/7 en español",
+      "description": "Chat en vivo y WhatsApp. Respondemos todas tus consultas al instante."
+    }
+  ],
+  "payments": {
+    "intro": "En MasterBets365 aceptamos los métodos de pago más populares de Argentina. Depositá y retirá en pesos sin demoras. Todos los depósitos son instantáneos.",
+    "methods": [
+      {
+        "name": "MercadoPago",
+        "min_ars": 500,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Ualá",
+        "min_ars": 500,
+        "speed": "Instantáneo",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Pago Fácil",
+        "min_ars": 1000,
+        "speed": "Hasta 24 hs",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Rapipago",
+        "min_ars": 1000,
+        "speed": "Hasta 24 hs",
+        "fee_label": "Sin comisión"
+      }
+    ]
+  },
+  "games": {
+    "intro": "Descubrí cientos de juegos de casino online en MasterBets365. Desde tragamonedas hasta ruleta en vivo, todo con gráficos de primer nivel.",
+    "featured": [
+      {
+        "name": "Mega Moolah",
+        "category": "Slots",
+        "rtp": 88.12,
+        "slug_ref": ""
+      },
+      {
+        "name": "Starburst",
+        "category": "Slots",
+        "rtp": 96.09,
+        "slug_ref": ""
+      },
+      {
+        "name": "Gonzo's Quest",
+        "category": "Slots",
+        "rtp": 95.97,
+        "slug_ref": ""
+      },
+      {
+        "name": "Ruleta Europea",
+        "category": "Live",
+        "rtp": 97.3,
+        "slug_ref": ""
+      },
+      {
+        "name": "Blackjack Clásico",
+        "category": "Live",
+        "rtp": 99.5,
+        "slug_ref": ""
+      },
+      {
+        "name": "Baccarat en Vivo",
+        "category": "Live",
+        "rtp": 98.94,
+        "slug_ref": ""
+      }
+    ]
+  },
+  "app": {
+    "headline": "MasterBets365 sin app, jugá desde el navegador",
+    "body": "No tenemos aplicación oficial para descargar, pero nuestro sitio está optimizado para móviles. Accedé desde cualquier dispositivo sin instalar nada.",
+    "features": [
+      "Carga rápida en 3G/4G",
+      "Menú táctil intuitivo",
+      "Bonos activables desde el celular",
+      "Retiros con MercadoPago",
+      "Soporte por WhatsApp integrado"
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Cómo me registro en MasterBets365?",
+      "a": "Entrá al sitio, hacé clic en 'Registrate' y completá tus datos. Solo necesitás un email y una contraseña. En menos de 2 minutos ya podés depositar."
+    },
+    {
+      "q": "¿Cuáles son los métodos de pago disponibles?",
+      "a": "Aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago. Los depósitos son instantáneos con billeteras, y los retiros se procesan en 24 horas hábiles."
+    },
+    {
+      "q": "¿Hay bono de bienvenida?",
+      "a": "Sí, al hacer tu primer depósito obtenés un 100% hasta $50.000 ARS. El bono tiene requisito de apuesta 35x en slots."
+    },
+    {
+      "q": "¿MasterBets365 tiene aplicación móvil?",
+      "a": "No contamos con app oficial, pero el sitio funciona perfecto desde el navegador de tu celular. Podés jugar y gestionar tu cuenta sin descargas."
+    },
+    {
+      "q": "¿Es seguro jugar en MasterBets365?",
+      "a": "Sí, usamos encriptación SSL y todas las transacciones son seguras. Además, promovemos el juego responsable y respetamos la normativa argentina."
+    }
+  ],
+  "footer": {
+    "tagline": "MasterBets365: tu casino online de confianza en Argentina.",
+    "responsible_gaming_note": "Jugá responsablemente. Prohibida la entrada a menores de 18 años. SEDRONAR: 0800-222-7373."
+  }
+}
