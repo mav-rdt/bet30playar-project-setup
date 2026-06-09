@@ -1,39 +1,39 @@
 {
   "brand_slug": "bplay",
-  "generated_at": "2026-06-09T12:37:44.607Z",
+  "generated_at": "2026-06-09T14:51:54.759Z",
   "meta": {
-    "title": "Bplay Argentina | Casino Online con Bonos en ARS",
-    "description": "Jugá en Bplay, el casino online con licencia IPLyC. Depósitos en pesos, bonos exclusivos y juegos variados. ¡Registrate ahora y ganá!"
+    "title": "Bplay Argentina | Casino Online con Jackpots en ARS",
+    "description": "Descubrí Bplay, el casino online de Argentina con jackpots, tragamonedas y mesa en vivo. Ganá en ARS con depósitos por MercadoPago. ¡Jugá ahora!"
   },
   "hero": {
-    "eyebrow": "Licenciado por IPLyC – Confianza total",
-    "h1_suffix": "ganá en pesos argentinos",
-    "subtitle": "Disfrutá los mejores slots, mesas en vivo y crash games desde tu celu. Depósitos y retiros con MercadoPago, Ualá, Rapipago y más.",
-    "cta_primary": "Creá tu cuenta",
+    "eyebrow": "Licenciado por IPLyC de la Provincia de Buenos Aires",
+    "h1_suffix": "el casino online de Argentina",
+    "subtitle": "Disfrutá tragamonedas, ruleta y blackjack con jackpots progresivos. Depositá con MercadoPago, Ualá, Rapipago y jugá en pesos argentinos.",
+    "cta_primary": "Jugá ahora",
     "cta_secondary": "Ver bonos",
     "trust_badges": [
       "IPLyC",
       "SSL Secure",
-      "Responsable"
+      "Juego Responsable"
     ]
   },
   "bonuses": [
     {
-      "title": "Bienvenida de $20.000 ARS",
+      "title": "Bienvenida 100% hasta $20.000 ARS",
       "amount_ars": 20000,
       "amount_label": "$20.000 ARS",
       "wagering": "35x",
-      "description": "Depositá desde $500 y recibí un bono del 100% hasta $20.000 ARS. Ideal para arrancar con más saldo.",
+      "description": "Recibí el 100% de tu primer depósito hasta $20.000 ARS. El bono se acredita automáticamente y podés usarlo en slots y juegos de mesa.",
       "cta": "Reclamar bono",
       "slug_ref": ""
     },
     {
-      "title": "Bonus Recarga de $10.000 ARS",
-      "amount_ars": 10000,
-      "amount_label": "$10.000 ARS",
-      "wagering": "30x",
-      "description": "Todos los lunes recibí un 50% extra en tu depósito. Topo de bono: $10.000 ARS. ¡No te lo pierdas!",
-      "cta": "Recargar ahora",
+      "title": "100 giros gratis en Book of Dead",
+      "amount_ars": 5000,
+      "amount_label": "$5.000 ARS en giros",
+      "wagering": "40x",
+      "description": "Depositá $1.000 ARS o más y obtené 100 giros gratis en Book of Dead. Las ganancias de los giros tienen exigencia de apuesta 40x.",
+      "cta": "Obtener giros",
       "slug_ref": ""
     }
   ],
@@ -41,65 +41,65 @@
     {
       "icon": "shield",
       "title": "Licencia oficial IPLyC",
-      "description": "Operamos bajo la regulación de la Provincia de Buenos Aires. Tu seguridad es nuestra prioridad."
+      "description": "Bplay opera bajo licencia del Instituto de Lotería y Casinos de la Provincia de Buenos Aires. Jugá con tranquilidad y seguridad."
     },
     {
       "icon": "zap",
-      "title": "Retiros exprés en 24h",
-      "description": "Cobrá tus ganancias rápido. Los retiros se procesan en menos de 24 horas hábiles."
+      "title": "Depósitos y retiros rápidos",
+      "description": "Usá MercadoPago, Ualá, Rapipago o Pago Fácil. Los retiros se procesan en 24 horas hábiles a tu cuenta bancaria."
     },
     {
       "icon": "wallet",
-      "title": "Depósitos en pesos argentinos",
-      "description": "Usá MercadoPago, Ualá, Pago Fácil o Rapipago. Sin comisiones y con montos mínimos bajos."
+      "title": "Jugá en pesos argentinos",
+      "description": "Todos los montos están en ARS. Sin conversión ni comisiones ocultas. Apostá directo desde tu cuenta bancaria."
     },
     {
       "icon": "gift",
-      "title": "Bonos y promos exclusivas",
-      "description": "Recibí bonos de bienvenida, recargas semanales y giros gratis. Siempre hay una promo activa."
+      "title": "Bonos semanales y promos",
+      "description": "Recibí bonos por recarga, giros gratis y cashback todos los jueves. Revisá la sección de promociones cada semana."
     },
     {
       "icon": "gamepad",
-      "title": "Más de 500 juegos",
-      "description": "Slots, ruleta en vivo, blackjack, crash games y apuestas deportivas. Diversión sin límites."
+      "title": "Más de 500 tragamonedas",
+      "description": "Desde Book of Dead hasta Starburst, pasando por títulos exclusivos de Pragmatic Play. También tenés ruleta en vivo y blackjack."
     },
     {
       "icon": "headset",
-      "title": "Soporte 24/7 en español",
-      "description": "Atención al cliente por chat y WhatsApp. Respondemos al toque, todos los días."
+      "title": "Atención al cliente en vivo",
+      "description": "Chat 24/7 con operadores argentinos. Resolvé tus dudas sobre depósitos, bonos o juegos al instante."
     }
   ],
   "payments": {
-    "intro": "En Bplay aceptamos los métodos de pago más usados en Argentina. Depositá y retirá en pesos sin vueltas, con la rapidez que necesitás.",
+    "intro": "En Bplay aceptamos los métodos de pago más usados en Argentina. Depositá en ARS sin comisiones y empezá a jugar al toque.",
     "methods": [
       {
         "name": "MercadoPago",
-        "min_ars": 200,
+        "min_ars": 300,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Ualá",
-        "min_ars": 200,
+        "min_ars": 300,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Pago Fácil",
-        "min_ars": 500,
-        "speed": "1-2 días hábiles",
+        "min_ars": 100,
+        "speed": "1 hora",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Rapipago",
-        "min_ars": 500,
-        "speed": "1-2 días hábiles",
+        "min_ars": 100,
+        "speed": "1 hora",
         "fee_label": "Sin comisión"
       }
     ]
   },
   "games": {
-    "intro": "Descubrí una selección de juegos que va desde tragamonedas clásicas hasta mesas en vivo con crupieres reales. Todos con RTP competitivo y disponibles desde tu navegador.",
+    "intro": "Elegí entre cientos de tragamonedas, juegos de mesa en vivo y apuestas deportivas. Los títulos más populares con jackpots progresivos te esperan.",
     "featured": [
       {
         "name": "Book of Dead",
@@ -114,66 +114,66 @@
         "slug_ref": ""
       },
       {
-        "name": "Gates of Olympus",
+        "name": "Sweet Bonanza",
         "category": "Slots",
-        "rtp": 96.5,
+        "rtp": 96.48,
         "slug_ref": ""
       },
       {
-        "name": "Ruleta Viva",
+        "name": "Ruleta Europea",
         "category": "Live",
-        "rtp": null,
+        "rtp": 97.3,
         "slug_ref": ""
       },
       {
-        "name": "Blackjack Vivo",
+        "name": "Blackjack Clásico",
         "category": "Live",
-        "rtp": null,
+        "rtp": 99.28,
         "slug_ref": ""
       },
       {
-        "name": "JetX",
-        "category": "Crash",
-        "rtp": 97,
+        "name": "Mega Moolah",
+        "category": "Slots",
+        "rtp": 88.12,
         "slug_ref": ""
       }
     ]
   },
   "app": {
-    "headline": "Bplay App: jugá desde tu celular",
-    "body": "Descargá la app oficial de Bplay para iOS y Android. Accedé a todos los juegos, bonos y promociones desde la palma de tu mano.",
+    "headline": "Descargá la app de Bplay Argentina",
+    "body": "Llevá el casino en tu bolsillo. La app de Bplay está disponible para Android e iOS, con todas las tragamonedas y juegos en vivo optimizados para móvil.",
     "features": [
-      "Depósitos rápidos",
-      "Retiros en 24h",
-      "Push notifications de promos",
-      "Juegos exclusivos mobile",
-      "Soporte integrado"
+      "Depósitos desde la app con MercadoPago",
+      "Bonos exclusivos para usuarios mobile",
+      "Notificaciones de jackpots y promos",
+      "Carga rápida de juegos",
+      "Atención al cliente desde la app"
     ]
   },
   "faq": [
     {
       "q": "¿Bplay tiene licencia oficial en Argentina?",
-      "a": "Sí, Bplay cuenta con licencia otorgada por el IPLyC de la Provincia de Buenos Aires. Operamos bajo estrictos controles de seguridad y juego responsable."
+      "a": "Sí, Bplay está licenciado por el Instituto de Lotería y Casinos de la Provincia de Buenos Aires (IPLyC). Podés verificar la licencia en el pie de página del sitio."
     },
     {
-      "q": "¿Puedo depositar en pesos argentinos?",
-      "a": "Claro que sí. Aceptamos transferencias vía MercadoPago, Ualá, Pago Fácil y Rapipago. Todos los montos están en ARS y sin comisiones ocultas."
+      "q": "¿Puedo depositar con MercadoPago?",
+      "a": "Sí, aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago. Los depósitos se acreditan al instante (excepto los presenciales que pueden tardar hasta 1 hora)."
     },
     {
       "q": "¿Cuánto tardan los retiros?",
-      "a": "Los retiros se procesan en un plazo máximo de 24 horas hábiles. Una vez aprobados, el dinero llega a tu cuenta bancaria o billetera virtual enseguida."
+      "a": "Los retiros se procesan en 24 horas hábiles. Una vez aprobados, el dinero llega a tu cuenta bancaria en 2 a 5 días hábiles, según el banco."
     },
     {
-      "q": "¿Qué bonos de bienvenida ofrecen?",
-      "a": "Ofrecemos un bono de bienvenida del 100% hasta $20.000 ARS. Además, hay promociones semanales como recargas y giros gratis."
+      "q": "¿Cuál es el bono de bienvenida?",
+      "a": "El bono de bienvenida es del 100% hasta $20.000 ARS en tu primer depósito. Además, podés obtener 100 giros gratis en Book of Dead con un depósito mínimo de $1.000 ARS."
     },
     {
-      "q": "¿Hay atención al cliente en español?",
-      "a": "Sí, nuestro equipo de soporte está disponible las 24 horas del día los 7 días de la semana por chat en vivo, WhatsApp y correo electrónico. Hablamos español rioplatense."
+      "q": "¿Ofrecen juego responsable?",
+      "a": "Sí, promovemos el juego responsable. Podés establecer límites de depósito, autoexcluirte temporalmente o contactar a la línea de ayuda SEDRONAR (0800-222-7376)."
     }
   ],
   "footer": {
-    "tagline": "Tu casino de confianza, con licencia IPLyC y pagos en pesos.",
-    "responsible_gaming_note": "El juego es para mayores de 18 años. Jugá con responsabilidad. Si necesitás ayuda, contactá a SEDRONAR al 141."
+    "tagline": "Bplay: pasión argentina por el juego, con responsabilidad.",
+    "responsible_gaming_note": "Prohibida la participación de menores de 18 años. Jugá con responsabilidad. Si tenés problemas con el juego, llamá al 0800-222-7376 (SEDRONAR)."
   }
 }
