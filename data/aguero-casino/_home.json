@@ -1,105 +1,114 @@
 {
   "brand_slug": "aguero-casino",
-  "generated_at": "2026-06-05T18:44:54.418Z",
+  "generated_at": "2026-06-09T12:35:34.505Z",
   "meta": {
-    "title": "Agüero Casino Argentina | Jugá y Ganá en ARS",
-    "description": "Descubrí Agüero Casino en Argentina. Bonos de hasta $350.000 ARS, depósitos con MercadoPago y pagos rápidos. ¡Registrate y ganá!"
+    "title": "Agüero Casino Argentina | Jugá con Confianza y Ganá en ARS",
+    "description": "Descubrí Agüero Casino en Argentina: bonos en ARS, pagos con MercadoPago y atención local. Jugá seguro y retirá tus ganancias."
   },
   "hero": {
-    "eyebrow": "Sin licencia nacional, con total transparencia",
-    "h1_suffix": "para ganar en grande en Argentina",
-    "subtitle": "Disfrutá de los mejores juegos y bonos en ARS con depósitos vía MercadoPago y atención 24/7.",
-    "cta_primary": "¡Registrate ya!",
+    "eyebrow": "Operador confiable sin licencia nacional",
+    "h1_suffix": "Jugá con Confianza en ARS",
+    "subtitle": "El casino online pensado para argentinos: bonos generosos, pagos en MercadoPago y atención en tu idioma.",
+    "cta_primary": "Creá tu cuenta",
     "cta_secondary": "Ver bonos",
     "trust_badges": [
-      "Pagos en ARS",
       "Atención 24/7",
-      "MercadoPago"
+      "Pagos en ARS",
+      "Más de 500 juegos"
     ]
   },
   "bonuses": [
     {
       "title": "Bono de Bienvenida",
       "amount_ars": 350000,
-      "amount_label": "$350.000 ARS",
+      "amount_label": "Hasta $350.000 ARS",
       "wagering": "35x",
-      "description": "Recibí hasta $350.000 ARS en tu primer depósito. Jugá con los mejores juegos y retirá tus ganancias sin problemas.",
-      "cta": "Reclamá tu bono",
+      "description": "Depositá y recibí hasta $350.000 ARS en bonos. Jugá tus tragamonedas favoritas con crédito extra.",
+      "cta": "Reclamar bono",
       "slug_ref": "bono-bienvenida-aguero-casino-argentina"
     },
     {
-      "title": "Código Promocional",
+      "title": "Código Promocional Exclusivo",
       "amount_ars": 10000,
-      "amount_label": "$10.000 ARS",
-      "wagering": "30x",
-      "description": "Usá el código promocional y obtené $10.000 ARS extra en tu segundo depósito. Aprovechá esta oferta exclusiva.",
-      "cta": "Copiá el código",
+      "amount_label": "$10.000 ARS en giros",
+      "wagering": "35x",
+      "description": "Usá nuestro código y obtené $10.000 ARS en giros gratis. Válido para tragamonedas seleccionadas.",
+      "cta": "Usar código",
       "slug_ref": "codigo-promocional-aguero-casino"
+    },
+    {
+      "title": "Bono de Recarga",
+      "amount_ars": 150000,
+      "amount_label": "Hasta $150.000 ARS",
+      "wagering": "30x",
+      "description": "Recargá tu cuenta y recibí un bonus del 50% hasta $150.000 ARS. Disponible todos los días.",
+      "cta": "Depositá ahora",
+      "slug_ref": ""
     }
   ],
   "features": [
     {
       "icon": "shield",
-      "title": "Seguridad y transparencia",
-      "description": "Protegemos tus datos y transacciones. Jugá con confianza sabiendo que tu información está segura."
+      "title": "Seguridad ante todo",
+      "description": "Tus datos están protegidos con encriptación SSL. Jugá tranquilo sabiendo que tu información está segura."
     },
     {
       "icon": "zap",
       "title": "Pagos ultrarrápidos",
-      "description": "Depositá y retirá al instante con MercadoPago. Sin demoras ni complicaciones."
+      "description": "Retirá tus ganancias en minutos con MercadoPago. Sin demoras ni complicaciones."
     },
     {
       "icon": "wallet",
-      "title": "Métodos locales en ARS",
-      "description": "Usá MercadoPago, Ualá, Pago Fácil o Rapipago. Operá en pesos argentinos sin conversiones."
+      "title": "Pesos argentinos",
+      "description": "Operá en ARS sin conversiones. Depositá y retirá en tu moneda local desde el primer momento."
     },
     {
       "icon": "gift",
-      "title": "Bonos exclusivos",
-      "description": "Aprovechá bonos de bienvenida y promociones semanales. Más oportunidades para ganar."
+      "title": "Bonos generosos",
+      "description": "Aprovechá promos exclusivas para argentinos. Bono de bienvenida, recargas y código promocional."
     },
     {
       "icon": "gamepad",
-      "title": "Catálogo de juegos variado",
-      "description": "Disfrutá de slots, crash games y ruleta en vivo. Nuevos títulos cada semana."
+      "title": "Más de 500 juegos",
+      "description": "Tragamonedas, ruleta, blackjack y juegos en vivo. Encontrá tu favorito y ganá en grande."
     },
     {
       "icon": "headset",
-      "title": "Soporte 24/7 en español",
-      "description": "Atención al cliente las 24 horas por chat y WhatsApp. Resolvé tus dudas al instante."
+      "title": "Soporte local",
+      "description": "Atención al cliente en español, por chat y WhatsApp. Respondemos tus dudas al instante."
     }
   ],
   "payments": {
-    "intro": "En Agüero Casino aceptamos los métodos de pago más populares de Argentina. Depositá y retirá en ARS sin comisiones ocultas.",
+    "intro": "En Agüero Casino aceptamos los métodos de pago más usados en Argentina. Depositá y retirá en ARS con MercadoPago, Ualá o Pago Fácil, sin comisiones.",
     "methods": [
       {
         "name": "MercadoPago",
-        "min_ars": 100,
+        "min_ars": 500,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Ualá",
-        "min_ars": 500,
+        "min_ars": 1000,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Pago Fácil",
-        "min_ars": 500,
-        "speed": "24 horas",
-        "fee_label": "Gratuito"
+        "min_ars": 200,
+        "speed": "Hasta 24 hs",
+        "fee_label": "Sin comisión"
       },
       {
         "name": "Rapipago",
-        "min_ars": 500,
-        "speed": "24 horas",
-        "fee_label": "Gratuito"
+        "min_ars": 200,
+        "speed": "Hasta 24 hs",
+        "fee_label": "Sin comisión"
       }
     ]
   },
   "games": {
-    "intro": "Explorá nuestro catálogo con cientos de juegos de las mejores proveedoras. Encontrá slots, crash games y ruleta en vivo con altos RTP.",
+    "intro": "Descubrí nuestra selección de juegos: tragamonedas con alta volatilidad, crash games y mesas en vivo. Diversión garantizada para todos los gustos.",
     "featured": [
       {
         "name": "Book of Dead",
@@ -114,72 +123,66 @@
         "slug_ref": ""
       },
       {
-        "name": "Gonzo's Quest",
+        "name": "Mega Moolah",
         "category": "Slots",
-        "rtp": 96,
+        "rtp": 88.12,
         "slug_ref": ""
       },
       {
-        "name": "Sweet Bonanza",
-        "category": "Slots",
-        "rtp": 96.51,
-        "slug_ref": ""
-      },
-      {
-        "name": "JetX",
-        "category": "Crash",
-        "rtp": null,
-        "slug_ref": ""
-      },
-      {
-        "name": "Ruleta en Vivo",
+        "name": "Ruleta Europea",
         "category": "Live",
         "rtp": 97.3,
         "slug_ref": ""
       },
       {
-        "name": "Mega Moolah",
-        "category": "Slots",
-        "rtp": 88.12,
+        "name": "Blackjack Clásico",
+        "category": "Live",
+        "rtp": 99.5,
+        "slug_ref": ""
+      },
+      {
+        "name": "Aviator",
+        "category": "Crash",
+        "rtp": 97,
         "slug_ref": ""
       }
     ]
   },
   "app": {
-    "headline": "Agüero Casino en tu celular",
-    "body": "Descargá la app de Agüero Casino y llevá la emoción a donde vayas. Disponible para iOS y Android con todas las funciones.",
+    "headline": "Agüero Casino App: Jugá desde tu celu",
+    "body": "Descargá nuestra app para Android y iOS y llevá el casino en tu bolsillo. Accedé a todos los juegos, bonos y pagos desde tu dispositivo móvil.",
     "features": [
-      "Depósitos rápidos con MercadoPago",
-      "Bonos exclusivos desde el celular",
-      "Atención en vivo 24/7",
-      "Retiros seguros en ARS",
-      "MercadoPago integrado"
+      "Interfaz rápida",
+      "Notificaciones de bonos",
+      "Depósitos con un toque",
+      "Juego en vivo",
+      "Soporte integrado"
     ]
   },
   "faq": [
     {
-      "q": "¿Por qué no recibo mis retiros si gano?",
-      "a": "Algunos usuarios reportan demoras en los retiros. Recomendamos verificar que cumpliste con los requisitos de apuesta. Si persiste, contactá a soporte con tu comprobante de transacción."
+      "q": "¿Por qué no recibo mis retiros de ganancias?",
+      "a": "Algunos usuarios reportan demoras en los retiros. Si ganaste y no recibís tu dinero, contactá al soporte inmediatamente. Recomendamos verificar tus datos antes de retirar."
     },
     {
-      "q": "¿El casino confisca mis fondos después de varios depósitos?",
-      "a": "Hemos recibido reportes de cuentas cerradas sin pago. Siempre verificá las políticas de uso y jugá con responsabilidad. Ante cualquier duda, contactá a atención al cliente."
+      "q": "¿Es confiable Agüero Casino?",
+      "a": "Agüero Casino opera sin licencia nacional, pero tiene años de experiencia en el mercado. Sin embargo, hay reportes de confiscación de fondos después del segundo o tercer depósito. Jugá con precaución y no deposites más de lo que estés dispuesto a perder."
     },
     {
-      "q": "Deposité $5.000 ARS y no se acreditó, ¿qué hago?",
-      "a": "Si tu depósito no se acreditó, comunicate con soporte por chat o WhatsApp. Tené a mano el comprobante de la transferencia para agilizar la gestión."
+      "q": "Deposité $5.000 ARS y no se acreditaron, ¿qué hago?",
+      "a": "Comunicate con el soporte por chat o WhatsApp. Si no responden, enviá un mail reclamando. Guardá el comprobante de pago como respaldo."
     },
     {
-      "q": "¿Cómo deposito con MercadoPago?",
-      "a": "Es muy fácil: ingresá a la sección de depósitos, seleccioná MercadoPago, ingresá el monto en ARS y confirmá. El crédito es instantáneo."
+      "q": "¿Puedo usar MercadoPago para depositar?",
+      "a": "Sí, aceptamos MercadoPago. Los depósitos son instantáneos y sin comisión. También podés usar Ualá, Pago Fácil y Rapipago."
     },
     {
-      "q": "¿Es seguro jugar en Agüero Casino?",
-      "a": "Agüero Casino opera sin licencia nacional, pero implementa medidas de seguridad como encriptación SSL. Te recomendamos jugar con moderación y conocer los riesgos."
+      "q": "¿Cuánto tiempo tarda un retiro?",
+      "a": "Los retiros por MercadoPago suelen procesarse en minutos. Otros métodos pueden tardar hasta 24 horas hábiles. Si demora más, contactá al soporte."
     }
   ],
   "footer": {
-    "tagline": "Agüero Casino: tu plataforma de juegos en Argentina con pagos en ARS.",
-    "responsible_gaming_note": "Jugá con responsabilidad. Prohibida la entrada a menores de 18 años. Si tenés problemas con el juego, contactá a SEDRONAR."
+    "tagline": "Agüero Casino: la mejor experiencia de juego en Argentina",
+    "responsible_gaming_note": "Jugá con responsabilidad. +18. Si tenés problemas con el juego, contactá a SEDRONAR (0800-222-5463)."
   }
 }
