@@ -18,8 +18,8 @@ import CompareRanking from '@/components/casino/CompareRanking'
 import CasinoFooter from '@/components/casino/CasinoFooter'
 
 async function loadCasinoBySlug(slug: string) {
-  const market = getCurrentMarket()
-  const filePath = path.join(process.cwd(), 'data', market, `${slug}.json`)
+  const { brand_slug } = getCurrentBrand()
+  const filePath = path.join(process.cwd(), 'data', brand_slug, `${slug}.json`)
 
   try {
     const raw = await fs.readFile(filePath, 'utf-8')
@@ -30,8 +30,8 @@ async function loadCasinoBySlug(slug: string) {
 }
 
 export async function generateStaticParams() {
-  const market = getCurrentMarket()
-  const dirPath = path.join(process.cwd(), 'data', market)
+  const { brand_slug } = getCurrentBrand()
+  const dirPath = path.join(process.cwd(), 'data', brand_slug)
   let files: string[]
   try {
     files = await fs.readdir(dirPath)
