@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation'
 import path from 'path'
 import { promises as fs } from 'fs'
-import { getCurrentMarket } from '@/config/market'
+import { getCurrentBrand } from '@/config/brands'
 
 import SlotNav from '@/components/slot/SlotNav'
 import SlotHero from '@/components/slot/SlotHero'
@@ -18,8 +18,8 @@ import SlotGlossary from '@/components/slot/SlotGlossary'
 import SlotFooter from '@/components/slot/SlotFooter'
 
 async function loadSlotBySlug(slug: string) {
-  const market = getCurrentMarket()
-  const filePath = path.join(process.cwd(), 'data', market, `${slug}.json`)
+  const { brand_slug } = getCurrentBrand()
+  const filePath = path.join(process.cwd(), 'data', brand_slug, `${slug}.json`)
 
   try {
     const raw = await fs.readFile(filePath, 'utf-8')
@@ -30,8 +30,8 @@ async function loadSlotBySlug(slug: string) {
 }
 
 export async function generateStaticParams() {
-  const market = getCurrentMarket()
-  const dirPath = path.join(process.cwd(), 'data', market)
+  const { brand_slug } = getCurrentBrand()
+  const dirPath = path.join(process.cwd(), 'data', brand_slug)
   let files: string[]
   try {
     files = await fs.readdir(dirPath)
