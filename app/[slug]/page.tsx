@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation'
 import path from 'path'
 import { promises as fs } from 'fs'
-import { getCurrentMarket } from '@/config/market'
+import { getCurrentBrand } from '@/config/brands'
 
 import CasinoNav from '@/components/casino/CasinoNav'
 import CasinoHero from '@/components/casino/CasinoHero'
