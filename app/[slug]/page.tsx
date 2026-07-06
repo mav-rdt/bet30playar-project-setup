@@ -66,7 +66,7 @@ export default async function CasinoPage({ params }: { params: Promise<{ slug: s
     <>
       <CasinoNav slug={slug} />
       <main>
-        <CasinoHero data={data} />
+        <CasinoHero data={data} affiliateUrl={getCurrentBrand().affiliate_url} />
         <div style={{ maxWidth: '1180px', margin: '0 auto', padding: '0 24px' }}>
           <VerdictStrip verdict={data.verdict_body} title={data.verdict_title} />
         </div>
