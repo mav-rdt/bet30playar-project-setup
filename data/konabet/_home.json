@@ -1,105 +1,105 @@
 {
   "brand_slug": "konabet",
-  "generated_at": "2026-06-09T14:50:26.073Z",
+  "generated_at": "2026-07-06T20:41:43.904Z",
   "meta": {
-    "title": "Konabet Argentina | Casino Online con Bonos en ARS",
-    "description": "Descubrí Konabet, el casino online líder en Argentina. Bonos de hasta $100.000 ARS, métodos de pago locales y juegos variados. ¡Registrate y jugá!"
+    "title": "Konabet Casino Argentina | Bonos hasta $50.000 ARS",
+    "description": "Descubrí Konabet, el casino online líder en Argentina. Recibí hasta $50.000 ARS en bono de bienvenida. Depósitos con MercadoPago. ¡Registrate ya!"
   },
   "hero": {
-    "eyebrow": "Sin licencia nacional — confianza y diversión en cada juego",
-    "h1_suffix": "Ganá en grande con bonos exclusivos",
-    "subtitle": "Descubrí la emoción del casino online con métodos de pago locales como MercadoPago y Rapipago. Jugá desde tu celular sin complicaciones.",
-    "cta_primary": "Registrate y jugá",
-    "cta_secondary": "Ver bonos",
+    "eyebrow": "Sin licencia nacional: jugá con responsabilidad",
+    "h1_suffix": "Bonos exclusivos en ARS",
+    "subtitle": "Descubrí la mejor experiencia de casino online en Argentina con depósitos en pesos y promociones increíbles.",
+    "cta_primary": "Jugá Ahora",
+    "cta_secondary": "Ver Bonos",
     "trust_badges": [
       "MercadoPago",
-      "Pago Fácil",
-      "Rapipago"
+      "Atención 24/7",
+      "Juego Responsable"
     ]
   },
   "bonuses": [
     {
       "title": "Bono de Bienvenida",
-      "amount_ars": 100000,
-      "amount_label": "$100.000 ARS",
-      "wagering": "35x",
-      "description": "Depositá con MercadoPago y recibí el 100% de tu primer depósito hasta $100.000 ARS. Jugá tragamonedas y juegos de casino con este bono.",
-      "cta": "Reclamá tu bono",
-      "slug_ref": ""
-    },
-    {
-      "title": "Bono Recarga",
       "amount_ars": 50000,
       "amount_label": "$50.000 ARS",
       "wagering": "30x",
-      "description": "Recargá tu cuenta los fines de semana y obtené un 50% extra hasta $50.000 ARS. Válido para todos los juegos.",
-      "cta": "Aprovechá la recarga",
-      "slug_ref": ""
+      "description": "Recibí hasta $50.000 ARS al hacer tu primer depósito. Válido por 30 días. Apostá 30 veces el bono para liberar las ganancias.",
+      "cta": "Reclamar Bono",
+      "slug_ref": "bono-bienvenida-konabet-argentina"
+    },
+    {
+      "title": "Código Promocional",
+      "amount_ars": 25000,
+      "amount_label": "$25.000 ARS",
+      "wagering": "30x",
+      "description": "Usá nuestro código promocional y obtené hasta $25.000 ARS extra en tu cuenta. Condiciones: 30x y 30 días.",
+      "cta": "Obtener Código",
+      "slug_ref": "codigo-promocional-konabet"
     }
   ],
   "features": [
     {
       "icon": "shield",
-      "title": "Seguridad y privacidad total",
-      "description": "Protegemos tus datos con cifrado SSL. Jugá con tranquilidad sabiendo que tu información está segura."
+      "title": "Seguridad y Confianza",
+      "description": "Tus datos están protegidos con encriptación SSL. Jugá con tranquilidad en un entorno seguro."
     },
     {
       "icon": "zap",
-      "title": "Depósitos al instante",
-      "description": "Usá MercadoPago o Rapipago y depositá en segundos. Tus fondos estarán disponibles para jugar al toque."
+      "title": "Depósitos Rápidos",
+      "description": "Acreditación instantánea de tus depósitos con MercadoPago. Empezá a jugar al toque."
     },
     {
       "icon": "wallet",
-      "title": "Métodos locales argentinos",
-      "description": "Aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago. Sin comisiones ocultas, pensado para vos."
+      "title": "MercadoPago y más",
+      "description": "Aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago. Depositá en pesos sin comisiones."
     },
     {
       "icon": "gift",
-      "title": "Bonos exclusivos para vos",
-      "description": "Recibí bonos de bienvenida y recargas semanales. Aprovechá promociones actualizadas todo el año."
+      "title": "Bonos Generosos",
+      "description": "Aprovechá el bono de bienvenida de hasta $50.000 ARS y promociones semanales exclusivas."
     },
     {
       "icon": "gamepad",
-      "title": "Variedad de juegos",
-      "description": "Disfrutá tragamonedas, crash, ruleta en vivo y apuestas deportivas. Encontralo todo en un solo lugar."
+      "title": "Catálogo Variado",
+      "description": "Disfrutá de tragamonedas, crash, ruleta en vivo y apuestas deportivas. Siempre hay algo nuevo."
     },
     {
       "icon": "headset",
-      "title": "Atención al cliente 24/7",
-      "description": "Nuestro equipo de soporte está disponible las 24 horas. Resolvé tus dudas por chat o correo."
+      "title": "Soporte 24/7",
+      "description": "Nuestro equipo de atención al cliente está disponible las 24 horas para ayudarte en español."
     }
   ],
   "payments": {
-    "intro": "En Konabet, aceptamos los métodos de pago más utilizados en Argentina. Depositá y retirá con MercadoPago, Ualá, Pago Fácil y Rapipago, sin demoras ni comisiones.",
+    "intro": "En Konabet aceptamos los métodos de pago más populares de Argentina. Depositá y retirá en pesos sin complicaciones.",
     "methods": [
       {
         "name": "MercadoPago",
-        "min_ars": 500,
+        "min_ars": 100,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Ualá",
-        "min_ars": 1000,
+        "min_ars": 200,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Pago Fácil",
-        "min_ars": 1000,
-        "speed": "Instantáneo",
+        "min_ars": 500,
+        "speed": "24 horas",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Rapipago",
-        "min_ars": 1000,
-        "speed": "Instantáneo",
+        "min_ars": 500,
+        "speed": "24 horas",
         "fee_label": "Sin comisión"
       }
     ]
   },
   "games": {
-    "intro": "Explorá nuestro catálogo con más de 1,000 juegos de casino. Desde tragamonedas clásicas hasta crash y ruleta en vivo, hay opciones para todos los gustos.",
+    "intro": "Explorá un amplio catálogo de juegos de casino y apuestas deportivas. Desde tragamonedas hasta ruleta en vivo, todo en un solo lugar.",
     "featured": [
       {
         "name": "Tragamonedas Clásicas",
@@ -108,27 +108,27 @@
         "slug_ref": ""
       },
       {
-        "name": "Mega Joker",
+        "name": "Book of Dead",
         "category": "Slots",
-        "rtp": 96,
+        "rtp": null,
         "slug_ref": ""
       },
       {
-        "name": "Crash X",
+        "name": "Crash Game",
         "category": "Crash",
         "rtp": null,
         "slug_ref": ""
       },
       {
-        "name": "Ruleta Europea",
+        "name": "Ruleta Electrónica",
         "category": "Live",
-        "rtp": 97.3,
+        "rtp": null,
         "slug_ref": ""
       },
       {
         "name": "Blackjack en Vivo",
         "category": "Live",
-        "rtp": 99.5,
+        "rtp": null,
         "slug_ref": ""
       },
       {
@@ -140,40 +140,40 @@
     ]
   },
   "app": {
-    "headline": "Konabet: jugá sin descargar ninguna app",
-    "body": "En Konabet, no necesitás una app para jugar. Accedé desde el navegador de tu celular y disfrutá de todos los juegos al instante.",
+    "headline": "Konabet: Jugá desde tu navegador",
+    "body": "Si bien Konabet no cuenta con una aplicación móvil, podés acceder a toda la plataforma desde el navegador de tu celular con una experiencia optimizada.",
     "features": [
-      "Acceso sin descarga",
-      "Compatible con iOS y Android",
-      "Carga rápida en 3G/4G",
-      "Bonos disponibles en mobile",
-      "Atención al cliente desde el celular"
+      "Acceso rápido",
+      "Interfaz intuitiva",
+      "Depósitos móviles",
+      "Bonos desde tu celular",
+      "Soporte chat vivo"
     ]
   },
   "faq": [
     {
-      "q": "¿Cómo me registro en Konabet?",
-      "a": "Registrate completando el formulario con tus datos personales. Verificá tu cuenta y empezá a jugar al instante."
-    },
-    {
-      "q": "¿Qué métodos de pago están disponibles?",
-      "a": "Aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago. Depósitos instantáneos sin comisiones."
-    },
-    {
-      "q": "¿Cuánto tiempo tardan los retiros?",
-      "a": "Los retiros se procesan en 24 horas hábiles. El tiempo depende del método, pero generalmente es rápido."
-    },
-    {
       "q": "¿Konabet tiene aplicación móvil?",
-      "a": "No contamos con app descargable, pero podés jugar desde el navegador de tu celular. La versión móvil está optimizada para una experiencia completa."
+      "a": "No, Konabet no ofrece una app dedicada, pero podés usar el sitio web desde cualquier navegador móvil sin problemas."
     },
     {
-      "q": "¿Cómo funcionan los bonos?",
-      "a": "Los bonos se activan al depositar. Leé los términos de wagering antes de solicitar el retiro."
+      "q": "¿Por qué se cerró mi sesión?",
+      "a": "Es posible que se haya cerrado por exceso de usuarios activos. Intentá ingresar nuevamente o contactá a soporte."
+    },
+    {
+      "q": "¿Cuánto tarda el retiro de dinero?",
+      "a": "Los retiros se procesan en 24 a 48 horas hábiles, dependiendo del método elegido."
+    },
+    {
+      "q": "¿Qué métodos de depósito aceptan?",
+      "a": "Aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago, entre otros."
+    },
+    {
+      "q": "¿Cuáles son los requisitos del bono de bienvenida?",
+      "a": "El bono requiere un depósito mínimo y debe apostarse 30 veces antes de poder retirar las ganancias, en un plazo de 30 días."
     }
   ],
   "footer": {
-    "tagline": "Konabet: tu casino online favorito en Argentina, con métodos locales.",
-    "responsible_gaming_note": "Jugá con responsabilidad. Prohibido para menores de 18 años. SEDRONAR: 0800-222-3342."
+    "tagline": "Konabet: la emoción del casino en tus manos.",
+    "responsible_gaming_note": "Jugá con responsabilidad. Prohibida la entrada a menores de 18 años. SEDRONAR: 0-800-222-2723."
   }
 }
