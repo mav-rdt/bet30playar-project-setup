@@ -1,20 +1,20 @@
 {
   "brand_slug": "bwin",
-  "generated_at": "2026-06-09T14:52:22.486Z",
+  "generated_at": "2026-07-06T20:44:01.003Z",
   "meta": {
-    "title": "Bwin Argentina: Casino Online | Bono Bienvenida y Juegos",
-    "description": "Descubrí Bwin Argentina. Jugá con ARS, recibí un bono de bienvenida y disfrutá de slots, ruleta y más. ¡Registrate ahora!"
+    "title": "Bwin Argentina Casino Online | Bonos y Promociones",
+    "description": "Descubrí el casino online de Bwin en Argentina. Jugá con ARS, aprovechá bonos de bienvenida y disfrutá de tragamonedas. ¡Registrate!"
   },
   "hero": {
     "eyebrow": "Operador con licencia LOTBA en Argentina",
-    "h1_suffix": "Jugá con confianza y ganá en grande",
-    "subtitle": "Bienvenido a Bwin Argentina. Disfrutá de cientos de juegos, depósitos en ARS y bonos exclusivos. ¡Registrate y empezá a ganar!",
+    "h1_suffix": "tu casino de confianza en Argentina",
+    "subtitle": "Disfrutá de tragamonedas, apuestas deportivas y más con pagos en ARS. Depositá y retirá con MercadoPago.",
     "cta_primary": "Registrate ahora",
     "cta_secondary": "Ver bonos",
     "trust_badges": [
-      "Licencia LOTBA",
-      "Pagos seguros",
-      "Atención 24/7"
+      "LOTBA",
+      "SSL",
+      "Juego Responsable"
     ]
   },
   "bonuses": [
@@ -23,88 +23,106 @@
       "amount_ars": 50000,
       "amount_label": "$50.000 ARS",
       "wagering": "35x",
-      "description": "Recibí un bono del 100% hasta $50.000 ARS en tu primer depósito. Jugá con más dinero y aumentá tus chances de ganar.",
-      "cta": "Reclamá tu bono",
+      "description": "Recibí hasta $50.000 ARS en tu primer depósito. Condiciones: 35x de apuesta. ¡Aprovechá esta oferta exclusiva!",
+      "cta": "Reclamar bono",
       "slug_ref": "bono-bienvenida-bwin-argentina"
     },
     {
-      "title": "Código Promocional",
+      "title": "Código Promocional Bwin",
       "amount_ars": 10000,
       "amount_label": "$10.000 ARS",
-      "wagering": "30x",
-      "description": "Usá nuestro código promocional exclusivo para obtener $10.000 ARS extra. Válido para nuevos jugadores.",
-      "cta": "Obtené código",
+      "wagering": "20x",
+      "description": "Usá nuestro código promocional y obtené $10.000 ARS extra. Válido para nuevos usuarios. ¡No te lo pierdas!",
+      "cta": "Usar código",
       "slug_ref": "codigo-promocional-bwin"
     }
   ],
   "features": [
     {
       "icon": "shield",
-      "title": "Licencia Oficial LOTBA",
-      "description": "Operamos con autorización de la Lotería de la Ciudad. Tu seguridad es nuestra prioridad."
+      "title": "Jugá seguro",
+      "description": "Bwin cuenta con licencia LOTBA y tecnología SSL para proteger tus datos. Disfrutá con tranquilidad."
     },
     {
       "icon": "zap",
-      "title": "Depósitos y Retiros Rápidos",
-      "description": "Depositá con MercadoPago y retirá tus ganancias en minutos. Sin demoras."
+      "title": "Depósito rápido",
+      "description": "Depositá al instante con MercadoPago y otros métodos locales. Tu plata al toque."
     },
     {
       "icon": "wallet",
-      "title": "Pesos Argentinos (ARS)",
-      "description": "Jugá con tu moneda local. Sin conversiones ni costos ocultos."
+      "title": "Retiros sin demora",
+      "description": "Retirá tus ganancias de forma rápida y sin complicaciones. Sin comisiones ocultas."
     },
     {
       "icon": "gift",
-      "title": "Bonos Exclusivos",
-      "description": "Accedé a promociones diarias y un bono de bienvenida único para Argentina."
+      "title": "Bonos exclusivos",
+      "description": "Aprovechá promociones diarias y bonos de bienvenida. Siempre hay algo nuevo para vos."
     },
     {
       "icon": "gamepad",
-      "title": "Cientos de Juegos",
-      "description": "Slots, ruleta, blackjack, crash games y más. Diversión asegurada."
+      "title": "Variedad de juegos",
+      "description": "De tragamonedas a deportes, pasando por juegos en vivo. Encontrá tu favorito."
     },
     {
       "icon": "headset",
-      "title": "Soporte en Español 24/7",
-      "description": "Atención al cliente en tu idioma, siempre disponible para ayudarte."
+      "title": "Soporte 24/7",
+      "description": "Atención al cliente en español, disponible todo el día. Resolvé tus dudas al instante."
     }
   ],
   "payments": {
-    "intro": "En Bwin Argentina aceptamos los métodos de pago locales más populares. Depositá y retirá en ARS de forma rápida y segura.",
+    "intro": "En Bwin Argentina, aceptamos los métodos de pago más populares. Depositá y retirá en ARS sin complicaciones.",
     "methods": [
       {
         "name": "MercadoPago",
-        "min_ars": 100,
+        "min_ars": 500,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Ualá",
-        "min_ars": 200,
+        "min_ars": 1000,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Pago Fácil",
-        "min_ars": 500,
-        "speed": "24 hs",
+        "min_ars": 2000,
+        "speed": "24 horas",
+        "fee_label": "Sin comisión"
+      },
+      {
+        "name": "Rapipago",
+        "min_ars": 2000,
+        "speed": "24 horas",
         "fee_label": "Sin comisión"
       }
     ]
   },
   "games": {
-    "intro": "Descubrí nuestro catálogo de juegos: tragamonedas, ruleta, blackjack, crash games y más. Todos con la mejor calidad y RTP competitivo.",
+    "intro": "Descubrí un catálogo enorme de juegos en Bwin. Desde tragamonedas hasta apuestas deportivas, tenés todo en un solo lugar.",
     "featured": [
       {
-        "name": "Slots Clásicos",
-        "category": "Slots",
+        "name": "Bwin Casino Online",
+        "category": "Casino_Review",
+        "rtp": null,
+        "slug_ref": "bwin-casino-argentina"
+      },
+      {
+        "name": "Opiniones y Review",
+        "category": "Casino_Review",
+        "rtp": null,
+        "slug_ref": "bwin-opiniones-y-review"
+      },
+      {
+        "name": "Ruleta",
+        "category": "Live",
         "rtp": null,
         "slug_ref": ""
       },
       {
-        "name": "Ruleta en Vivo",
-        "category": "Live",
-        "rtp": null,
+        "name": "Tragamonedas Clásicas",
+        "category": "Slots",
+        "rtp": 96.5,
         "slug_ref": ""
       },
       {
@@ -114,60 +132,48 @@
         "slug_ref": ""
       },
       {
-        "name": "Crazy Time",
-        "category": "Live",
-        "rtp": null,
-        "slug_ref": ""
-      },
-      {
-        "name": "Aviator",
-        "category": "Crash",
-        "rtp": null,
-        "slug_ref": ""
-      },
-      {
-        "name": "Minecraft",
-        "category": "Crash",
+        "name": "Apuestas Deportivas",
+        "category": "Deportes",
         "rtp": null,
         "slug_ref": ""
       }
     ]
   },
   "app": {
-    "headline": "Descargá la App de Bwin Argentina",
-    "body": "Llevá tu casino a todas partes con nuestra app móvil. Disponible para iOS y Android, con depósitos rápidos y juegos exclusivos.",
+    "headline": "Descargá la app de Bwin Argentina",
+    "body": "Jugá desde cualquier lugar con la app móvil de Bwin. Disponible para iOS y Android, con todas las funcionalidades del casino.",
     "features": [
-      "Depósitos en ARS",
-      "Bonos móviles",
-      "Atención al cliente",
+      "Depósitos rápidos",
+      "Bonos exclusivos",
+      "Juegos en vivo",
       "Notificaciones push",
-      "Juegos en vivo"
+      "Soporte integrado"
     ]
   },
   "faq": [
     {
-      "q": "¿Por qué cancelan mis retiros?",
-      "a": "En Bwin, los retiros pueden ser cancelados si no se cumplen los requisitos de verificación. Asegurate de tener tu cuenta verificada y de cumplir con el rollover del bono. Si tenés dudas, contactá a soporte."
+      "q": "¿Por qué cancelaron mi solicitud de retiro sin explicación?",
+      "a": "En Bwin, los retiros pueden ser revisados por seguridad. Si se cancela, contactá al soporte. Generalmente se debe a verificación de identidad. Asegurate de tener tus documentos listos."
     },
     {
-      "q": "¿Cómo deposito con MercadoPago?",
-      "a": "Ingresá a tu cuenta, seleccioná MercadoPago como método de pago, ingresá el monto en ARS y seguí las instrucciones. El depósito se acredita al instante."
+      "q": "¿Cómo depositar con MercadoPago en Bwin?",
+      "a": "Es fácil: andá a depósitos, seleccioná MercadoPago, ingresá el monto en ARS y seguí las instrucciones. El crédito es instantáneo."
     },
     {
-      "q": "¿Cuál es el bono de bienvenida?",
-      "a": "Ofrecemos un bono del 100% hasta $50.000 ARS en tu primer depósito. Además, podés usar un código promocional para obtener $10.000 ARS extra."
+      "q": "¿Cuál es el bono de bienvenida de Bwin?",
+      "a": "El bono de bienvenida te da hasta $50.000 ARS en tu primer depósito, con un requisito de apuesta de 35x. También hay un código promocional para más bonos."
     },
     {
-      "q": "¿Es seguro jugar en Bwin Argentina?",
-      "a": "Sí, Bwin cuenta con licencia LOTBA y utiliza encriptación SSL para proteger tus datos. Además, promovemos el juego responsable."
+      "q": "¿Bwin tiene licencia en Argentina?",
+      "a": "Sí, Bwin opera bajo licencia LOTBA en CABA. Es un casino regulado y seguro."
     },
     {
-      "q": "¿Cómo retiro mis ganancias?",
-      "a": "Podés retirar tus ganancias a través de MercadoPago, Ualá o Pago Fácil. Solo necesitás verificar tu cuenta y solicitar el retiro desde el menú de cajero."
+      "q": "¿Qué juegos puedo encontrar en Bwin?",
+      "a": "Tenés tragamonedas, ruleta, blackjack, apuestas deportivas y casino en vivo. Hay opciones para todos los gustos."
     }
   ],
   "footer": {
-    "tagline": "Bwin Argentina - Tu casino online de confianza con licencia LOTBA",
-    "responsible_gaming_note": "Jugá con responsabilidad. +18. Prohibida la entrada a menores. SEDRONAR Linea 141."
+    "tagline": "Bwin Argentina: tu casino online de confianza con LOTBA",
+    "responsible_gaming_note": "Jugá con responsabilidad. Prohibida la entrada a menores de 18 años. Si tenés problemas con el juego, contactá a SEDRONAR."
   }
 }
