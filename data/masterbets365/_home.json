@@ -1,76 +1,76 @@
 {
   "brand_slug": "masterbets365",
-  "generated_at": "2026-06-09T14:50:48.772Z",
+  "generated_at": "2026-07-06T20:42:17.803Z",
   "meta": {
-    "title": "MasterBets365 Argentina | Casino Online en ARS",
-    "description": "Jugá en MasterBets365, el casino online líder en Argentina. Pagos con MercadoPago, Ualá y más. Bonos exclusivos en pesos argentinos."
+    "title": "MasterBets365 Argentina - Casino Online con Bono de $72.500 ARS",
+    "description": "Disfrutá del mejor casino online en Argentina con MasterBets365. Recibí hasta $72.500 ARS de bono de bienvenida. Jugá con seguridad."
   },
   "hero": {
-    "eyebrow": "Sin licencia nacional, operá con confianza",
-    "h1_suffix": "el casino online que te paga en ARS",
-    "subtitle": "Registrate y recibí un bono de bienvenida de hasta $50.000 ARS. Jugá con MercadoPago, Rapipago y más métodos locales.",
-    "cta_primary": "Registrate ya",
+    "eyebrow": "Casino online confiable en Argentina",
+    "h1_suffix": "con el mejor bono de bienvenida",
+    "subtitle": "Registrate hoy y obtené hasta $72.500 ARS en bonos. Depositá con MercadoPago y retirá tus ganancias rápido.",
+    "cta_primary": "¡Registrate Ahora!",
     "cta_secondary": "Ver bonos",
     "trust_badges": [
-      "+18",
-      "SEDRONAR",
-      "Jugá responsable"
+      "Licencia internacional",
+      "Pagos locales",
+      "Atención 24/7"
     ]
   },
   "bonuses": [
     {
       "title": "Bono de Bienvenida",
-      "amount_ars": 50000,
-      "amount_label": "$50.000 ARS",
+      "amount_ars": 72500,
+      "amount_label": "Hasta $72.500 ARS",
       "wagering": "35x",
-      "description": "Obtené un 100% de tu primer depósito hasta $50.000 ARS. Válido para slots y juegos de mesa. Requisito de apuesta 35x.",
+      "description": "Recibí hasta $72.500 ARS en tu primer depósito. ¡Aprovechá este bono exclusivo para nuevos jugadores!",
       "cta": "Reclamar bono",
-      "slug_ref": ""
+      "slug_ref": "bono-bienvenida-masterbets365-argentina"
     },
     {
-      "title": "Bono Recarga Semanal",
-      "amount_ars": 20000,
-      "amount_label": "$20.000 ARS",
-      "wagering": "30x",
-      "description": "Cada semana recibí un 50% de recarga hasta $20.000 ARS. Depositá con MercadoPago y activá el bono automáticamente.",
-      "cta": "Recargar ahora",
-      "slug_ref": ""
+      "title": "Código Promocional MASTER365",
+      "amount_ars": 10000,
+      "amount_label": "$10.000 ARS extra",
+      "wagering": "40x",
+      "description": "Usá el código MASTER365 al registrarte y obtené $10.000 ARS adicionales para jugar. ¡No te lo pierdas!",
+      "cta": "Usar código",
+      "slug_ref": "codigo-promocional-masterbets365"
     }
   ],
   "features": [
     {
-      "icon": "shield",
-      "title": "Jugá seguro y tranquilo",
-      "description": "Tu plata está protegida con encriptación SSL. Todos los datos personales se manejan de forma confidencial."
-    },
-    {
       "icon": "wallet",
-      "title": "Depositá con tus billeteras",
-      "description": "Usá MercadoPago, Ualá, Pago Fácil o Rapipago. Depósitos mínimos desde $500 ARS."
-    },
-    {
-      "icon": "zap",
-      "title": "Retiros rápidos y sin vueltas",
-      "description": "Tus ganancias se acreditan en 24 horas hábiles. Sin comisiones ocultas."
+      "title": "Métodos de pago locales",
+      "description": "Depositá y retirá con MercadoPago, Ualá, Pago Fácil y Rapipago. Todos los métodos son rápidos y sin comisiones."
     },
     {
       "icon": "gift",
-      "title": "Bonos exclusivos en ARS",
-      "description": "Aprovechá promociones pensadas para argentinos. Bono de bienvenida, recargas y cashback."
-    },
-    {
-      "icon": "gamepad",
-      "title": "Catálogo de juegos variado",
-      "description": "Slots, ruleta, blackjack, crash games y más. Todo desde tu navegador, sin descargas."
+      "title": "Bonos generosos cada semana",
+      "description": "Recibí bonos de bienvenida, recargas y promociones exclusivas. Siempre hay una oferta nueva para vos."
     },
     {
       "icon": "headset",
-      "title": "Soporte 24/7 en español",
-      "description": "Chat en vivo y WhatsApp. Respondemos todas tus consultas al instante."
+      "title": "Atención al cliente 24/7",
+      "description": "Nuestro equipo de soporte está disponible las 24 horas por chat en vivo y correo electrónico. Respondemos en español."
+    },
+    {
+      "icon": "gamepad",
+      "title": "Juegos variados y emocionantes",
+      "description": "Elegí entre slots, crash, juegos en vivo y deportes virtuales. Hay más de 100 títulos para disfrutar."
+    },
+    {
+      "icon": "zap",
+      "title": "Retiros rápidos y seguros",
+      "description": "Solicitá tu retiro y recibí el dinero en 24 horas hábiles. Procesamos pagos sin demoras innecesarias."
+    },
+    {
+      "icon": "shield",
+      "title": "Seguridad garantizada en tus datos",
+      "description": "Usamos encriptación SSL para proteger tu información personal y financiera. Jugá con total tranquilidad."
     }
   ],
   "payments": {
-    "intro": "En MasterBets365 aceptamos los métodos de pago más populares de Argentina. Depositá y retirá en pesos sin demoras. Todos los depósitos son instantáneos.",
+    "intro": "En MasterBets365 aceptamos los métodos de pago más populares de Argentina. Depositá y retirá de forma rápida y segura con opciones locales.",
     "methods": [
       {
         "name": "MercadoPago",
@@ -80,31 +80,31 @@
       },
       {
         "name": "Ualá",
-        "min_ars": 500,
+        "min_ars": 1000,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Pago Fácil",
-        "min_ars": 1000,
-        "speed": "Hasta 24 hs",
+        "min_ars": 500,
+        "speed": "24 hs",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Rapipago",
-        "min_ars": 1000,
-        "speed": "Hasta 24 hs",
+        "min_ars": 500,
+        "speed": "24 hs",
         "fee_label": "Sin comisión"
       }
     ]
   },
   "games": {
-    "intro": "Descubrí cientos de juegos de casino online en MasterBets365. Desde tragamonedas hasta ruleta en vivo, todo con gráficos de primer nivel.",
+    "intro": "Descubrí una amplia selección de juegos de casino en MasterBets365. Desde tragamonedas hasta deportes virtuales, hay opciones para todos los gustos.",
     "featured": [
       {
-        "name": "Mega Moolah",
+        "name": "Book of Dead",
         "category": "Slots",
-        "rtp": 88.12,
+        "rtp": 96.21,
         "slug_ref": ""
       },
       {
@@ -114,66 +114,66 @@
         "slug_ref": ""
       },
       {
-        "name": "Gonzo's Quest",
-        "category": "Slots",
-        "rtp": 95.97,
+        "name": "JetX",
+        "category": "Crash",
+        "rtp": 97,
         "slug_ref": ""
       },
       {
-        "name": "Ruleta Europea",
+        "name": "Space XY",
+        "category": "Crash",
+        "rtp": 96.5,
+        "slug_ref": ""
+      },
+      {
+        "name": "Live Roulette",
         "category": "Live",
         "rtp": 97.3,
         "slug_ref": ""
       },
       {
-        "name": "Blackjack Clásico",
-        "category": "Live",
-        "rtp": 99.5,
-        "slug_ref": ""
-      },
-      {
-        "name": "Baccarat en Vivo",
-        "category": "Live",
-        "rtp": 98.94,
+        "name": "Fútbol Virtual",
+        "category": "Deportes",
+        "rtp": null,
         "slug_ref": ""
       }
     ]
   },
   "app": {
-    "headline": "MasterBets365 sin app, jugá desde el navegador",
-    "body": "No tenemos aplicación oficial para descargar, pero nuestro sitio está optimizado para móviles. Accedé desde cualquier dispositivo sin instalar nada.",
+    "headline": "MasterBets365: Sin app, pero con acceso móvil total",
+    "body": "Aunque no contamos con una aplicación descargable, podés acceder a todo el casino desde el navegador de tu celular. La versión móvil está optimizada para que juegues sin problemas.",
     "features": [
-      "Carga rápida en 3G/4G",
-      "Menú táctil intuitivo",
-      "Bonos activables desde el celular",
-      "Retiros con MercadoPago",
-      "Soporte por WhatsApp integrado"
+      "Acceso instantáneo sin descargas",
+      "Navegación rápida y fluida",
+      "Mismo catálogo de juegos que en desktop",
+      "Depósitos y retiros desde el móvil",
+      "Atención al cliente disponible en todo momento"
     ]
   },
   "faq": [
     {
-      "q": "¿Cómo me registro en MasterBets365?",
-      "a": "Entrá al sitio, hacé clic en 'Registrate' y completá tus datos. Solo necesitás un email y una contraseña. En menos de 2 minutos ya podés depositar."
+      "q": "¿Cómo retirar dinero de MasterBets365?",
+      "a": "Para retirar, ingresá a tu cuenta, seleccioná 'Retirar', elegí el método (MercadoPago, Ualá, etc.), indicá el monto mínimo de $500 ARS y confirmá. Los retiros se procesan en 24 horas hábiles."
     },
     {
-      "q": "¿Cuáles son los métodos de pago disponibles?",
-      "a": "Aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago. Los depósitos son instantáneos con billeteras, y los retiros se procesan en 24 horas hábiles."
+      "q": "¿MasterBets365 tiene aplicación?",
+      "a": "No, MasterBets365 no cuenta con app oficial, pero su sitio web es totalmente responsive. Podés jugar desde cualquier navegador móvil sin problemas."
     },
     {
-      "q": "¿Hay bono de bienvenida?",
-      "a": "Sí, al hacer tu primer depósito obtenés un 100% hasta $50.000 ARS. El bono tiene requisito de apuesta 35x en slots."
+      "q": "¿Cómo depositar con MercadoPago?",
+      "a": "Depositá con MercadoPago ingresando a 'Depositar', seleccioná MercadoPago, ingresá el monto (mínimo $500 ARS) y serás redirigido para completar el pago. El crédito es instantáneo."
     },
     {
-      "q": "¿MasterBets365 tiene aplicación móvil?",
-      "a": "No contamos con app oficial, pero el sitio funciona perfecto desde el navegador de tu celular. Podés jugar y gestionar tu cuenta sin descargas."
+      "q": "¿Es seguro MasterBets365?",
+      "a": "MasterBets365 utiliza encriptación SSL y protocolos de seguridad para proteger tus datos y transacciones. Aunque no tiene licencia nacional, opera bajo regulaciones internacionales."
     },
     {
-      "q": "¿Es seguro jugar en MasterBets365?",
-      "a": "Sí, usamos encriptación SSL y todas las transacciones son seguras. Además, promovemos el juego responsable y respetamos la normativa argentina."
+      "q": "¿Cuál es el bono de bienvenida?",
+      "a": "El bono de bienvenida es de hasta $72.500 ARS para nuevos jugadores. También ofrecemos bonos promocionales con códigos como MASTER365. Revisá la sección de bonos para más detalles."
     }
   ],
   "footer": {
-    "tagline": "MasterBets365: tu casino online de confianza en Argentina.",
-    "responsible_gaming_note": "Jugá responsablemente. Prohibida la entrada a menores de 18 años. SEDRONAR: 0800-222-7373."
+    "tagline": "MasterBets365: tu casino online de confianza en Argentina",
+    "responsible_gaming_note": "Jugá con responsabilidad. Prohibida la entrada a menores de 18 años. Si sentís que tenés un problema, contactá a SEDRONAR al 0800-222-6484."
   }
 }
