@@ -1,125 +1,125 @@
+import type { Metadata } from 'next'
 import MonoBrandNav from '@/components/monobrand/MonoBrandNav'
 import MonoBrandFooter from '@/components/monobrand/MonoBrandFooter'
-import { CheckCircle, Shield, Zap, Trophy, Users } from 'lucide-react'
+import { getCurrentBrand, getHomeContent } from '@/lib/brand'
+import type { FeatureIcon } from '@/types/brand'
+import {
+  Shield, Zap, Wallet, Gift, Gamepad2, Headphones, Trophy, Lock, CheckCircle,
+} from 'lucide-react'
 
-export const metadata = {
-  title: 'Registrarse - Bet30',
-  description: 'Únete a Bet30 y comienza a jugar ahora',
+// Icon mapping from _home.json feature icons → lucide components
+const iconMap: Record<FeatureIcon, React.ElementType> = {
+  shield:  Shield,
+  zap:     Zap,
+  wallet:  Wallet,
+  gift:    Gift,
+  gamepad: Gamepad2,
+  headset: Headphones,
+  trophy:  Trophy,
+  lock:    Lock,
 }
 
-const benefits = [
-  {
-    icon: Trophy,
-    title: 'Bono de bienvenida',
-    desc: '$1750 + 150 giros gratis en tu primer depósito'
-  },
-  {
-    icon: Zap,
-    title: 'Juegos sin límites',
-    desc: 'Acceso a 500+ slots, crash games y apuestas deportivas'
-  },
-  {
-    icon: Shield,
-    title: 'Seguro y confiable',
-    desc: 'Licencia oficial verificada con los más altos estándares de seguridad'
-  },
-  {
-    icon: Users,
-    title: 'Comunidad activa',
-    desc: 'Miles de jugadores confían en Bet30 cada día'
-  },
-  {
-    icon: CheckCircle,
-    title: 'Retiros rápidos',
-    desc: 'Procesa tus ganancias en minutos sin complicaciones'
-  },
-  {
-    icon: Zap,
-    title: 'Soporte 24/7',
-    desc: 'Equipo de atención en español disponible siempre para ti'
-  },
-]
+export async function generateMetadata(): Promise<Metadata> {
+  const brand = getCurrentBrand()
+  const content = getHomeContent()
+  const url = `https://${brand.affiliate_domain}`
+  const bonus = content.bonuses[0]
+
+  const title = bonus
+    ? `Registrarse en ${brand.brand_name} - Bono de ${bonus.amount_label}`
+    : `Registrarse en ${brand.brand_name}`
+
+  return {
+    title,
+    description: `Creá tu cuenta en ${brand.brand_name} en menos de 2 minutos. ${content.hero.subtitle}`,
+    alternates: { canonical: `${url}/registro` },
+  }
+}
 
 export default function RegistroPage() {
+  const brand = getCurrentBrand()
+  const content = getHomeContent()
+  const bonus = content.bonuses[0]
+
   return (
     <>
       <MonoBrandNav />
       <main style={styles.main}>
         <div style={styles.container}>
           <div style={styles.header}>
-            <h1 style={styles.title}>Únete a Bet30 hoy</h1>
-            <p style={styles.subtitle}>
-              Miles de jugadores ya disfrutan de los mejores juegos de casino. ¡Tú también puedes!
-            </p>
+            <h1 style={styles.title}>Únete a {brand.brand_name} hoy</h1>
+            <p style={styles.subtitle}>{content.hero.subtitle}</p>
           </div>
 
           <div style={styles.content}>
             <div style={styles.benefitsGrid}>
-              {benefits.map((benefit, index) => (
-                <div key={index} style={styles.benefitCard}>
-                  <div style={styles.benefitIcon}>
-                    <benefit.icon size={32} />
+              {content.features.map((feature, index) => {
+                const Icon = iconMap[feature.icon] ?? CheckCircle
+                return (
+                  <div key={index} style={styles.benefitCard}>
+                    <div style={styles.benefitIcon}>
+                      <Icon size={32} />
+                    </div>
+                    <div>
+                      <h3 style={styles.benefitTitle}>{feature.title}</h3>
+                      <p style={styles.benefitDesc}>{feature.description}</p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 style={styles.benefitTitle}>{benefit.title}</h3>
-                    <p style={styles.benefitDesc}>{benefit.desc}</p>
-                  </div>
-                </div>
-              ))}
+                )
+              })}
             </div>
 
             <div style={styles.ctaSection}>
               <div style={styles.ctaCard}>
-                <div style={styles.bonusHighlight}>
-                  <div style={styles.bonusAmount}>$1750</div>
-                  <div style={styles.bonusPlus}>+ 150 giros gratis</div>
-                  <p style={styles.bonusDesc}>Bono de bienvenida para nuevos jugadores</p>
-                </div>
+                {bonus && (
+                  <div style={styles.bonusHighlight}>
+                    <div style={styles.bonusAmount}>{bonus.amount_label}</div>
+                    {bonus.wagering && (
+                      <div style={styles.bonusPlus}>Wagering: {bonus.wagering}</div>
+                    )}
+                    <p style={styles.bonusDesc}>{bonus.description}</p>
+                  </div>
+                )}
 
                 <div style={styles.ctaText}>
                   <p style={styles.mainText}>
-                    Es el momento de vivir una experiencia de casino única. Regístrate en menos de 2 minutos y reclama tu bono de bienvenida.
+                    Es el momento de vivir una experiencia de casino única. Registrate en
+                    menos de 2 minutos y reclamá tu bono de bienvenida en {brand.brand_name}.
                   </p>
                   <p style={styles.subText}>
-                    Nuestro equipo de expertos está disponible 24/7 para ayudarte en cada paso de tu experiencia.
+                    Nuestro equipo de atención está disponible 24/7 para ayudarte en cada
+                    paso de tu experiencia.
                   </p>
                 </div>
 
-                <a href="https://example.com" style={styles.ctaButton}>
-                  Registrarse ahora en Bet30
+                <a
+                  href={brand.affiliate_url}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow sponsored"
+                  style={styles.ctaButton}
+                >
+                  Registrarse ahora en {brand.brand_name}
                 </a>
 
                 <p style={styles.disclaimer}>
-                  Al registrarte, aceptas nuestros términos de servicio y política de privacidad. Juega responsablemente.
+                  Al registrarte, aceptás los términos de servicio y la política de
+                  privacidad del operador. Juego responsable. +18.
                 </p>
               </div>
             </div>
           </div>
 
           <div style={styles.infoSection}>
-            <h2 style={styles.infoTitle}>Por qué elegir Bet30</h2>
+            <h2 style={styles.infoTitle}>Por qué elegir {brand.brand_name}</h2>
             <div style={styles.infos}>
-              <div style={styles.infoItem}>
-                <div style={styles.infoNumber}>✓</div>
-                <div>
-                  <h3 style={styles.infoItemTitle}>Variedad sin igual</h3>
-                  <p style={styles.infoItemText}>Más de 500 juegos de los mejores proveedores mundiales como Pragmatic Play, NetEnt y Evolution Gaming</p>
+              {content.hero.trust_badges.map((badge, index) => (
+                <div key={index} style={styles.infoItem}>
+                  <div style={styles.infoNumber}>✓</div>
+                  <div>
+                    <h3 style={styles.infoItemTitle}>{badge}</h3>
+                  </div>
                 </div>
-              </div>
-              <div style={styles.infoItem}>
-                <div style={styles.infoNumber}>✓</div>
-                <div>
-                  <h3 style={styles.infoItemTitle}>Seguridad garantizada</h3>
-                  <p style={styles.infoItemText}>Protección con encriptación SSL 256-bit, verificación KYC y autenticación de dos factores</p>
-                </div>
-              </div>
-              <div style={styles.infoItem}>
-                <div style={styles.infoNumber}>✓</div>
-                <div>
-                  <h3 style={styles.infoItemTitle}>Promociones constantemente</h3>
-                  <p style={styles.infoItemText}>Acceso a bonos semanales, free spins y promociones exclusivas para miembros VIP</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
@@ -148,12 +148,11 @@ const styles = {
     fontSize: 'clamp(2.2rem, 5vw, 3rem)',
     fontWeight: 800,
     marginBottom: '16px',
-    letterSpacing: '-0.02em',
   },
   subtitle: {
-    fontSize: '1.1rem',
+    fontSize: '1.05rem',
     color: 'var(--gray-1)',
-    maxWidth: '600px',
+    maxWidth: '620px',
     margin: '0 auto',
     lineHeight: 1.6,
   },
@@ -162,11 +161,11 @@ const styles = {
     gridTemplateColumns: '1.2fr 1fr',
     gap: '48px',
     alignItems: 'start',
-    marginBottom: '64px',
-  } as React.CSSProperties,
+    marginBottom: '80px',
+  },
   benefitsGrid: {
     display: 'grid',
-    gridTemplateColumns: '1fr',
+    gridTemplateColumns: 'repeat(2, 1fr)',
     gap: '20px',
   },
   benefitCard: {
@@ -178,93 +177,82 @@ const styles = {
     background: 'var(--surface-2)',
   },
   benefitIcon: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: '64px',
-    height: '64px',
-    borderRadius: 'var(--r-md)',
-    background: 'var(--gold-dim)',
-    color: 'var(--gold)',
     flexShrink: 0,
+    display: 'flex',
+    alignItems: 'flex-start',
+    color: 'var(--gold)',
   },
   benefitTitle: {
     fontFamily: 'var(--font-syne)',
-    fontSize: '1.1rem',
+    fontSize: '1rem',
     fontWeight: 700,
-    marginBottom: '4px',
+    marginBottom: '8px',
   },
   benefitDesc: {
-    fontSize: '14px',
+    fontSize: '13px',
     color: 'var(--gray-1)',
-    lineHeight: 1.5,
+    lineHeight: 1.6,
   },
   ctaSection: {
-    display: 'flex',
-    flexDirection: 'column' as const,
+    position: 'sticky' as const,
+    top: '88px',
   },
   ctaCard: {
-    padding: '40px',
+    padding: '32px',
     borderRadius: 'var(--r-lg)',
-    border: '2px solid var(--gold)',
-    background: 'linear-gradient(180deg, var(--gold-dim) 0%, var(--surface-2) 100%)',
-    display: 'flex',
-    flexDirection: 'column' as const,
-    gap: '24px',
+    border: '1px solid var(--gold-line)',
+    background: 'var(--surface-2)',
   },
   bonusHighlight: {
     textAlign: 'center' as const,
-    paddingBottom: '16px',
-    borderBottom: '1px solid var(--gold-line)',
+    padding: '24px',
+    borderRadius: 'var(--r-md)',
+    background: 'var(--surface-3)',
+    marginBottom: '24px',
   },
   bonusAmount: {
     fontFamily: 'var(--font-syne)',
-    fontSize: '3rem',
+    fontSize: '2.4rem',
     fontWeight: 800,
     color: 'var(--gold)',
-    lineHeight: 1,
+    lineHeight: 1.1,
   },
   bonusPlus: {
-    fontSize: '1.2rem',
-    color: 'var(--gold)',
+    fontSize: '15px',
     fontWeight: 600,
+    color: 'var(--gray-1)',
     marginTop: '8px',
   },
   bonusDesc: {
     fontSize: '13px',
     color: 'var(--gray-2)',
     marginTop: '12px',
-    textTransform: 'uppercase' as const,
-    letterSpacing: '0.05em',
+    lineHeight: 1.5,
   },
   ctaText: {
-    display: 'flex',
-    flexDirection: 'column' as const,
-    gap: '12px',
+    marginBottom: '24px',
   },
   mainText: {
-    fontSize: '1rem',
-    color: 'var(--white)',
-    lineHeight: 1.7,
-    fontWeight: 500,
+    fontSize: '15px',
+    lineHeight: 1.6,
+    marginBottom: '12px',
   },
   subText: {
-    fontSize: '0.95rem',
-    color: 'var(--gray-1)',
+    fontSize: '13px',
+    color: 'var(--gray-2)',
     lineHeight: 1.6,
   },
   ctaButton: {
-    padding: '18px 32px',
+    display: 'block',
+    padding: '16px',
     borderRadius: '999px',
     background: 'var(--gold)',
     color: '#000',
-    fontSize: '16px',
+    fontSize: '15px',
     fontWeight: 700,
     textDecoration: 'none',
     textAlign: 'center' as const,
-    transition: 'transform 0.15s, box-shadow 0.2s',
-    cursor: 'pointer',
-    display: 'block',
+    marginBottom: '16px',
   },
   disclaimer: {
     fontSize: '12px',
@@ -273,48 +261,46 @@ const styles = {
     lineHeight: 1.5,
   },
   infoSection: {
-    borderTop: '1px solid var(--gray-3)',
-    paddingTop: '64px',
+    textAlign: 'center' as const,
   },
   infoTitle: {
     fontFamily: 'var(--font-syne)',
-    fontSize: '2rem',
+    fontSize: '1.6rem',
     fontWeight: 800,
-    textAlign: 'center' as const,
-    marginBottom: '48px',
-    letterSpacing: '-0.02em',
+    marginBottom: '40px',
   },
   infos: {
     display: 'grid',
-    gridTemplateColumns: '1fr',
-    gap: '32px',
+    gridTemplateColumns: 'repeat(3, 1fr)',
+    gap: '24px',
+    maxWidth: '900px',
+    margin: '0 auto',
   },
   infoItem: {
     display: 'flex',
-    gap: '20px',
+    gap: '16px',
+    alignItems: 'flex-start',
+    textAlign: 'left' as const,
+    padding: '20px',
+    borderRadius: 'var(--r-md)',
+    background: 'var(--surface-2)',
+    border: '1px solid var(--gray-3)',
   },
   infoNumber: {
+    flexShrink: 0,
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    width: '40px',
-    height: '40px',
+    width: '32px',
+    height: '32px',
     borderRadius: '50%',
     background: 'var(--gold-dim)',
     color: 'var(--gold)',
-    fontSize: '1.4rem',
     fontWeight: 700,
-    flexShrink: 0,
   },
   infoItemTitle: {
-    fontFamily: 'var(--font-syne)',
-    fontSize: '1.2rem',
-    fontWeight: 700,
-    marginBottom: '8px',
-  },
-  infoItemText: {
-    fontSize: '1rem',
-    color: 'var(--gray-1)',
-    lineHeight: 1.6,
+    fontSize: '15px',
+    fontWeight: 600,
+    lineHeight: 1.4,
   },
 }
