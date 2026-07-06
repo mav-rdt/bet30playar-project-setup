@@ -1,133 +1,94 @@
+import type { Metadata } from 'next'
 import MonoBrandNav from '@/components/monobrand/MonoBrandNav'
 import MonoBrandFooter from '@/components/monobrand/MonoBrandFooter'
-import { ArrowDownCircle, ArrowUpCircle, Shield, Clock, CheckCircle, CreditCard, Building, Smartphone, Bitcoin } from 'lucide-react'
+import { getCurrentBrand, getHomeContent } from '@/lib/brand'
+import {
+  Smartphone, CreditCard, Building, Clock, CheckCircle, ShieldCheck,
+} from 'lucide-react'
 
-export const metadata = {
-  title: 'Depositos y Retiros - Bet30',
-  description: 'Metodos de pago disponibles para depositos y retiros en Bet30',
+// Icons per payment method name from _home.json
+const methodIcons: Record<string, React.ElementType> = {
+  'MercadoPago': Smartphone,
+  'Ualá':        CreditCard,
+  'Pago Fácil':  Building,
+  'Rapipago':    Building,
 }
 
-const depositMethods = [
-  { icon: Smartphone, name: 'MercadoPago', time: 'Instantaneo', min: '$500', max: '$100.000', fee: 'Gratis' },
-  { icon: CreditCard, name: 'Uala', time: 'Instantaneo', min: '$500', max: '$50.000', fee: 'Gratis' },
-  { icon: Building, name: 'Transferencia bancaria', time: '1-24 horas', min: '$1.000', max: 'Sin limite', fee: 'Gratis' },
-  { icon: CreditCard, name: 'Pago Facil', time: 'Instantaneo', min: '$500', max: '$30.000', fee: 'Gratis' },
-  { icon: CreditCard, name: 'Rapipago', time: 'Instantaneo', min: '$500', max: '$30.000', fee: 'Gratis' },
-  { icon: Bitcoin, name: 'Crypto (USDT)', time: 'Instantaneo', min: '$1.000', max: 'Sin limite', fee: 'Gratis' },
-]
+export async function generateMetadata(): Promise<Metadata> {
+  const brand = getCurrentBrand()
+  const content = getHomeContent()
+  const url = `https://${brand.affiliate_domain}`
 
-const withdrawMethods = [
-  { icon: Building, name: 'CVU/CBU', time: '1-24 horas', min: '$1.000', max: '$500.000', fee: 'Gratis' },
-  { icon: Smartphone, name: 'MercadoPago', time: '1-24 horas', min: '$1.000', max: '$100.000', fee: 'Gratis' },
-  { icon: Bitcoin, name: 'Crypto (USDT)', time: '1-2 horas', min: '$5.000', max: 'Sin limite', fee: 'Red' },
-]
-
-const steps = [
-  { title: 'Inicia sesion', desc: 'Accede a tu cuenta de Bet30' },
-  { title: 'Ve a Cajero', desc: 'Selecciona deposito o retiro' },
-  { title: 'Elige el metodo', desc: 'Selecciona tu metodo preferido' },
-  { title: 'Ingresa el monto', desc: 'Indica cuanto queres depositar/retirar' },
-  { title: 'Confirma', desc: 'Verifica los datos y confirma' },
-]
+  return {
+    title: `Depósitos y Retiros en ${brand.brand_name} - Métodos de Pago`,
+    description: content.payments.intro,
+    alternates: { canonical: `${url}/finanzas` },
+  }
+}
 
 export default function FinanzasPage() {
+  const brand = getCurrentBrand()
+  const content = getHomeContent()
+  const methods = content.payments.methods
+
+  const steps = [
+    { title: 'Iniciá sesión', desc: `Accedé a tu cuenta de ${brand.brand_name}` },
+    { title: 'Andá al cajero', desc: 'Seleccioná depósito o retiro' },
+    { title: 'Elegí el método', desc: 'Seleccioná tu método de pago preferido' },
+    { title: 'Ingresá el monto', desc: 'Indicá cuánto querés depositar o retirar' },
+    { title: 'Confirmá', desc: 'Verificá los datos y confirmá la operación' },
+  ]
+
   return (
     <>
       <MonoBrandNav />
       <main style={styles.main}>
         <div style={styles.container}>
           <div style={styles.header}>
-            <h1 style={styles.title}>Depositos y retiros</h1>
-            <p style={styles.subtitle}>
-              Multiples metodos de pago locales para depositar y retirar de forma segura. Sin comisiones ocultas.
+            <h1 style={styles.title}>Depósitos y retiros en {brand.brand_name}</h1>
+            <p style={styles.subtitle}>{content.payments.intro}</p>
+          </div>
+
+          <section style={styles.section}>
+            <h2 style={styles.sectionTitle}>Métodos de pago disponibles</h2>
+            <div style={styles.methodsGrid}>
+              {methods.map((method, index) => {
+                const Icon = methodIcons[method.name] ?? CreditCard
+                return (
+                  <div key={index} style={styles.methodCard}>
+                    <div style={styles.methodIcon}>
+                      <Icon size={28} />
+                    </div>
+                    <h3 style={styles.methodName}>{method.name}</h3>
+                    <div style={styles.methodDetails}>
+                      <div style={styles.methodDetail}>
+                        <span style={styles.detailLabel}>Depósito mínimo</span>
+                        <span style={styles.detailValue}>
+                          ${method.min_ars.toLocaleString('es-AR')} ARS
+                        </span>
+                      </div>
+                      <div style={styles.methodDetail}>
+                        <span style={styles.detailLabel}>Velocidad</span>
+                        <span style={styles.detailValue}>{method.speed}</span>
+                      </div>
+                      <div style={styles.methodDetail}>
+                        <span style={styles.detailLabel}>Comisión</span>
+                        <span style={styles.detailValue}>{method.fee_label}</span>
+                      </div>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+            <p style={styles.methodsNote}>
+              Los montos mínimos, tiempos y comisiones pueden variar según las condiciones
+              vigentes del operador. Verificá los valores actuales en el cajero de{' '}
+              {brand.brand_name} antes de operar.
             </p>
-          </div>
-
-          <div style={styles.statsGrid}>
-            <div style={styles.statCard}>
-              <ArrowDownCircle size={24} style={{ color: 'var(--green)' }} />
-              <div style={styles.statValue}>Instantaneo</div>
-              <div style={styles.statLabel}>Depositos</div>
-            </div>
-            <div style={styles.statCard}>
-              <ArrowUpCircle size={24} style={{ color: 'var(--gold)' }} />
-              <div style={styles.statValue}>{'< 24h'}</div>
-              <div style={styles.statLabel}>Retiros</div>
-            </div>
-            <div style={styles.statCard}>
-              <Shield size={24} style={{ color: 'var(--accent-slot)' }} />
-              <div style={styles.statValue}>SSL</div>
-              <div style={styles.statLabel}>Seguridad</div>
-            </div>
-            <div style={styles.statCard}>
-              <CreditCard size={24} style={{ color: 'var(--orange)' }} />
-              <div style={styles.statValue}>Gratis</div>
-              <div style={styles.statLabel}>Comisiones</div>
-            </div>
-          </div>
-
-          <section style={styles.section}>
-            <div style={styles.sectionHeader}>
-              <div style={styles.sectionIcon}>
-                <ArrowDownCircle size={24} />
-              </div>
-              <h2 style={styles.sectionTitle}>Metodos de deposito</h2>
-            </div>
-            <div style={styles.methodsTable}>
-              <div style={styles.tableHeader}>
-                <span>Metodo</span>
-                <span>Tiempo</span>
-                <span>Minimo</span>
-                <span>Maximo</span>
-                <span>Comision</span>
-              </div>
-              {depositMethods.map((method, index) => (
-                <div key={index} style={styles.tableRow}>
-                  <div style={styles.methodName}>
-                    <method.icon size={20} style={{ color: 'var(--gold)' }} />
-                    <span>{method.name}</span>
-                  </div>
-                  <span style={styles.methodTime}>{method.time}</span>
-                  <span>{method.min}</span>
-                  <span>{method.max}</span>
-                  <span style={styles.methodFree}>{method.fee}</span>
-                </div>
-              ))}
-            </div>
           </section>
 
           <section style={styles.section}>
-            <div style={styles.sectionHeader}>
-              <div style={{ ...styles.sectionIcon, background: 'var(--gold-dim)', color: 'var(--gold)' }}>
-                <ArrowUpCircle size={24} />
-              </div>
-              <h2 style={styles.sectionTitle}>Metodos de retiro</h2>
-            </div>
-            <div style={styles.methodsTable}>
-              <div style={styles.tableHeader}>
-                <span>Metodo</span>
-                <span>Tiempo</span>
-                <span>Minimo</span>
-                <span>Maximo</span>
-                <span>Comision</span>
-              </div>
-              {withdrawMethods.map((method, index) => (
-                <div key={index} style={styles.tableRow}>
-                  <div style={styles.methodName}>
-                    <method.icon size={20} style={{ color: 'var(--gold)' }} />
-                    <span>{method.name}</span>
-                  </div>
-                  <span style={styles.methodTime}>{method.time}</span>
-                  <span>{method.min}</span>
-                  <span>{method.max}</span>
-                  <span style={styles.methodFree}>{method.fee}</span>
-                </div>
-              ))}
-            </div>
-          </section>
-
-          <section style={styles.howToSection}>
-            <h2 style={styles.howToTitle}>Como depositar o retirar</h2>
+            <h2 style={styles.sectionTitle}>Cómo depositar o retirar paso a paso</h2>
             <div style={styles.stepsGrid}>
               {steps.map((step, index) => (
                 <div key={index} style={styles.stepCard}>
@@ -139,27 +100,46 @@ export default function FinanzasPage() {
             </div>
           </section>
 
-          <section style={styles.faqSection}>
-            <h2 style={styles.faqTitle}>Preguntas frecuentes</h2>
-            <div style={styles.faqGrid}>
-              <div style={styles.faqCard}>
-                <h3 style={styles.faqQuestion}>Cuanto tarda un retiro?</h3>
-                <p style={styles.faqAnswer}>Los retiros se procesan en menos de 24 horas habiles. Los retiros en crypto pueden ser mas rapidos.</p>
+          <section style={styles.trustSection}>
+            <div style={styles.trustItem}>
+              <ShieldCheck size={24} style={{ color: 'var(--gold)' }} />
+              <div>
+                <h3 style={styles.trustTitle}>Transacciones protegidas</h3>
+                <p style={styles.trustDesc}>
+                  Todas las operaciones se procesan con encriptación SSL.
+                </p>
               </div>
-              <div style={styles.faqCard}>
-                <h3 style={styles.faqQuestion}>Hay comisiones?</h3>
-                <p style={styles.faqAnswer}>No cobramos comisiones por depositos ni retiros. Solo los retiros en crypto tienen el costo de la red.</p>
+            </div>
+            <div style={styles.trustItem}>
+              <Clock size={24} style={{ color: 'var(--gold)' }} />
+              <div>
+                <h3 style={styles.trustTitle}>Pagos en pesos argentinos</h3>
+                <p style={styles.trustDesc}>
+                  Depositá y retirá en ARS con métodos locales, sin conversión de moneda.
+                </p>
               </div>
-              <div style={styles.faqCard}>
-                <h3 style={styles.faqQuestion}>Cual es el minimo para retirar?</h3>
-                <p style={styles.faqAnswer}>El monto minimo de retiro es de $1.000 ARS para la mayoria de los metodos.</p>
-              </div>
-              <div style={styles.faqCard}>
-                <h3 style={styles.faqQuestion}>Necesito verificar mi cuenta?</h3>
-                <p style={styles.faqAnswer}>Si, para retirar necesitas completar la verificacion KYC. Es un proceso simple y rapido.</p>
+            </div>
+            <div style={styles.trustItem}>
+              <CheckCircle size={24} style={{ color: 'var(--gold)' }} />
+              <div>
+                <h3 style={styles.trustTitle}>Soporte 24/7</h3>
+                <p style={styles.trustDesc}>
+                  Atención en español para resolver cualquier duda sobre tus pagos.
+                </p>
               </div>
             </div>
           </section>
+
+          <div style={styles.ctaWrap}>
+            <a
+              href={brand.affiliate_url}
+              target="_blank"
+              rel="noopener noreferrer nofollow sponsored"
+              style={styles.ctaButton}
+            >
+              Ir al cajero de {brand.brand_name}
+            </a>
+          </div>
         </div>
       </main>
       <MonoBrandFooter />
@@ -170,6 +150,7 @@ export default function FinanzasPage() {
 const styles = {
   main: {
     padding: '80px 0',
+    minHeight: '80vh',
   },
   container: {
     maxWidth: '1180px',
@@ -178,191 +159,160 @@ const styles = {
   },
   header: {
     textAlign: 'center' as const,
-    marginBottom: '48px',
+    marginBottom: '64px',
   },
   title: {
     fontFamily: 'var(--font-syne)',
-    fontSize: 'clamp(2rem, 4vw, 2.8rem)',
+    fontSize: 'clamp(2.2rem, 5vw, 3rem)',
     fontWeight: 800,
     marginBottom: '16px',
-    letterSpacing: '-0.02em',
   },
   subtitle: {
-    fontSize: '1rem',
+    fontSize: '1.05rem',
     color: 'var(--gray-1)',
-    lineHeight: 1.7,
-    maxWidth: '600px',
+    maxWidth: '680px',
     margin: '0 auto',
-  },
-  statsGrid: {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(4, 1fr)',
-    gap: '20px',
-    marginBottom: '64px',
-  } as React.CSSProperties,
-  statCard: {
-    display: 'flex',
-    flexDirection: 'column' as const,
-    alignItems: 'center',
-    gap: '12px',
-    padding: '32px',
-    borderRadius: 'var(--r-lg)',
-    border: '1px solid var(--gray-3)',
-    background: 'var(--surface-2)',
-    textAlign: 'center' as const,
-  },
-  statValue: {
-    fontFamily: 'var(--font-syne)',
-    fontSize: '1.5rem',
-    fontWeight: 800,
-  },
-  statLabel: {
-    fontSize: '13px',
-    color: 'var(--gray-2)',
+    lineHeight: 1.6,
   },
   section: {
-    marginBottom: '48px',
-  },
-  sectionHeader: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '16px',
-    marginBottom: '24px',
-  },
-  sectionIcon: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    width: '48px',
-    height: '48px',
-    borderRadius: 'var(--r-md)',
-    background: 'var(--green-dim)',
-    color: 'var(--green)',
+    marginBottom: '72px',
   },
   sectionTitle: {
     fontFamily: 'var(--font-syne)',
-    fontSize: '1.4rem',
-    fontWeight: 700,
-  },
-  methodsTable: {
-    borderRadius: 'var(--r-lg)',
-    border: '1px solid var(--gray-3)',
-    background: 'var(--surface-2)',
-    overflow: 'hidden',
-  },
-  tableHeader: {
-    display: 'grid',
-    gridTemplateColumns: '2fr 1fr 1fr 1fr 1fr',
-    gap: '16px',
-    padding: '16px 24px',
-    background: 'var(--surface-3)',
-    fontSize: '12px',
-    fontWeight: 600,
-    color: 'var(--gray-2)',
-    textTransform: 'uppercase' as const,
-    letterSpacing: '0.05em',
-  } as React.CSSProperties,
-  tableRow: {
-    display: 'grid',
-    gridTemplateColumns: '2fr 1fr 1fr 1fr 1fr',
-    gap: '16px',
-    padding: '20px 24px',
-    borderTop: '1px solid var(--gray-3)',
-    alignItems: 'center',
-    fontSize: '14px',
-    color: 'var(--gray-1)',
-  } as React.CSSProperties,
-  methodName: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '12px',
-    fontWeight: 500,
-    color: 'var(--white)',
-  },
-  methodTime: {
-    color: 'var(--green)',
-    fontWeight: 500,
-  },
-  methodFree: {
-    color: 'var(--green)',
-    fontWeight: 600,
-  },
-  howToSection: {
-    padding: '48px',
-    borderRadius: 'var(--r-lg)',
-    border: '1px solid var(--gray-3)',
-    background: 'var(--surface-2)',
-    marginBottom: '48px',
+    fontSize: '1.6rem',
+    fontWeight: 800,
+    marginBottom: '32px',
     textAlign: 'center' as const,
   },
-  howToTitle: {
+  methodsGrid: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+    gap: '20px',
+  },
+  methodCard: {
+    padding: '28px',
+    borderRadius: 'var(--r-lg)',
+    border: '1px solid var(--gray-3)',
+    background: 'var(--surface-2)',
+  },
+  methodIcon: {
+    display: 'inline-flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '52px',
+    height: '52px',
+    borderRadius: 'var(--r-md)',
+    background: 'var(--surface-3)',
+    color: 'var(--gold)',
+    marginBottom: '16px',
+  },
+  methodName: {
     fontFamily: 'var(--font-syne)',
-    fontSize: '1.5rem',
+    fontSize: '1.1rem',
     fontWeight: 700,
-    marginBottom: '32px',
+    marginBottom: '16px',
+  },
+  methodDetails: {
+    display: 'flex',
+    flexDirection: 'column' as const,
+    gap: '10px',
+  },
+  methodDetail: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    fontSize: '13px',
+    paddingBottom: '10px',
+    borderBottom: '1px solid var(--gray-3)',
+  },
+  detailLabel: {
+    color: 'var(--gray-2)',
+  },
+  detailValue: {
+    fontWeight: 600,
+    color: 'var(--gray-1)',
+    textAlign: 'right' as const,
+  },
+  methodsNote: {
+    fontSize: '13px',
+    color: 'var(--gray-2)',
+    textAlign: 'center' as const,
+    marginTop: '24px',
+    maxWidth: '680px',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    lineHeight: 1.6,
   },
   stepsGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(5, 1fr)',
-    gap: '24px',
-  } as React.CSSProperties,
+    gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+    gap: '20px',
+  },
   stepCard: {
+    padding: '24px',
+    borderRadius: 'var(--r-md)',
+    border: '1px solid var(--gray-3)',
+    background: 'var(--surface-2)',
     textAlign: 'center' as const,
   },
   stepNumber: {
     display: 'inline-flex',
     alignItems: 'center',
     justifyContent: 'center',
-    width: '40px',
-    height: '40px',
+    width: '36px',
+    height: '36px',
     borderRadius: '50%',
     background: 'var(--gold)',
     color: '#000',
-    fontFamily: 'var(--font-syne)',
-    fontSize: '1rem',
-    fontWeight: 800,
-    marginBottom: '12px',
+    fontWeight: 700,
+    fontSize: '15px',
+    marginBottom: '14px',
   },
   stepTitle: {
-    fontFamily: 'var(--font-syne)',
-    fontSize: '0.95rem',
-    fontWeight: 700,
-    marginBottom: '4px',
-  },
-  stepDesc: {
-    fontSize: '13px',
-    color: 'var(--gray-2)',
-  },
-  faqSection: {
-    textAlign: 'center' as const,
-  },
-  faqTitle: {
-    fontFamily: 'var(--font-syne)',
-    fontSize: '1.5rem',
-    fontWeight: 700,
-    marginBottom: '32px',
-  },
-  faqGrid: {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(2, 1fr)',
-    gap: '20px',
-    textAlign: 'left' as const,
-  } as React.CSSProperties,
-  faqCard: {
-    padding: '24px',
-    borderRadius: 'var(--r-lg)',
-    border: '1px solid var(--gray-3)',
-    background: 'var(--surface-2)',
-  },
-  faqQuestion: {
-    fontFamily: 'var(--font-syne)',
-    fontSize: '1rem',
+    fontSize: '15px',
     fontWeight: 700,
     marginBottom: '8px',
   },
-  faqAnswer: {
-    fontSize: '14px',
+  stepDesc: {
+    fontSize: '13px',
     color: 'var(--gray-1)',
-    lineHeight: 1.6,
+    lineHeight: 1.5,
+  },
+  trustSection: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
+    gap: '24px',
+    padding: '32px',
+    borderRadius: 'var(--r-lg)',
+    border: '1px solid var(--gray-3)',
+    background: 'var(--surface-2)',
+    marginBottom: '48px',
+  },
+  trustItem: {
+    display: 'flex',
+    gap: '14px',
+    alignItems: 'flex-start',
+  },
+  trustTitle: {
+    fontSize: '15px',
+    fontWeight: 700,
+    marginBottom: '6px',
+  },
+  trustDesc: {
+    fontSize: '13px',
+    color: 'var(--gray-1)',
+    lineHeight: 1.5,
+  },
+  ctaWrap: {
+    textAlign: 'center' as const,
+  },
+  ctaButton: {
+    display: 'inline-block',
+    padding: '16px 40px',
+    borderRadius: '999px',
+    background: 'var(--gold)',
+    color: '#000',
+    fontSize: '15px',
+    fontWeight: 700,
+    textDecoration: 'none',
   },
 }
