@@ -1,28 +1,32 @@
+import type { Metadata } from 'next'
 import MonoBrandNav from '@/components/monobrand/MonoBrandNav'
 import MonoBrandFooter from '@/components/monobrand/MonoBrandFooter'
+import { getCurrentBrand, getHomeContent } from '@/lib/brand'
 import { Download, Smartphone, CheckCircle, Star, Shield, Zap } from 'lucide-react'
 
-export const metadata = {
-  title: 'Descargar App - Bet30',
-  description: 'Descarga la aplicacion de Bet30 para Android',
+export async function generateMetadata(): Promise<Metadata> {
+  const brand = getCurrentBrand()
+  const content = getHomeContent()
+  const url = `https://${brand.affiliate_domain}`
+
+  return {
+    title: `Descargar App de ${brand.brand_name} para Android`,
+    description: content.app.body,
+    alternates: { canonical: `${url}/app` },
+  }
 }
 
-const features = [
-  { icon: Zap, title: 'Acceso rapido', desc: 'Inicia sesion con un solo toque' },
-  { icon: Star, title: 'Todos los juegos', desc: 'Catalogo completo en tu movil' },
-  { icon: Shield, title: 'Seguridad total', desc: 'La misma seguridad que en web' },
-]
-
-const appBenefits = [
-  'Notificaciones de bonos exclusivos',
-  'Depositos y retiros desde el movil',
-  'Interfaz optimizada para pantallas tactiles',
-  'Modo oscuro automatico',
-  'Actualizaciones automaticas',
-  'Soporte tecnico integrado',
-]
-
 export default function AppPage() {
+  const brand = getCurrentBrand()
+  const content = getHomeContent()
+  const app = content.app
+
+  const highlights = [
+    { icon: Zap, title: 'Acceso rápido', desc: 'Iniciá sesión con un solo toque' },
+    { icon: Star, title: 'Todos los juegos', desc: 'Catálogo completo en tu móvil' },
+    { icon: Shield, title: 'Seguridad total', desc: 'La misma protección que en la web' },
+  ]
+
   return (
     <>
       <MonoBrandNav />
@@ -32,85 +36,83 @@ export default function AppPage() {
             <div style={styles.heroContent}>
               <div style={styles.badge}>
                 <Smartphone size={16} />
-                Aplicacion movil
+                Aplicación móvil
               </div>
-              <h1 style={styles.title}>Lleva Bet30 siempre contigo</h1>
-              <p style={styles.subtitle}>
-                Descarga nuestra app y disfruta de la mejor experiencia de casino desde tu dispositivo Android.
+              <h1 style={styles.title}>{app.headline}</h1>
+              <p style={styles.subtitle}>{app.body}</p>
+
+              <a
+                href={brand.affiliate_url}
+                target="_blank"
+                rel="noopener noreferrer nofollow sponsored"
+                style={styles.downloadBtn}
+              >
+                <Download size={20} />
+                Descargar desde {brand.brand_name}
+              </a>
+
+              <p style={styles.downloadNote}>
+                La descarga se realiza desde el sitio oficial del operador. Juego
+                responsable. +18.
               </p>
+            </div>
 
-              <div style={styles.downloadButtons}>
-                <a href="#" style={styles.downloadBtn}>
-                  <Download size={20} />
+            <div style={styles.highlightsCol}>
+              {highlights.map((item, index) => (
+                <div key={index} style={styles.highlightCard}>
+                  <div style={styles.highlightIcon}>
+                    <item.icon size={24} />
+                  </div>
                   <div>
-                    <span style={styles.downloadSmall}>Descargar para</span>
-                    <span style={styles.downloadBig}>Android</span>
+                    <h3 style={styles.highlightTitle}>{item.title}</h3>
+                    <p style={styles.highlightDesc}>{item.desc}</p>
                   </div>
-                </a>
-              </div>
-
-              <div style={styles.featureCards}>
-                {features.map((feature, index) => (
-                  <div key={index} style={styles.featureCard}>
-                    <feature.icon size={20} style={{ color: 'var(--gold)' }} />
-                    <div>
-                      <div style={styles.featureTitle}>{feature.title}</div>
-                      <div style={styles.featureDesc}>{feature.desc}</div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div style={styles.phoneContainer}>
-              <div style={styles.phoneMockup}>
-                <div style={styles.phoneScreen}>
-                  <div style={styles.phoneHeader}>
-                    <Smartphone size={20} style={{ color: 'var(--gold)' }} />
-                    <span style={styles.phoneBrand}>Bet30</span>
-                  </div>
-                  <div style={styles.phoneContent}>
-                    <div style={styles.phoneCard} />
-                    <div style={styles.phoneCard} />
-                    <div style={styles.phoneCard} />
-                    <div style={styles.phoneButton}>Jugar ahora</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div style={styles.benefitsSection}>
-            <h2 style={styles.sectionTitle}>Beneficios de la app</h2>
-            <div style={styles.benefitsGrid}>
-              {appBenefits.map((benefit, index) => (
-                <div key={index} style={styles.benefitItem}>
-                  <CheckCircle size={20} style={{ color: 'var(--green)', flexShrink: 0 }} />
-                  <span>{benefit}</span>
                 </div>
               ))}
             </div>
           </div>
 
-          <div style={styles.installSection}>
-            <h2 style={styles.sectionTitle}>Como instalar</h2>
-            <div style={styles.stepsGrid}>
-              <div style={styles.stepCard}>
-                <div style={styles.stepNumber}>1</div>
-                <h3 style={styles.stepTitle}>Descarga el archivo</h3>
-                <p style={styles.stepDesc}>Haz clic en el boton de descarga correspondiente a tu sistema operativo</p>
-              </div>
-              <div style={styles.stepCard}>
-                <div style={styles.stepNumber}>2</div>
-                <h3 style={styles.stepTitle}>Permite la instalacion</h3>
-                <p style={styles.stepDesc}>En Android, activa la opcion de fuentes desconocidas en configuracion</p>
-              </div>
-              <div style={styles.stepCard}>
-                <div style={styles.stepNumber}>3</div>
-                <h3 style={styles.stepTitle}>Instala y juega</h3>
-                <p style={styles.stepDesc}>Abre el archivo descargado, instala la app e inicia sesion</p>
-              </div>
+          <section style={styles.section}>
+            <h2 style={styles.sectionTitle}>
+              Qué incluye la app de {brand.brand_name}
+            </h2>
+            <div style={styles.benefitsGrid}>
+              {app.features.map((feature, index) => (
+                <div key={index} style={styles.benefitItem}>
+                  <CheckCircle size={18} style={{ color: 'var(--gold)', flexShrink: 0 }} />
+                  <span style={styles.benefitText}>{feature}</span>
+                </div>
+              ))}
             </div>
+          </section>
+
+          <section style={styles.stepsSection}>
+            <h2 style={styles.sectionTitle}>Cómo instalar la app en Android</h2>
+            <div style={styles.stepsGrid}>
+              {[
+                { title: 'Andá al sitio oficial', desc: `Ingresá a ${brand.brand_name} desde tu móvil` },
+                { title: 'Descargá el APK', desc: 'Buscá la sección de descarga de la app' },
+                { title: 'Permití la instalación', desc: 'Habilitá "orígenes desconocidos" si Android lo pide' },
+                { title: 'Iniciá sesión y jugá', desc: 'Usá tus credenciales o creá una cuenta nueva' },
+              ].map((step, index) => (
+                <div key={index} style={styles.stepCard}>
+                  <div style={styles.stepNumber}>{index + 1}</div>
+                  <h3 style={styles.stepTitle}>{step.title}</h3>
+                  <p style={styles.stepDesc}>{step.desc}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <div style={styles.ctaWrap}>
+            <a
+              href={brand.affiliate_url}
+              target="_blank"
+              rel="noopener noreferrer nofollow sponsored"
+              style={styles.ctaButton}
+            >
+              Ir a {brand.brand_name}
+            </a>
           </div>
         </div>
       </main>
@@ -122,6 +124,7 @@ export default function AppPage() {
 const styles = {
   main: {
     padding: '80px 0',
+    minHeight: '80vh',
   },
   container: {
     maxWidth: '1180px',
@@ -130,20 +133,19 @@ const styles = {
   },
   hero: {
     display: 'grid',
-    gridTemplateColumns: '1fr 1fr',
-    gap: '64px',
+    gridTemplateColumns: '1.4fr 1fr',
+    gap: '48px',
     alignItems: 'center',
     marginBottom: '80px',
-  } as React.CSSProperties,
+  },
   heroContent: {},
   badge: {
     display: 'inline-flex',
     alignItems: 'center',
     gap: '8px',
-    padding: '8px 14px',
+    padding: '8px 16px',
     borderRadius: '999px',
     background: 'var(--gold-dim)',
-    border: '1px solid var(--gold-line)',
     color: 'var(--gold)',
     fontSize: '13px',
     fontWeight: 600,
@@ -151,141 +153,71 @@ const styles = {
   },
   title: {
     fontFamily: 'var(--font-syne)',
-    fontSize: 'clamp(2rem, 4vw, 2.8rem)',
+    fontSize: 'clamp(2rem, 4.5vw, 2.8rem)',
     fontWeight: 800,
-    marginBottom: '16px',
-    letterSpacing: '-0.02em',
+    marginBottom: '20px',
+    lineHeight: 1.15,
   },
   subtitle: {
-    fontSize: '1rem',
+    fontSize: '1.05rem',
     color: 'var(--gray-1)',
-    lineHeight: 1.7,
+    lineHeight: 1.6,
     marginBottom: '32px',
-  },
-  downloadButtons: {
-    display: 'flex',
-    gap: '16px',
-    marginBottom: '32px',
+    maxWidth: '540px',
   },
   downloadBtn: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '12px',
-    padding: '16px 24px',
-    borderRadius: 'var(--r-md)',
-    background: 'var(--gold)',
-    color: '#000',
-    textDecoration: 'none',
-  },
-  downloadBtnOutline: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '12px',
-    padding: '16px 24px',
-    borderRadius: 'var(--r-md)',
-    border: '1px solid var(--gray-3)',
-    background: 'var(--surface-2)',
-    color: 'var(--white)',
-    textDecoration: 'none',
-  },
-  downloadSmall: {
-    display: 'block',
-    fontSize: '11px',
-    opacity: 0.7,
-  },
-  downloadBig: {
-    display: 'block',
-    fontSize: '16px',
-    fontWeight: 700,
-  },
-  featureCards: {
-    display: 'flex',
-    flexDirection: 'column' as const,
-    gap: '12px',
-  },
-  featureCard: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '16px',
-    padding: '16px',
-    borderRadius: 'var(--r-md)',
-    background: 'var(--surface-2)',
-    border: '1px solid var(--gray-3)',
-  },
-  featureTitle: {
-    fontSize: '14px',
-    fontWeight: 600,
-  },
-  featureDesc: {
-    fontSize: '13px',
-    color: 'var(--gray-2)',
-  },
-  phoneContainer: {
-    display: 'flex',
-    justifyContent: 'center',
-  },
-  phoneMockup: {
-    width: '300px',
-    height: '600px',
-    borderRadius: '44px',
-    border: '10px solid var(--surface-3)',
-    background: 'var(--surface-2)',
-    padding: '16px',
-    boxShadow: '0 60px 120px -30px rgba(0,0,0,0.6)',
-  },
-  phoneScreen: {
-    width: '100%',
-    height: '100%',
-    borderRadius: '32px',
-    background: 'var(--black)',
-    padding: '24px',
-    display: 'flex',
-    flexDirection: 'column' as const,
-  },
-  phoneHeader: {
-    display: 'flex',
+    display: 'inline-flex',
     alignItems: 'center',
     gap: '10px',
-    marginBottom: '32px',
-  },
-  phoneBrand: {
-    fontFamily: 'var(--font-syne)',
-    fontWeight: 800,
-    fontSize: '20px',
-  },
-  phoneContent: {
-    flex: 1,
-    display: 'flex',
-    flexDirection: 'column' as const,
-    gap: '16px',
-  },
-  phoneCard: {
-    height: '100px',
-    borderRadius: 'var(--r-md)',
-    background: 'var(--surface-2)',
-    border: '1px solid var(--gray-3)',
-  },
-  phoneButton: {
-    marginTop: 'auto',
-    padding: '16px',
+    padding: '16px 32px',
     borderRadius: '999px',
     background: 'var(--gold)',
     color: '#000',
-    fontSize: '14px',
+    fontSize: '15px',
     fontWeight: 700,
-    textAlign: 'center' as const,
+    textDecoration: 'none',
+    marginBottom: '16px',
   },
-  benefitsSection: {
-    padding: '48px',
+  downloadNote: {
+    fontSize: '12px',
+    color: 'var(--gray-2)',
+    lineHeight: 1.5,
+  },
+  highlightsCol: {
+    display: 'flex',
+    flexDirection: 'column' as const,
+    gap: '16px',
+  },
+  highlightCard: {
+    display: 'flex',
+    gap: '16px',
+    padding: '20px',
     borderRadius: 'var(--r-lg)',
     border: '1px solid var(--gray-3)',
     background: 'var(--surface-2)',
-    marginBottom: '48px',
+    alignItems: 'flex-start',
+  },
+  highlightIcon: {
+    flexShrink: 0,
+    color: 'var(--gold)',
+  },
+  highlightTitle: {
+    fontSize: '15px',
+    fontWeight: 700,
+    marginBottom: '6px',
+  },
+  highlightDesc: {
+    fontSize: '13px',
+    color: 'var(--gray-1)',
+    lineHeight: 1.5,
+  },
+  section: {
+    marginBottom: '72px',
   },
   sectionTitle: {
     fontFamily: 'var(--font-syne)',
-    fontSize: '1.5rem',
-    fontWeight: 700,
+    fontSize: '1.6rem',
+    fontWeight: 800,
     marginBottom: '32px',
     textAlign: 'center' as const,
   },
@@ -293,28 +225,34 @@ const styles = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
     gap: '16px',
+    maxWidth: '820px',
+    margin: '0 auto',
   },
   benefitItem: {
     display: 'flex',
-    alignItems: 'center',
     gap: '12px',
+    alignItems: 'center',
+    padding: '16px 20px',
+    borderRadius: 'var(--r-md)',
+    border: '1px solid var(--gray-3)',
+    background: 'var(--surface-2)',
+  },
+  benefitText: {
     fontSize: '14px',
     color: 'var(--gray-1)',
-    padding: '12px 16px',
-    borderRadius: 'var(--r-md)',
-    background: 'var(--surface-3)',
+    lineHeight: 1.4,
   },
-  installSection: {
-    textAlign: 'center' as const,
+  stepsSection: {
+    marginBottom: '72px',
   },
   stepsGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(3, 1fr)',
-    gap: '24px',
-  } as React.CSSProperties,
+    gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+    gap: '20px',
+  },
   stepCard: {
-    padding: '32px',
-    borderRadius: 'var(--r-lg)',
+    padding: '24px',
+    borderRadius: 'var(--r-md)',
     border: '1px solid var(--gray-3)',
     background: 'var(--surface-2)',
     textAlign: 'center' as const,
@@ -323,25 +261,36 @@ const styles = {
     display: 'inline-flex',
     alignItems: 'center',
     justifyContent: 'center',
-    width: '48px',
-    height: '48px',
+    width: '36px',
+    height: '36px',
     borderRadius: '50%',
     background: 'var(--gold)',
     color: '#000',
-    fontFamily: 'var(--font-syne)',
-    fontSize: '1.2rem',
-    fontWeight: 800,
-    marginBottom: '16px',
+    fontWeight: 700,
+    fontSize: '15px',
+    marginBottom: '14px',
   },
   stepTitle: {
-    fontFamily: 'var(--font-syne)',
-    fontSize: '1rem',
+    fontSize: '15px',
     fontWeight: 700,
     marginBottom: '8px',
   },
   stepDesc: {
-    fontSize: '14px',
+    fontSize: '13px',
     color: 'var(--gray-1)',
     lineHeight: 1.5,
+  },
+  ctaWrap: {
+    textAlign: 'center' as const,
+  },
+  ctaButton: {
+    display: 'inline-block',
+    padding: '16px 40px',
+    borderRadius: '999px',
+    background: 'var(--gold)',
+    color: '#000',
+    fontSize: '15px',
+    fontWeight: 700,
+    textDecoration: 'none',
   },
 }
