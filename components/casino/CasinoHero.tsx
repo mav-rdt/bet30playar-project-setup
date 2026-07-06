@@ -2,9 +2,10 @@
 
 interface CasinoHeroProps {
   data: any
+  affiliateUrl?: string
 }
 
-export default function CasinoHero({ data }: CasinoHeroProps) {
+export default function CasinoHero({ data, affiliateUrl }: CasinoHeroProps) {
   const starCount = 5
   const score = typeof data?.score === 'number' ? data.score : 0
   const scoreMax = typeof data?.score_max === 'number' ? data.score_max : 5
@@ -26,6 +27,7 @@ export default function CasinoHero({ data }: CasinoHeroProps) {
   const description = data?.description ?? data?.intro ?? data?.meta_description ?? ''
   const bonusArs = data?.bonus_ars ?? data?.validated_math?.Max_Bonus_ARS ?? ''
   const bonusLabel = data?.bonus_label ?? ''
+  const ctaHref = affiliateUrl || '#'
 
   return (
     <section
@@ -204,8 +206,10 @@ export default function CasinoHero({ data }: CasinoHeroProps) {
 
             {/* CTA Bar */}
             <div style={{ display: 'flex', gap: '12px', alignItems: 'center', flexWrap: 'wrap', paddingTop: '4px' }}>
-              <a
-                href="#"
+              
+                href={ctaHref}
+                target="_blank"
+                rel="sponsored nofollow noopener"
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',
@@ -224,7 +228,7 @@ export default function CasinoHero({ data }: CasinoHeroProps) {
               >
                 Ir al sitio oficial →
               </a>
-              <a
+              
                 href="#analisis"
                 style={{
                   display: 'inline-flex',
@@ -315,7 +319,10 @@ export default function CasinoHero({ data }: CasinoHeroProps) {
               </div>
             )}
             <div style={{ padding: '16px 20px', background: 'var(--surface-2)', borderTop: '1px solid var(--gray-3)' }}>
-              <button
+              
+                href={ctaHref}
+                target="_blank"
+                rel="sponsored nofollow noopener"
                 style={{
                   display: 'flex',
                   alignItems: 'center',
@@ -331,11 +338,12 @@ export default function CasinoHero({ data }: CasinoHeroProps) {
                   border: 'none',
                   cursor: 'pointer',
                   marginBottom: '8px',
+                  textDecoration: 'none',
                   transition: 'background 0.2s',
                 }}
               >
                 Obtener bono →
-              </button>
+              </a>
               <div style={{ fontSize: '11px', color: 'var(--gray-2)', textAlign: 'center', lineHeight: 1.4 }}>
                 Datos actualizados 2 mayo 2026 · +18 años
               </div>
