@@ -1,80 +1,80 @@
 {
   "brand_slug": "aguero-casino",
-  "generated_at": "2026-06-09T14:47:15.934Z",
+  "generated_at": "2026-07-06T20:38:36.716Z",
   "meta": {
     "title": "Agüero Casino Argentina | Bonos y Juegos en Línea",
-    "description": "Descubrí Agüero Casino Argentina: bonos de hasta $350.000 ARS, depósitos con MercadoPago y juegos variados. ¡Registrate y ganá!"
+    "description": "Descubrí Agüero Casino en Argentina. Hasta 350.000 ARS de bono de bienvenida. Depósitos con MercadoPago. Jugá seguro y ganá en grande."
   },
   "hero": {
-    "eyebrow": "Sin licencia nacional - Diversión garantizada",
-    "h1_suffix": "hasta $350.000 ARS en tu primer depósito",
-    "subtitle": "Jugá con las mejores tragamonedas, casino en vivo y deportes. Depositá con MercadoPago, Ualá y más billeteras locales.",
-    "cta_primary": "Reclamá tu bono",
-    "cta_secondary": "Ver términos",
+    "eyebrow": "Sin licencia nacional - Operando en Argentina",
+    "h1_suffix": "Tu Casino Online en Argentina",
+    "subtitle": "Registrate y aprovechá el bono de bienvenida de hasta 350.000 ARS + código promocional exclusivo.",
+    "cta_primary": "Jugá Ahora",
+    "cta_secondary": "Ver Bonos",
     "trust_badges": [
-      "Pagos Rápidos",
+      "Depósitos Seguros",
       "Atención 24/7",
-      "Datos Protegidos"
+      "MercadoPago"
     ]
   },
   "bonuses": [
     {
       "title": "Bono de Bienvenida",
       "amount_ars": 350000,
-      "amount_label": "$350.000 ARS",
+      "amount_label": "Hasta $350.000 ARS",
       "wagering": "35x",
-      "description": "Recibí hasta $350.000 ARS en tu primer depósito. Jugá con más fondos y aumentá tus chances de ganar.",
-      "cta": "Obtené tu bono",
+      "description": "Recibí hasta 350.000 ARS en tu primer depósito. Jugá con dinero real y ganá en grande. Condiciones: 35x de apuesta, válido 30 días.",
+      "cta": "Reclamar Bono",
       "slug_ref": "bono-bienvenida-aguero-casino-argentina"
     },
     {
-      "title": "Código Promocional Exclusivo",
-      "amount_ars": 50000,
-      "amount_label": "$50.000 ARS",
-      "wagering": "30x",
-      "description": "Usá nuestro código promocional y obtené $50.000 ARS extra. Válido para tragamonedas y juegos de mesa.",
-      "cta": "Activá el código",
+      "title": "Código Promocional",
+      "amount_ars": 5000,
+      "amount_label": "$5.000 ARS",
+      "wagering": "40x",
+      "description": "Usá nuestro código promocional para obtener $5.000 ARS extra. Perfecto para probar el casino sin riesgo.",
+      "cta": "Copiar Código",
       "slug_ref": "codigo-promocional-aguero-casino"
     }
   ],
   "features": [
     {
+      "icon": "shield",
+      "title": "Seguridad y Confianza",
+      "description": "Operamos bajo estrictos controles para proteger tus datos y transacciones. Jugá tranquilo."
+    },
+    {
       "icon": "zap",
-      "title": "Bonos Rápidos y Generosos",
-      "description": "Activá tu bono de bienvenida al instante. Disfrutá de promociones semanales y recargas sin demora."
+      "title": "Depósitos Instantáneos",
+      "description": "Usá MercadoPago, Ualá y más. Tu dinero se acredita al instante para que empieces a jugar ya."
     },
     {
       "icon": "wallet",
-      "title": "Métodos de Pago Locales",
-      "description": "Depositá con MercadoPago, Ualá, Rapipago o Pago Fácil. Todas las transacciones son seguras y sin comisiones."
+      "title": "Retiros Rápidos",
+      "description": "Solicitá tu retiro y recibí tus ganancias en tiempo récord. Sin demoras."
+    },
+    {
+      "icon": "gift",
+      "title": "Bonos Exclusivos",
+      "description": "Aprovechá los mejores bonos del mercado argentino. Bono de bienvenida y promociones semanales."
     },
     {
       "icon": "gamepad",
-      "title": "Catálogo de Juegos Variado",
-      "description": "Elegí entre cientos de tragamonedas, juegos de mesa, crash games y casino en vivo. Diversión para todos los gustos."
-    },
-    {
-      "icon": "trophy",
-      "title": "Casino en Vivo Premium",
-      "description": "Viví la emoción de un casino real desde tu casa. Crupieres en vivo, ruleta, blackjack y más."
+      "title": "Catálogo de Juegos",
+      "description": "Más de 1000 juegos incluyendo slots, crash, ruleta en vivo y deportes. Diversión sin límites."
     },
     {
       "icon": "headset",
-      "title": "Soporte 24/7 en Español",
-      "description": "Nuestro equipo de atención está disponible todo el día para ayudarte. Chat en vivo y email."
-    },
-    {
-      "icon": "lock",
-      "title": "Seguridad y Juego Responsable",
-      "description": "Protegemos tus datos y fomentamos el juego responsable. Límites de depósito y autoexclusión disponibles."
+      "title": "Soporte 24/7",
+      "description": "Nuestro equipo está disponible las 24 horas para ayudarte con cualquier consulta."
     }
   ],
   "payments": {
-    "intro": "En Agüero Casino aceptamos los métodos de pago más populares de Argentina. Depositá y retirá de forma rápida y segura con opciones locales.",
+    "intro": "En Agüero Casino aceptamos los métodos de pago más populares de Argentina. Depositá y retirá de forma segura con las siguientes opciones.",
     "methods": [
       {
         "name": "MercadoPago",
-        "min_ars": 500,
+        "min_ars": 100,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
@@ -86,20 +86,20 @@
       },
       {
         "name": "Pago Fácil",
-        "min_ars": 1000,
+        "min_ars": 500,
         "speed": "24 horas",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Rapipago",
-        "min_ars": 1000,
+        "min_ars": 500,
         "speed": "24 horas",
         "fee_label": "Sin comisión"
       }
     ]
   },
   "games": {
-    "intro": "Agüero Casino te ofrece una amplia selección de juegos: desde las tragamonedas más populares hasta crash games y deportes virtuales. Encontrá tu favorito y empezá a ganar.",
+    "intro": "Descubrí nuestra amplia selección de juegos de casino. Desde tragamonedas hasta juegos en vivo, hay algo para todos.",
     "featured": [
       {
         "name": "Book of Dead",
@@ -108,9 +108,15 @@
         "slug_ref": ""
       },
       {
-        "name": "Starburst",
-        "category": "Slots",
-        "rtp": 96.09,
+        "name": "Aviator",
+        "category": "Crash",
+        "rtp": null,
+        "slug_ref": ""
+      },
+      {
+        "name": "Ruleta Europea",
+        "category": "Live",
+        "rtp": 97.3,
         "slug_ref": ""
       },
       {
@@ -120,60 +126,54 @@
         "slug_ref": ""
       },
       {
-        "name": "Aviator",
-        "category": "Crash",
-        "rtp": 97,
-        "slug_ref": ""
-      },
-      {
-        "name": "Ruleta en Vivo",
+        "name": "Blackjack Clásico",
         "category": "Live",
-        "rtp": 97.3,
+        "rtp": 99.5,
         "slug_ref": ""
       },
       {
-        "name": "Fútbol Virtual",
-        "category": "Deportes",
-        "rtp": 95,
+        "name": "Spaceman",
+        "category": "Crash",
+        "rtp": null,
         "slug_ref": ""
       }
     ]
   },
   "app": {
-    "headline": "Agüero Casino en tu celular",
-    "body": "Llevá la experiencia de Agüero Casino a cualquier lado. Nuestra app es rápida, segura y está optimizada para dispositivos móviles.",
+    "headline": "Descargá la App de Agüero Casino",
+    "body": "Nuestra app móvil te permite jugar tus juegos favoritos donde estés. Compatible con iOS y Android. Descargala y llevá el casino en tu bolsillo.",
     "features": [
-      "Descarga gratuita",
-      "Bonos exclusivos desde la app",
-      "Depósitos y retiros rápidos",
-      "Notificaciones de promociones",
-      "Atención al cliente integrada"
+      "Depósitos rápidos",
+      "Bonos exclusivos móviles",
+      "Acceso a todos los juegos",
+      "Soporte en vivo",
+      "Notificaciones de promociones"
     ]
   },
   "faq": [
     {
-      "q": "¿Cómo retiro mis ganancias?",
-      "a": "Para retirar tus ganancias, andá a la sección de caja, seleccioná el método de retiro (MercadoPago, transferencia bancaria) y seguí las instrucciones. Los tiempos pueden variar según el método."
-    },
-    {
-      "q": "¿Por qué no recibo mis retiros?",
-      "a": "Si ganaste dinero y no recibís el retiro, verificá que hayas cumplido los requisitos de apuesta y que tu cuenta esté verificada. Si el problema persiste, contactá a soporte. Algunos usuarios reportan demoras, por lo que recomendamos revisar los términos."
-    },
-    {
       "q": "¿Es seguro jugar en Agüero Casino?",
-      "a": "Agüero Casino no tiene licencia nacional argentina, pero opera como plataforma internacional. Implementamos medidas de seguridad para proteger tus datos y fondos. Jugá con responsabilidad."
+      "a": "Agüero Casino opera sin licencia nacional, pero implementa medidas de seguridad para proteger tus datos. Sin embargo, recomendamos jugar con precaución y solo dinero que puedas perder. Hay reportes de usuarios sobre confiscación de fondos, por lo que sugerimos leer los términos cuidadosamente."
     },
     {
-      "q": "Hice un depósito y no se acreditó, ¿qué hago?",
-      "a": "Si depositaste $5.000 ARS o más y no se acreditaron, primero esperá unos minutos. Si no aparece, comunicate con soporte vía chat o email proporcionando el comprobante de pago."
+      "q": "¿Cómo hago para retirar mis ganancias?",
+      "a": "Podés retirar tus ganancias usando los mismos métodos de depósito: MercadoPago, Ualá, Pago Fácil o Rapipago. El proceso es sencillo: andá a la sección de retiros, seleccioná el método y seguí las instrucciones. Tené en cuenta que algunos usuarios reportaron demoras o no recepción de retiros."
     },
     {
-      "q": "¿Cuáles son los requisitos del bono de bienvenida?",
-      "a": "El bono de bienvenida ofrece hasta $350.000 ARS con un requisito de apuesta de 35x. Debes depositar al menos $1.000 ARS y cumplir con el rollover antes de retirar."
+      "q": "¿Qué hago si no me acreditaron un depósito?",
+      "a": "Si depositaste y el dinero no se refleja en tu cuenta, comunicate con nuestro soporte 24/7. Tené a mano el comprobante de la transacción. En algunos casos, el depósito puede demorar unos minutos. Si no se resuelve, insistí por los canales de atención."
+    },
+    {
+      "q": "¿Cuáles son los requisitos de apuesta del bono?",
+      "a": "El bono de bienvenida tiene un requisito de apuesta de 35x, lo que significa que debés apostar el monto del bono 35 veces antes de poder retirar. Tenés 30 días para cumplirlo. Otros bonos pueden tener condiciones diferentes. Leé los términos de cada promoción."
+    },
+    {
+      "q": "¿Ofrecen juegos en vivo?",
+      "a": "Sí, contamos con una sección de casino en vivo con ruleta, blackjack y otros juegos con crupieres reales. Podés disfrutar de la experiencia de un casino físico desde tu casa."
     }
   ],
   "footer": {
-    "tagline": "Agüero Casino: tu lugar para jugar y ganar en Argentina",
-    "responsible_gaming_note": "Jugá con responsabilidad. Prohibido para menores de 18 años. Si tenés problemas con el juego, contactá a SEDRONAR."
+    "tagline": "Agüero Casino: la emoción del juego en Argentina, al alcance de tu mano.",
+    "responsible_gaming_note": "Jugá con responsabilidad. +18. Si tenés problemas con el juego, contactá a SEDRONAR al 0800-222-7362. Este sitio no tiene licencia nacional."
   }
 }
