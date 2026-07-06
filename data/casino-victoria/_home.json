@@ -1,86 +1,86 @@
 {
   "brand_slug": "casino-victoria",
-  "generated_at": "2026-06-09T14:52:48.976Z",
+  "generated_at": "2026-07-06T20:44:22.196Z",
   "meta": {
     "title": "Casino Victoria Argentina | Casino Online con LOTBA",
-    "description": "Disfrutá del mejor casino online en Argentina con Casino Victoria. Depósitos en ARS con MercadoPago, juegos y bonos exclusivos. ¡Registrate ya!"
+    "description": "Jugá en Casino Victoria Argentina con licencia LOTBA. Recibí hasta $695.000 ARS en bonos y depositá con MercadoPago. ¡Ganá en grande!"
   },
   "hero": {
-    "eyebrow": "Licencia oficial LOTBA | Casino seguro en Argentina",
-    "h1_suffix": "Jugá con responsabilidad y ganá en grande",
-    "subtitle": "En Casino Victoria encontrá tragamonedas, crash games y casino en vivo. Depósitos y retiros rápidos en ARS con los métodos locales que conocés.",
-    "cta_primary": "Creá tu cuenta",
-    "cta_secondary": "Ver bonos",
+    "eyebrow": "Licencia LOTBA | Seguridad y Confianza",
+    "h1_suffix": "Ganá en Grande con Bonus",
+    "subtitle": "Descubrí el mejor casino online de Argentina con bonos exclusivos, pagos rápidos y juegos que te encantan. ¡Registrate ya!",
+    "cta_primary": "Creá tu Cuenta",
+    "cta_secondary": "Ver Bonos",
     "trust_badges": [
       "LOTBA",
-      "SSL",
-      "+18"
+      "SSL 256-bit",
+      "Juego Responsable"
     ]
   },
   "bonuses": [
     {
-      "title": "Bienvenida: 100% hasta $50.000 ARS + 100 giros",
-      "amount_ars": 50000,
-      "amount_label": "$50.000 ARS",
+      "title": "Bono de Bienvenida",
+      "amount_ars": 280000,
+      "amount_label": "$280.000 ARS",
       "wagering": "35x",
-      "description": "Depositá desde $500 ARS y recibí el 100% de tu primer depósito hasta $50.000 ARS más 100 giros gratis en slots seleccionados. Condiciones aplican.",
-      "cta": "Reclamar bonus",
-      "slug_ref": ""
+      "description": "Recibí hasta $280.000 ARS en tu primer depósito. El bono se acredita automáticamente. ¡Empezá a jugar con más fondos!",
+      "cta": "Reclamá tu Bono",
+      "slug_ref": "bono-bienvenida-casino-victoria-argentina"
     },
     {
-      "title": "Recarga semanal: 50% hasta $20.000 ARS",
-      "amount_ars": 20000,
-      "amount_label": "$20.000 ARS",
-      "wagering": "30x",
-      "description": "Todos los jueves recibí un 50% extra en tu depósito hasta $20.000 ARS. Válido para slots y crash games.",
-      "cta": "Activar recarga",
-      "slug_ref": ""
+      "title": "Código Promocional",
+      "amount_ars": 695000,
+      "amount_label": "$695.000 ARS",
+      "wagering": "40x",
+      "description": "Usá el código promocional y obtené hasta $695.000 ARS en bonos combinados. Válido para slots y juegos de mesa.",
+      "cta": "Usá el Código",
+      "slug_ref": "codigo-promocional-casino-victoria"
     }
   ],
   "features": [
     {
       "icon": "shield",
-      "title": "Licencia oficial LOTBA",
-      "description": "Operamos bajo la regulación de la Lotería de la Ciudad de Buenos Aires. Tu tranquilidad es nuestra prioridad."
-    },
-    {
-      "icon": "zap",
-      "title": "Depósitos y retiros express",
-      "description": "Gestioná tus fondos de manera rápida y sencilla. Los retiros se procesan en 24-48 horas hábiles."
+      "title": "Licencia LOTBA Oficial",
+      "description": "Casino Victoria opera con licencia oficial de LOTBA, garantizando transparencia y seguridad en todas tus transacciones."
     },
     {
       "icon": "wallet",
-      "title": "Métodos locales en ARS",
-      "description": "Usá MercadoPago, Ualá, Pago Fácil o Rapipago. Todas las transacciones en pesos argentinos sin comisiones."
+      "title": "Depositá con MercadoPago",
+      "description": "Usá MercadoPago, Ualá o Rapipago para depositar al instante. Sin comisiones y con pesos argentinos."
     },
     {
       "icon": "gift",
-      "title": "Bonos exclusivos cada semana",
-      "description": "Disfrutá de promociones renovadas semanalmente. Desde bonos de recarga hasta giros gratis."
+      "title": "Bonos Exclusivos en ARS",
+      "description": "Aprovechá bonos de bienvenida y promociones diarias, todo calculado en pesos argentinos para mayor comodidad."
     },
     {
       "icon": "gamepad",
-      "title": "Más de 500 juegos",
-      "description": "Elegí entre tragamonedas, crash games, ruleta en vivo y mucho más. Proveedores de primer nivel."
+      "title": "Más de 500 Juegos",
+      "description": "Slots, ruleta, blackjack, crash games y apuestas deportivas. Encontrá tus títulos favoritos y novedades."
     },
     {
       "icon": "headset",
-      "title": "Atención al cliente 24/7",
-      "description": "Nuestro equipo de soporte está disponible las 24 horas para ayudarte. Contactanos por chat o email."
+      "title": "Soporte 24/7 en Español",
+      "description": "Atención al cliente las 24 horas, todos los días. Consultá por chat en vivo o WhatsApp."
+    },
+    {
+      "icon": "trophy",
+      "title": "Torneos y Competiciones",
+      "description": "Participá en torneos semanales con premios en ARS y competí contra otros jugadores argentinos."
     }
   ],
   "payments": {
-    "intro": "En Casino Victoria aceptamos los métodos de pago más populares de Argentina. Depositá y retirá en ARS sin comisiones ocultas.",
+    "intro": "En Casino Victoria aceptamos los métodos de pago más populares de Argentina. Depositá y retirá sin demoras, en pesos argentinos y con total seguridad.",
     "methods": [
       {
         "name": "MercadoPago",
-        "min_ars": 500,
+        "min_ars": 1000,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Ualá",
-        "min_ars": 500,
+        "min_ars": 1000,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
@@ -88,86 +88,98 @@
         "name": "Pago Fácil",
         "min_ars": 500,
         "speed": "24 horas",
-        "fee_label": "Sin comisión"
+        "fee_label": "Gratuito"
+      },
+      {
+        "name": "Rapipago",
+        "min_ars": 500,
+        "speed": "24 horas",
+        "fee_label": "Gratuito"
       }
     ]
   },
   "games": {
-    "intro": "Descubrí una amplia variedad de juegos de casino online, desde tragamonedas hasta crash games y casino en vivo. Todo en un entorno seguro y con licencia LOTBA.",
+    "intro": "Disfrutá de un catálogo variado con más de 500 juegos, desde tragamonedas clásicas hasta las últimas novedades en crash games y casino en vivo. Todo con RTP competitivo.",
     "featured": [
-      {
-        "name": "Mega Moolah",
-        "category": "Slots",
-        "rtp": null,
-        "slug_ref": ""
-      },
       {
         "name": "Starburst",
         "category": "Slots",
-        "rtp": null,
+        "rtp": 96.09,
         "slug_ref": ""
       },
       {
-        "name": "JetX",
-        "category": "Crash",
-        "rtp": null,
+        "name": "Book of Dead",
+        "category": "Slots",
+        "rtp": 96.21,
         "slug_ref": ""
       },
       {
         "name": "Aviator",
         "category": "Crash",
-        "rtp": null,
+        "rtp": 97,
         "slug_ref": ""
       },
       {
-        "name": "Live Roulette",
-        "category": "Live",
-        "rtp": null,
+        "name": "JetX",
+        "category": "Crash",
+        "rtp": 97,
         "slug_ref": ""
       },
       {
-        "name": "Live Blackjack",
+        "name": "Ruleta Europea",
         "category": "Live",
-        "rtp": null,
+        "rtp": 97.3,
+        "slug_ref": ""
+      },
+      {
+        "name": "Blackjack Clásico",
+        "category": "Live",
+        "rtp": 99.5,
+        "slug_ref": ""
+      },
+      {
+        "name": "Fútbol Virtual",
+        "category": "Deportes",
+        "rtp": 95,
         "slug_ref": ""
       }
     ]
   },
   "app": {
-    "headline": "Casino Victoria: Jugá desde tu celular",
-    "body": "Descargá nuestra app para iOS y Android y llevá el casino a todas partes. Disfrutá de juegos, bonos y depósitos rápidos desde la palma de tu mano.",
+    "headline": "Descargá la App de Casino Victoria",
+    "body": "Llevá la experiencia de Casino Victoria a tu celular. Jugá desde cualquier lugar con nuestra app optimizada para Android e iOS, con carga rápida y todas las funcionalidades.",
     "features": [
-      "Interfaz intuitiva",
-      "Notificaciones de bonos",
-      "Depósitos con un toque",
-      "Retiros rápidos",
-      "Juegos exclusivos"
+      "Depósitos y retiros en ARS",
+      "Bonos exclusivos para usuarios app",
+      "Notificaciones de promociones",
+      "Soporte chat en vivo integrado",
+      "Modo de juego responsable"
     ]
   },
   "faq": [
     {
-      "q": "¿Es seguro Casino Victoria?",
-      "a": "Sí, contamos con licencia oficial LOTBA y tecnología SSL para proteger tus datos. Podés jugar con total tranquilidad."
+      "q": "¿Cómo deposito usando MercadoPago?",
+      "a": "Iniciá sesión en Casino Victoria, andá a la sección 'Depósitos', seleccioná MercadoPago e ingresá el monto en ARS. Se te redirigirá a la plataforma de MercadoPago para completar el pago. El crédito se acredita al instante."
     },
     {
-      "q": "¿Cuáles son los métodos de pago disponibles?",
-      "a": "Aceptamos MercadoPago, Ualá, Pago Fácil y Rapipago. Todos en ARS, sin comisiones y con depósitos desde $500."
+      "q": "¿Cuánto tiempo tarda un retiro?",
+      "a": "Los retiros a MercadoPago suelen procesarse en menos de 24 horas. Otros métodos como Ualá pueden demorar hasta 48 horas hábiles. Todos los retiros se realizan en ARS sin comisiones."
     },
     {
-      "q": "¿Cuánto tarda un retiro?",
-      "a": "Los retiros se procesan en un plazo de 24 a 48 horas hábiles. Los plazos pueden variar según el método elegido."
+      "q": "¿El bono de bienvenida tiene requisitos de apuesta?",
+      "a": "Sí, el bono de bienvenida tiene un requisito de apuesta de 35x el monto del bono. Por ejemplo, si recibís $10.000 ARS, deberás apostar $350.000 ARS antes de poder retirar las ganancias del bono."
     },
     {
-      "q": "¿Cómo funciona el bono de bienvenida?",
-      "a": "Al hacer tu primer depósito desde $500 ARS, recibís un 100% extra hasta $50.000 ARS más 100 giros gratis. El bono tiene un requisito de apuesta de 35x."
+      "q": "¿Qué hago si me bloquean el retiro después de usar un bono?",
+      "a": "Si tu retiro se bloquea, primero verificá que hayas cumplido con los requisitos de apuesta del bono. Si todo está en orden, contactá al soporte 24/7 por chat para que revisen tu cuenta y solucionen el problema."
     },
     {
-      "q": "¿Hay app móvil disponible?",
-      "a": "Sí, tenemos app para iOS y Android. Descargala desde nuestras tiendas oficiales y accedé a todos los juegos y bonos."
+      "q": "¿Casino Victoria tiene restaurante o bar?",
+      "a": "Casino Victoria cuenta con un restaurante y bar en su sede física. Sin embargo, los precios han sido reportados como elevados por algunos usuarios. Te recomendamos consultar el menú antes de consumir para evitar sorpresas."
     }
   ],
   "footer": {
-    "tagline": "Casino Victoria - Diversión segura con licencia LOTBA",
-    "responsible_gaming_note": "Jugá con responsabilidad. Prohibida la entrada a menores de 18 años. SEDRONAR: 0800-222-2222."
+    "tagline": "Casino Victoria: la mejor experiencia de casino online en Argentina.",
+    "responsible_gaming_note": "Jugá con responsabilidad. Prohibida la entrada a menores de 18 años. Si tenés problemas con el juego, contactá a SEDRONAR al 141."
   }
 }
