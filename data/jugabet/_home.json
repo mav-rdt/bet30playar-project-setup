@@ -1,122 +1,116 @@
 {
   "brand_slug": "jugabet",
-  "generated_at": "2026-06-09T14:49:46.127Z",
+  "generated_at": "2026-07-06T20:41:13.333Z",
   "meta": {
-    "title": "Jugabet Casino Argentina | Jugá y Ganá en Pesos",
-    "description": "Descubrí Jugabet, el casino online que te paga en ARS. Disfrutá tragamonedas, crash y más con bonos en pesos. Registrate ya."
+    "title": "Jugabet Argentina | Casino Online con Bono de $500.000 ARS",
+    "description": "Disfrutá del mejor casino online en Argentina con Jugabet. Recibí un bono de bienvenida de hasta $500.000 ARS, jugá con MercadoPago y retirá rápido."
   },
   "hero": {
-    "eyebrow": "Jugabet opera sin licencia nacional, pero con responsabilidad (+18).",
-    "h1_suffix": "Jugá en Pesos, Ganá en Pesos",
-    "subtitle": "Bienvenido a Jugabet Argentina. Disfrutá de tragamonedas, juegos crash y apuestas deportivas en tu moneda local. Retirá rápido con MercadoPago.",
-    "cta_primary": "Registrate Ahora",
-    "cta_secondary": "Ver Bonos",
+    "eyebrow": "Sin licencia nacional: jugá con responsabilidad",
+    "h1_suffix": "Ganá hasta $500.000 ARS de bono",
+    "subtitle": "Descubrí el casino online líder en Argentina con depósitos por MercadoPago, retiros rápidos y juegos emocionantes. ¡Registrate y empezá a ganar hoy!",
+    "cta_primary": "Creá tu cuenta",
+    "cta_secondary": "Conocé más",
     "trust_badges": [
-      "Operador Responsable",
-      "+18",
-      "SEDRONAR"
+      "Depósitos por MercadoPago",
+      "Atención 24/7",
+      "Retiros rápidos"
     ]
   },
   "bonuses": [
     {
       "title": "Bono de Bienvenida",
-      "amount_ars": 50000,
-      "amount_label": "$50.000 ARS",
-      "wagering": "35x",
-      "description": "Obtené hasta $50.000 ARS en tu primer depósito. Jugá con más fondos y aumentá tus chances de ganar. Depósito mínimo $500 ARS.",
-      "cta": "Reclamar Bono",
-      "slug_ref": ""
+      "amount_ars": 500000,
+      "amount_label": "$500.000 ARS",
+      "wagering": "16x",
+      "description": "Recibí hasta $500.000 ARS en tu primer depósito. Jugá con un requisito de apuesta de solo 16x en 30 días.",
+      "cta": "Reclamá tu bono",
+      "slug_ref": "bono-bienvenida-jugabet-argentina"
     },
     {
-      "title": "Bono Recarga Semanal",
-      "amount_ars": 10000,
-      "amount_label": "$10.000 ARS",
-      "wagering": "30x",
-      "description": "Todos los viernes recibí un bono de recarga del 50% hasta $10.000 ARS. Perfecto para seguir disfrutando tus juegos favoritos.",
-      "cta": "Activar Recarga",
-      "slug_ref": ""
+      "title": "Código Promocional",
+      "amount_ars": 500000,
+      "amount_label": "$500.000 ARS",
+      "wagering": "16x",
+      "description": "Usá el código promocional Jugabet para obtener un bono de hasta $500.000 ARS. Válido para nuevos usuarios.",
+      "cta": "Usá el código",
+      "slug_ref": "codigo-promocional-jugabet"
     }
   ],
   "features": [
     {
       "icon": "shield",
-      "title": "Jugá con Confianza",
-      "description": "Jugabet promueve el juego responsable. Tu seguridad es nuestra prioridad, con encriptación SSL y políticas claras."
+      "title": "Seguridad y confianza",
+      "description": "Tus datos están protegidos con encriptación SSL. Jugá con tranquilidad."
     },
     {
       "icon": "zap",
-      "title": "Retiros Rápidos",
-      "description": "Retirá tus ganancias en cuestión de horas con MercadoPago y otros métodos locales. Sin demoras."
+      "title": "Depósitos instantáneos",
+      "description": "Depositá al instante con MercadoPago o transferencia. Tu dinero llega en segundos."
     },
     {
       "icon": "wallet",
-      "title": "Depositá en Pesos",
-      "description": "Usá MercadoPago, Ualá, Rapipago o Pago Fácil para cargar saldo. Todo en ARS, sin conversiones."
+      "title": "Múltiples métodos de pago",
+      "description": "Aceptamos MercadoPago, Ualá, Pago Fácil y más. Elegí el que más te convenga."
     },
     {
       "icon": "gift",
-      "title": "Bonos Exclusivos",
-      "description": "Aprovechá bonos de bienvenida, recargas semanales y promociones especiales pensadas para jugadores argentinos."
+      "title": "Bonos generosos",
+      "description": "Recibí un bono de bienvenida de hasta $500.000 ARS. Además, promociones semanales exclusivas."
     },
     {
       "icon": "gamepad",
-      "title": "Variedad de Juegos",
-      "description": "Más de 500 tragamonedas, crash games, ruleta en vivo y deportes. Encontrá tu juego favorito."
+      "title": "Variedad de juegos",
+      "description": "Disfrutá de slots, crash games, casino en vivo y mucho más. Nuevos títulos cada semana."
     },
     {
       "icon": "headset",
-      "title": "Soporte en Español",
-      "description": "Atención al cliente 24/7 por chat en vivo y WhatsApp. Resolvé tus dudas al instante."
+      "title": "Soporte 24/7",
+      "description": "Nuestro equipo de soporte está disponible las 24 horas. Resolvé tus dudas al instante."
     }
   ],
   "payments": {
-    "intro": "En Jugabet podés depositar y retirar en pesos argentinos usando los métodos más populares del país. Sin comisiones y con procesamiento instantáneo.",
+    "intro": "En Argentina, los métodos de pago locales son clave. En Jugabet podés depositar y retirar con MercadoPago, Ualá y más, en pesos argentinos.",
     "methods": [
       {
         "name": "MercadoPago",
-        "min_ars": 500,
+        "min_ars": 100,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Ualá",
-        "min_ars": 500,
+        "min_ars": 100,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Pago Fácil",
-        "min_ars": 1000,
-        "speed": "24 horas",
+        "min_ars": 500,
+        "speed": "24-48 hs hábiles",
         "fee_label": "Sin comisión"
       },
       {
         "name": "Rapipago",
-        "min_ars": 1000,
-        "speed": "24 horas",
+        "min_ars": 500,
+        "speed": "24-48 hs hábiles",
         "fee_label": "Sin comisión"
       }
     ]
   },
   "games": {
-    "intro": "Explorá un catálogo variado con los mejores slots, crash games, ruleta en vivo y apuestas deportivas. Todo en pesos y con RTP competitivo.",
+    "intro": "Jugabet ofrece una amplia selección de juegos de casino online en Argentina. Desde tragamonedas hasta crash games, encontrá tu juego favorito.",
     "featured": [
       {
-        "name": "Sweet Bonanza",
+        "name": "Mega Fortune",
         "category": "Slots",
-        "rtp": 96.48,
+        "rtp": 96.6,
         "slug_ref": ""
       },
       {
-        "name": "Gates of Olympus",
+        "name": "Starburst",
         "category": "Slots",
-        "rtp": 96.5,
-        "slug_ref": ""
-      },
-      {
-        "name": "Jetix",
-        "category": "Crash",
-        "rtp": null,
+        "rtp": 96.1,
         "slug_ref": ""
       },
       {
@@ -126,19 +120,19 @@
         "slug_ref": ""
       },
       {
-        "name": "Ruleta en Vivo",
-        "category": "Live",
-        "rtp": 97.3,
+        "name": "Space XY",
+        "category": "Crash",
+        "rtp": null,
         "slug_ref": ""
       },
       {
-        "name": "Blackjack Multijugador",
+        "name": "Ruleta en vivo",
         "category": "Live",
-        "rtp": 99.5,
+        "rtp": null,
         "slug_ref": ""
       },
       {
-        "name": "Fútbol Argentino",
+        "name": "Fútbol virtual",
         "category": "Deportes",
         "rtp": null,
         "slug_ref": ""
@@ -146,40 +140,40 @@
     ]
   },
   "app": {
-    "headline": "Descargá la App de Jugabet",
-    "body": "Llevá el casino en tu bolsillo. La app de Jugabet está optimizada para Android e iOS, con carga rápida y todas las funcionalidades.",
+    "headline": "Jugabet: jugá desde tu celular",
+    "body": "Aunque no contamos con una app oficial, podés acceder al casino desde el navegador de tu celular. La versión móvil está optimizada para que jugues sin problemas.",
     "features": [
-      "Acceso rápido a todos los juegos",
-      "Depósitos y retiros desde el móvil",
-      "Notificaciones de bonos exclusivos",
-      "Soporte en vivo integrado",
-      "Interfaz en español argentino"
+      "Acceso desde cualquier navegador",
+      "Mismos juegos que en PC",
+      "Depósitos desde el celular",
+      "Notificaciones de promociones",
+      "Soporte en vivo móvil"
     ]
   },
   "faq": [
     {
-      "q": "¿Jugabet tiene licencia en Argentina?",
-      "a": "Jugabet opera como casa de apuestas internacional, sin licencia nacional argentina. Sin embargo, cumple con estándares de seguridad y juego responsable para ofrecer una experiencia confiable."
+      "q": "¿Cómo puedo obtener el bono de bienvenida en Jugabet Argentina?",
+      "a": "Para obtener el bono de bienvenida, registrate en Jugabet y hacé tu primer depósito. Automáticamente recibirás hasta $500.000 ARS con un requisito de apuesta de 16x."
     },
     {
-      "q": "¿Puedo depositar y retirar en ARS?",
-      "a": "Sí. Aceptamos pesos argentinos a través de MercadoPago, Ualá, Pago Fácil y Rapipago. Los depósitos son instantáneos y los retiros se procesan en 24 horas hábiles."
+      "q": "¿Existe una app oficial de Jugabet para descargar?",
+      "a": "No, por el momento Jugabet no cuenta con una aplicación oficial para descargar. Sin embargo, podés acceder al casino desde el navegador de tu celular con la misma calidad."
     },
     {
-      "q": "¿Cuánto tarda un retiro?",
-      "a": "Los retiros a MercadoPago y Ualá suelen acreditarse en minutos. Para Pago Fácil y Rapipago puede demorar hasta 24 horas hábiles. No cobramos comisiones."
+      "q": "¿Cuáles son los métodos de pago disponibles?",
+      "a": "Podés depositar y retirar usando MercadoPago, Ualá, Pago Fácil y Rapipago. Todos son métodos locales en pesos argentinos."
     },
     {
-      "q": "¿Qué bonos ofrece Jugabet?",
-      "a": "Ofrecemos un bono de bienvenida de hasta $50.000 ARS con 35x de apuesta, y recargas semanales del 50% hasta $10.000 ARS. Podés consultar términos y condiciones en cada promoción."
+      "q": "Tuve problemas con el soporte, ¿cómo puedo contactarlos?",
+      "a": "Si tenés problemas, contactá al soporte de Jugabet por chat en vivo o email. Ofrecen atención 24/7 para resolver cualquier inconveniente."
     },
     {
-      "q": "¿Es seguro jugar en Jugabet?",
-      "a": "Sí. Usamos encriptación SSL para proteger tus datos y promovemos el juego responsable con límites de depósito y autoexclusión. Jugá con responsabilidad (+18)."
+      "q": "¿Cómo funcionan los giros gratis?",
+      "a": "Los giros gratis se acreditan automáticamente al cumplir los requisitos de la promoción. Si no los ves, comunicate con soporte para que te asistan."
     }
   ],
   "footer": {
-    "tagline": "Jugabet Argentina: divertite y ganá en pesos con responsabilidad.",
-    "responsible_gaming_note": "Este sitio es para mayores de 18 años. Jugá con responsabilidad. Si sentís que tenés un problema con el juego, contactá a SEDRONAR al 141."
+    "tagline": "Jugabet: diversión y ganancias en el mejor casino online argentino.",
+    "responsible_gaming_note": "Jugá con responsabilidad. +18. Si tenés problemas con el juego, contactá a SEDRONAR (0800-222-5463)."
   }
 }
