@@ -1,80 +1,80 @@
 {
   "brand_slug": "mercadopago-casino",
-  "generated_at": "2026-06-09T14:51:11.863Z",
+  "generated_at": "2026-07-06T20:42:43.577Z",
   "meta": {
-    "title": "Mercado Pago Casino Argentina | Jugá con depósitos en ARS",
-    "description": "Descubrí Mercado Pago Casino Argentina: depósitos en ARS, pagos con MercadoPago, Ualá y más. Bonos exclusivos y juegos rápidos. Sin licencia nacional, pero confiable."
+    "title": "Mercado Pago Casino Argentina | Bonos y Juegos Online",
+    "description": "Descubrí Mercado Pago Casino Argentina: bonos de hasta 2.629.542 ARS, depósitos con MercadoPago y juegos exclusivos. ¡Registrate ya!"
   },
   "hero": {
-    "eyebrow": "Sin licencia nacional, pero elegido por argentinos",
-    "h1_suffix": "depositá con MercadoPago y ganá",
-    "subtitle": "Jugá tragamonedas, crash y casino en vivo con pesos argentinos. Retirá rápido por MercadoPago, Ualá, Rapipago o Pago Fácil.",
-    "cta_primary": "Creá tu cuenta",
-    "cta_secondary": "Ver bonos",
+    "eyebrow": "Sin licencia nacional - Operá con responsabilidad",
+    "h1_suffix": "Ganá en grande con tu billetera favorita",
+    "subtitle": "El casino online que usa Mercado Pago para depósitos y retiros rápidos, diseñado para argentinos",
+    "cta_primary": "Reclamá tu bono",
+    "cta_secondary": "Ver términos",
     "trust_badges": [
-      "Depósitos en ARS",
-      "MercadoPago aceptado",
-      "Atención 24/7"
+      "MercadoPago integrado",
+      "Atención 24/7",
+      "Pagos locales"
     ]
   },
   "bonuses": [
     {
-      "title": "Bienvenida 100% hasta $50.000 ARS",
+      "title": "Bono de Bienvenida",
+      "amount_ars": 2629542,
+      "amount_label": "$2.629.542 ARS",
+      "wagering": "20x",
+      "description": "Depositá y recibí hasta $2.629.542 ARS en bonos. Válido por 30 días con requisito de apuesta 20x.",
+      "cta": "Obtené tu bono",
+      "slug_ref": "bono-bienvenida-mercado-pago-casino-argentina"
+    },
+    {
+      "title": "Código Promocional",
       "amount_ars": 50000,
       "amount_label": "$50.000 ARS",
       "wagering": "35x",
-      "description": "Depositá desde $1.000 ARS y recibí el 100% extra hasta $50.000 ARS en tu primer depósito. Válido para tragamonedas y crash games.",
-      "cta": "Reclamá bonus",
-      "slug_ref": ""
-    },
-    {
-      "title": "Bono Relámpago $10.000 ARS gratis",
-      "amount_ars": 10000,
-      "amount_label": "$10.000 ARS",
-      "wagering": "40x",
-      "description": "Sin depósito mínimo: registrate y obtené $10.000 ARS en bonos para probar los juegos. Disponible solo para nuevos usuarios.",
-      "cta": "Obtené bono",
-      "slug_ref": ""
+      "description": "Usá nuestro código promocional y obtené $50.000 ARS extra. Apostá 35x en 30 días.",
+      "cta": "Activá código",
+      "slug_ref": "codigo-promocional-mercado-pago-casino"
     }
   ],
   "features": [
     {
-      "icon": "wallet",
-      "title": "Depositá en ARS sin comisiones",
-      "description": "Usá MercadoPago, Ualá, Rapipago o Pago Fácil para cargar tu cuenta al instante. Sin cargos ocultos, todo en pesos argentinos."
+      "icon": "shield",
+      "title": "Depósitos seguros con Mercado Pago",
+      "description": "Usá tu cuenta de Mercado Pago para depositar al instante. Todos los datos están protegidos con encriptación SSL."
     },
     {
       "icon": "zap",
-      "title": "Retiros ultrarrápidos",
-      "description": "Tus ganancias llegan directo a tu billetera MercadoPago o Ualá en minutos. Procesamos retiros en menos de 24 horas hábiles."
-    },
-    {
-      "icon": "gamepad",
-      "title": "Juegos que van al toque",
-      "description": "Tragamonedas, crash games, ruleta en vivo y más. Todo optimizado para que jugues sin demoras desde tu celu o PC."
+      "title": "Retiros rápidos y sin vueltas",
+      "description": "Pedí tu retiro directamente a Mercado Pago. Procesamos en 24 horas hábiles, sin comisiones ocultas."
     },
     {
       "icon": "gift",
-      "title": "Bonos exclusivos semanales",
-      "description": "Recibí giros gratis, cashback y recargas cada semana. Activá las ofertas desde la sección de promociones."
+      "title": "Bonos exclusivos para argentinos",
+      "description": "Aprovechá promociones diarias y un bono de bienvenida de hasta $2.629.542 ARS. Solo para jugadores del país."
+    },
+    {
+      "icon": "gamepad",
+      "title": "Catálogo de juegos variado",
+      "description": "Disfrutá slots, crash games y mesas en vivo de los mejores proveedores. Nuevos títulos cada semana."
     },
     {
       "icon": "headset",
-      "title": "Soporte argentino 24/7",
-      "description": "Un equipo local atiende tus consultas por chat y WhatsApp. Hablá con nosotros cuando quieras, en tu idioma."
+      "title": "Soporte en español 24/7",
+      "description": "Nuestro equipo de atención al cliente está disponible las 24 horas por chat y WhatsApp. Respondemos al toque."
     },
     {
-      "icon": "shield",
-      "title": "Jugá responsablemente",
-      "description": "Establecé límites de depósito y tiempo. +18. Si sentís que necesitás ayuda, contactá a SEDRONAR o a nuestro equipo."
+      "icon": "lock",
+      "title": "Juego responsable y control de gasto",
+      "description": "Establecé límites de depósito, tiempo y pérdida. Jugá con responsabilidad, tenés el control."
     }
   ],
   "payments": {
-    "intro": "En Mercado Pago Casino podés depositar y retirar en pesos argentinos usando los métodos más populares del país. Todas las transacciones son instantáneas y sin comisiones para depósitos.",
+    "intro": "En Mercado Pago Casino aceptamos los métodos de pago más usados en Argentina. Depositá y retirá sin demoras, todo en pesos argentinos.",
     "methods": [
       {
         "name": "MercadoPago",
-        "min_ars": 500,
+        "min_ars": 100,
         "speed": "Instantáneo",
         "fee_label": "Sin comisión"
       },
@@ -86,94 +86,94 @@
       },
       {
         "name": "Pago Fácil",
-        "min_ars": 2000,
-        "speed": "Instantáneo",
-        "fee_label": "Sin comisión"
+        "min_ars": 500,
+        "speed": "1-2 horas",
+        "fee_label": "Sin cargo"
       },
       {
         "name": "Rapipago",
-        "min_ars": 2000,
-        "speed": "Instantáneo",
-        "fee_label": "Sin comisión"
+        "min_ars": 500,
+        "speed": "1-2 horas",
+        "fee_label": "Sin cargo"
       }
     ]
   },
   "games": {
-    "intro": "Descubrí un catálogo variado con tragamonedas, crash games, ruleta en vivo y apuestas deportivas. Todos los juegos cargan rápido y están disponibles en tu navegador, sin descargas.",
+    "intro": "Explorá nuestra colección de juegos con más de 500 títulos. Slots, crash games y casino en vivo te esperan con premios en ARS.",
     "featured": [
       {
-        "name": "Mega Fortune Slots",
+        "name": "Sweet Bonanza",
         "category": "Slots",
-        "rtp": null,
+        "rtp": 96.5,
         "slug_ref": ""
       },
       {
-        "name": "Aviator Crash",
+        "name": "Aviator",
         "category": "Crash",
-        "rtp": null,
+        "rtp": 97,
         "slug_ref": ""
       },
       {
-        "name": "Ruleta Europea en Vivo",
+        "name": "Lightning Roulette",
         "category": "Live",
         "rtp": null,
         "slug_ref": ""
       },
       {
-        "name": "Fútbol Apuestas",
-        "category": "Deportes",
-        "rtp": null,
-        "slug_ref": ""
-      },
-      {
-        "name": "Book of Dead",
+        "name": "Gates of Olympus",
         "category": "Slots",
-        "rtp": null,
+        "rtp": 96.5,
         "slug_ref": ""
       },
       {
-        "name": "Plinko Crash",
+        "name": "JetX",
         "category": "Crash",
+        "rtp": 96,
+        "slug_ref": ""
+      },
+      {
+        "name": "Blackjack Live",
+        "category": "Live",
         "rtp": null,
         "slug_ref": ""
       }
     ]
   },
   "app": {
-    "headline": "Mercado Pago Casino: jugá desde tu celu",
-    "body": "Descargá la app oficial y llevá el casino a todas partes. Compatible con iOS y Android, con depósitos desde MercadoPago y notificaciones de bonos.",
+    "headline": "Mercado Pago Casino: la app que llevás en el bolsillo",
+    "body": "Descargá nuestra app para iOS y Android y jugá desde cualquier lugar. Optimizada para datos móviles, con notificaciones de bonos y resultados en vivo.",
     "features": [
-      "App liviana que no ocupa espacio",
-      "Depósitos con un toque desde MercadoPago",
-      "Retiros exprés a tu billetera",
-      "Bonos exclusivos para usuarios app",
-      "Atención al cliente desde la app"
+      "Depósitos y retiros con Mercado Pago",
+      "Bonos exclusivos para usuarios de la app",
+      "Juegos cargados al instante",
+      "Soporte por chat en tiempo real",
+      "Control de gasto y límites"
     ]
   },
   "faq": [
     {
-      "q": "¿Mercado Pago Casino tiene licencia nacional?",
-      "a": "No, Mercado Pago Casino opera sin licencia nacional en Argentina. Sin embargo, es una plataforma popular que acepta jugadores argentinos y utiliza medios de pago locales como MercadoPago y Ualá."
+      "q": "¿Cómo retiro dinero de Mercado Pago Casino?",
+      "a": "Para retirar, andá a la sección 'Cajero' y seleccioná Mercado Pago como método. El mínimo son $500 ARS y el tiempo de procesamiento es de hasta 24 horas hábiles."
     },
     {
-      "q": "¿Puedo depositar en pesos argentinos?",
-      "a": "Sí, aceptamos depósitos en ARS a través de MercadoPago, Ualá, Pago Fácil y Rapipago. El monto mínimo es de $500 ARS para billeteras virtuales y $2.000 ARS para cupones de pago."
+      "q": "¿Mercado Pago Casino tiene licencia?",
+      "a": "Actualmente la plataforma opera sin licencia nacional argentina. Recomendamos verificar la legalidad en tu jurisdicción y jugar con responsabilidad."
     },
     {
-      "q": "¿Cuánto tardan los retiros?",
-      "a": "Los retiros se procesan en menos de 24 horas hábiles. Si usás MercadoPago o Ualá, el dinero llega a tu cuenta al instante una vez aprobado."
+      "q": "¿Cómo activo el código promocional?",
+      "a": "Registrate con nuestro enlace, ingresá el código promocional en el formulario de depósito y recibí tu bono adicional. Recordá que aplican términos de 35x en 30 días."
     },
     {
-      "q": "¿Qué bonos de bienvenida ofrecen?",
-      "a": "Tenemos un bono del 100% hasta $50.000 ARS en tu primer depósito y un bono relámpago de $10.000 ARS sin depósito. Ambos tienen requisitos de apuesta de 35x y 40x respectivamente."
+      "q": "¿Puedo usar Mercado Pago sin factura?",
+      "a": "Si no emitís factura, es posible que enfrentes restricciones al retirar grandes sumas. Te recomendamos consultar con la AFIP sobre la obligación de facturar ganancias de casino."
     },
     {
-      "q": "¿Es seguro jugar acá?",
-      "a": "Usamos encriptación SSL y trabajamos con proveedores de juegos reconocidos. Aunque no tenemos licencia nacional, implementamos medidas de seguridad estándar para proteger tus datos y tus fondos."
+      "q": "¿Ofrecen apuestas deportivas?",
+      "a": "No contamos con un sector tradicional de apuestas deportivas. Nos enfocamos en slots, crash games y casino en vivo. Si buscás deportes, tal vez no sea la opción ideal."
     }
   ],
   "footer": {
-    "tagline": "Tu casino en ARS: depositá, jugá y ganá con MercadoPago.",
-    "responsible_gaming_note": "Jugá con responsabilidad. Prohibida la entrada a menores de 18 años. Si tenés problemas con el juego, contactá a SEDRONAR (0800-222-7376)."
+    "tagline": "Mercado Pago Casino: jugá con tu billetera, ganá en grande",
+    "responsible_gaming_note": "Jugá con responsabilidad. +18. El juego excesivo es perjudicial. SEDRONAR: 0800-222-7373."
   }
 }
