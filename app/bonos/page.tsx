@@ -1,65 +1,30 @@
+// app/bonos/page.tsx
+import type { Metadata } from 'next'
 import MonoBrandNav from '@/components/monobrand/MonoBrandNav'
 import MonoBrandFooter from '@/components/monobrand/MonoBrandFooter'
-import { Gift, Percent, Zap, Star, Clock, Info } from 'lucide-react'
+import { getCurrentBrand, getHomeContent } from '@/lib/brand'
+import { Gift, Info } from 'lucide-react'
 
-export const metadata = {
-  title: 'Bonos y Promociones - Bet30',
-  description: 'Descubre todos los bonos y promociones disponibles en Bet30',
-}
+export async function generateMetadata(): Promise<Metadata> {
+  const brand = getCurrentBrand()
+  const content = getHomeContent()
+  const url = `https://${brand.affiliate_domain}`
+  const bonus = content.bonuses[0]
 
-const bonuses = [
-  {
-    icon: Gift,
-    title: 'Bono de bienvenida',
-    amount: '$1750',
-    extra: '+ 150 giros gratis',
-    description: '100% en tu primer deposito hasta $1750 mas 150 giros gratis para tragamonedas seleccionadas.',
-    wagering: '35x',
-    minDeposit: '$500',
-    validity: '30 dias',
-    highlight: true,
-  },
-  {
-    icon: Percent,
-    title: 'Cashback semanal',
-    amount: '15%',
-    extra: 'cada lunes',
-    description: 'Recupera el 15% de tus perdidas netas cada semana. El cashback se acredita automaticamente.',
-    wagering: '1x',
-    minDeposit: 'N/A',
-    validity: '7 dias',
-    highlight: false,
-  },
-  {
-    icon: Zap,
-    title: 'Recarga de fin de semana',
-    amount: '50%',
-    extra: 'sabado y domingo',
-    description: 'Obtene un 50% extra en todos tus depositos realizados durante el fin de semana.',
-    wagering: '25x',
-    minDeposit: '$1000',
-    validity: '7 dias',
-    highlight: false,
-  },
-  {
-    icon: Star,
-    title: 'Programa VIP',
-    amount: 'Exclusivo',
-    extra: 'beneficios premium',
-    description: 'Accede a bonos personalizados, retiros prioritarios y un gestor de cuenta dedicado.',
-    wagering: 'Variable',
-    minDeposit: 'Por invitacion',
-    validity: 'Permanente',
-    highlight: false,
-  },
-]
-
-const promoCode = {
-  code: 'BIENVENIDO30',
-  description: 'Usa este codigo en tu primer deposito para obtener el bono de bienvenida completo',
+  return {
+    title: bonus
+      ? `Bonos y Promociones de ${brand.brand_name} - ${bonus.amount_label}`
+      : `Bonos y Promociones de ${brand.brand_name}`,
+    description: `Descubrí todos los bonos y promociones disponibles en ${brand.brand_name}: montos, wagering y condiciones verificadas.`,
+    alternates: { canonical: `${url}/bonos` },
+  }
 }
 
 export default function BonosPage() {
+  const brand = getCurrentBrand()
+  const content = getHomeContent()
+  const bonuses = content.bonuses
+
   return (
     <>
       <MonoBrandNav />
@@ -67,77 +32,73 @@ export default function BonosPage() {
         <div style={styles.container}>
           <div style={styles.header}>
             <div style={styles.tag}>Promociones</div>
-            <h1 style={styles.title}>Bonos y ofertas exclusivas</h1>
+            <h1 style={styles.title}>Bonos y ofertas de {brand.brand_name}</h1>
             <p style={styles.subtitle}>
-              Aprovecha nuestras promociones para maximizar tu experiencia de juego. Todos los bonos estan sujetos a terminos y condiciones.
+              Aprovechá las promociones de {brand.brand_name} para maximizar tu
+              experiencia de juego. Todos los bonos están sujetos a términos y
+              condiciones del operador.
             </p>
           </div>
 
-          <div style={styles.promoCodeCard}>
-            <div style={styles.promoCodeContent}>
-              <Gift size={32} style={{ color: 'var(--gold)' }} />
-              <div>
-                <div style={styles.promoCodeLabel}>Codigo promocional</div>
-                <div style={styles.promoCode}>{promoCode.code}</div>
-                <div style={styles.promoCodeDesc}>{promoCode.description}</div>
-              </div>
-            </div>
-            <button style={styles.copyBtn}>Copiar codigo</button>
-          </div>
-
           <div style={styles.bonusGrid}>
-            {bonuses.map((bonus, index) => (
-              <div
-                key={index}
-                style={{
-                  ...styles.bonusCard,
-                  ...(bonus.highlight ? styles.bonusCardHighlight : {}),
-                }}
-              >
-                {bonus.highlight && <div style={styles.ribbon}>Mas popular</div>}
-                <div style={styles.bonusIcon}>
-                  <bonus.icon size={28} />
-                </div>
-                <div style={styles.bonusAmount}>{bonus.amount}</div>
-                <div style={styles.bonusExtra}>{bonus.extra}</div>
-                <h3 style={styles.bonusTitle}>{bonus.title}</h3>
-                <p style={styles.bonusDesc}>{bonus.description}</p>
+            {bonuses.map((bonus, index) => {
+              const isHighlight = index === 0
+              return (
+                <div
+                  key={index}
+                  style={{
+                    ...styles.bonusCard,
+                    ...(isHighlight ? styles.bonusCardHighlight : {}),
+                  }}
+                >
+                  {isHighlight && <div style={styles.ribbon}>Más popular</div>}
+                  <div style={styles.bonusIcon}>
+                    <Gift size={28} />
+                  </div>
+                  <div style={styles.bonusAmount}>
+                    {bonus.amount_label || `$${bonus.amount_ars.toLocaleString('es-AR')}`}
+                  </div>
+                  <h3 style={styles.bonusTitle}>{bonus.title}</h3>
+                  <p style={styles.bonusDesc}>{bonus.description}</p>
 
-                <div style={styles.bonusDetails}>
-                  <div style={styles.bonusDetail}>
-                    <span style={styles.detailLabel}>Wagering</span>
-                    <span style={styles.detailValue}>{bonus.wagering}</span>
-                  </div>
-                  <div style={styles.bonusDetail}>
-                    <span style={styles.detailLabel}>Deposito min.</span>
-                    <span style={styles.detailValue}>{bonus.minDeposit}</span>
-                  </div>
-                  <div style={styles.bonusDetail}>
-                    <span style={styles.detailLabel}>Validez</span>
-                    <span style={styles.detailValue}>{bonus.validity}</span>
-                  </div>
-                </div>
+                  {bonus.wagering && (
+                    <div style={styles.bonusDetails}>
+                      <div style={styles.bonusDetail}>
+                        <span style={styles.detailLabel}>Wagering</span>
+                        <span style={styles.detailValue}>{bonus.wagering}</span>
+                      </div>
+                    </div>
+                  )}
 
-                <a href="/registro" style={styles.bonusBtn}>
-                  Obtener bono
-                </a>
-              </div>
-            ))}
+                  <a href="/registro" style={styles.bonusBtn}>
+                    {bonus.cta || 'Obtener bono'}
+                  </a>
+                </div>
+              )
+            })}
           </div>
 
           <div style={styles.termsSection}>
             <div style={styles.termsIcon}>
               <Info size={24} />
             </div>
-            <h2 style={styles.termsTitle}>Terminos y condiciones</h2>
+            <h2 style={styles.termsTitle}>Términos y condiciones</h2>
             <ul style={styles.termsList}>
-              <li>Todos los bonos estan sujetos a requisitos de apuesta (wagering)</li>
+              <li>Todos los bonos están sujetos a requisitos de apuesta (wagering)</li>
               <li>Solo se permite un bono activo a la vez</li>
               <li>Las apuestas en ciertos juegos pueden contribuir de forma diferente al wagering</li>
-              <li>Bet30 se reserva el derecho de modificar o cancelar promociones</li>
-              <li>Las promociones aplican solo para mayores de 18 anos</li>
+              <li>{brand.brand_name} se reserva el derecho de modificar o cancelar promociones</li>
+              <li>Las promociones aplican solo para mayores de 18 años</li>
+              <li>Los montos y condiciones pueden variar; verificá la oferta vigente en el sitio oficial</li>
             </ul>
-            <a href="#" style={styles.termsLink}>Ver terminos completos</a>
+            <a
+              href={brand.affiliate_url}
+              target="_blank"
+              rel="noopener noreferrer nofollow sponsored"
+              style={styles.termsLink}
+            >
+              Ver términos completos en {brand.brand_name}
+            </a>
           </div>
         </div>
       </main>
@@ -186,50 +147,6 @@ const styles = {
     maxWidth: '600px',
     margin: '0 auto',
   },
-  promoCodeCard: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    padding: '24px 32px',
-    borderRadius: 'var(--r-lg)',
-    border: '1px dashed var(--gold-line)',
-    background: 'var(--gold-dim)',
-    marginBottom: '48px',
-  } as React.CSSProperties,
-  promoCodeContent: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '20px',
-  },
-  promoCodeLabel: {
-    fontSize: '12px',
-    color: 'var(--gray-2)',
-    textTransform: 'uppercase' as const,
-    letterSpacing: '0.05em',
-    marginBottom: '4px',
-  },
-  promoCode: {
-    fontFamily: 'var(--font-dm-mono)',
-    fontSize: '1.5rem',
-    fontWeight: 700,
-    color: 'var(--gold)',
-    letterSpacing: '0.05em',
-  },
-  promoCodeDesc: {
-    fontSize: '13px',
-    color: 'var(--gray-1)',
-    marginTop: '4px',
-  },
-  copyBtn: {
-    padding: '12px 24px',
-    borderRadius: '999px',
-    background: 'var(--gold)',
-    color: '#000',
-    fontSize: '14px',
-    fontWeight: 700,
-    border: 'none',
-    cursor: 'pointer',
-  },
   bonusGrid: {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
@@ -277,14 +194,10 @@ const styles = {
   },
   bonusAmount: {
     fontFamily: 'var(--font-syne)',
-    fontSize: '2.5rem',
+    fontSize: '2.2rem',
     fontWeight: 800,
     color: 'var(--gold)',
-    lineHeight: 1,
-  },
-  bonusExtra: {
-    fontSize: '14px',
-    color: 'var(--gold)',
+    lineHeight: 1.1,
     marginBottom: '16px',
   },
   bonusTitle: {
@@ -364,6 +277,8 @@ const styles = {
     maxWidth: '600px',
     margin: '0 auto 24px',
     textAlign: 'left' as const,
+    fontSize: '14px',
+    color: 'var(--gray-1)',
   },
   termsLink: {
     fontSize: '14px',
